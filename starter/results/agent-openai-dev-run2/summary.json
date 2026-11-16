@@ -1,0 +1,15 @@
+{
+  "model": "gpt-4.1-mini",
+  "provider": "openai",
+  "strategy": "tfidf",
+  "split": "dev",
+  "requested": 17,
+  "completed": 17,
+  "statuses": {
+    "answered": 12,
+    "abstain": 5,
+    "error": 0
+  },
+  "cost_usd": null,
+  "note": "Token usage saved per call; cost not calculated. Human review required."
+}

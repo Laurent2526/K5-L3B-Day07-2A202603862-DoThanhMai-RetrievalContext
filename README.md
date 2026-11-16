@@ -1,5 +1,21 @@
 # Day 7 — Agentic RAG
 
+## Bài triển khai của Đỗ Thanh Mai — 2A202603862
+
+- [Cài đặt, chạy và tái lập](docs/RUNBOOK.md)
+- [Báo cáo cá nhân và trạng thái hoàn thiện](report/individual/2A202603862_DoThanhMai.md)
+- [Thử nghiệm dev](docs/DEV_EXPERIMENTS.md) và [bảng so sánh](docs/dev-audit/COMPARISON.md)
+- [Cấu hình chốt trước test](docs/selected-config.json)
+- Code: TF-IDF (`starter/baseline.py`), dense pgvector (`starter/dense.py`),
+  hybrid RRF (`starter/hybrid.py`), agent OpenAI (`starter/openai_agent.py`).
+
+Mình dùng lại dữ liệu Day 6 để thử TF-IDF, dense và hybrid, sau đó xây agent
+OpenAI và so sánh hai cách cải thiện trên dev. Cả baseline và cấu hình được
+chọn đã chạy trên test mới; xem [kết quả test](docs/test-audit/COMPARISON.md).
+Mình đã kiểm tra xong 17 nhãn dev của cấu hình context và lưu bản xác nhận.
+Nhãn của các lần chạy còn lại vẫn ở bản dự thảo. Bên dưới là đề bài gốc để
+tiện tra yêu cầu. Phần hỗ trợ của AI được ghi trong báo cáo cá nhân.
+
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.

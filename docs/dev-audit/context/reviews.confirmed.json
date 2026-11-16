@@ -1,0 +1,208 @@
+[
+    {
+        "query_id":  "dev-001",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+                                 true,
+                                 true
+                             ],
+        "answer_grade":  2,
+        "context_grade":  2,
+        "reason":  "Đáp án 1970 khớp đoạn tài liệu về OSHA. Cả hai nguồn được trích dẫn đều có thông tin về năm này.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    },
+    {
+        "query_id":  "dev-002",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+                                 true
+                             ],
+        "answer_grade":  2,
+        "context_grade":  2,
+        "reason":  "Đáp án Department of Labor khớp tài liệu. Đoạn được trích dẫn nêu rõ OSHA trực thuộc cơ quan này.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    },
+    {
+        "query_id":  "dev-003",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+                                 true
+                             ],
+        "answer_grade":  2,
+        "context_grade":  2,
+        "reason":  "Câu trả lời nêu đủ các bước: kiểm tra nơi làm việc, báo kết quả và hướng khắc phục khi có căn cứ về vi phạm. Nội dung khớp nguồn.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    },
+    {
+        "query_id":  "dev-004",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+                                 false
+                             ],
+        "answer_grade":  2,
+        "context_grade":  2,
+        "reason":  "Đáp án Title VII của Civil Rights Act 1964 là đúng. Phần liệt kê hành vi quấy rối cũng có trong context, nên điểm nội dung là 2. Tuy nhiên, đoạn được cite chỉ nói về Title VII, không có danh sách hành vi; citation chưa hỗ trợ hết câu trả lời.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    },
+    {
+        "query_id":  "dev-005",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+                                 true,
+                                 true
+                             ],
+        "answer_grade":  2,
+        "context_grade":  2,
+        "reason":  "Giải thích quid pro quo là đề nghị đổi lấy lợi ích tình dục đúng với tài liệu. Nguồn thứ hai hỗ trợ các ví dụ về thăng chức, thưởng và đào tạo.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    },
+    {
+        "query_id":  "dev-006",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+                                 true
+                             ],
+        "answer_grade":  2,
+        "context_grade":  2,
+        "reason":  "Hai tỷ lệ 32% cho cơ hội thăng tiến và 33% cho cân bằng công việc, cuộc sống đều khớp tài liệu, đúng nhóm tuổi 18–35.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    },
+    {
+        "query_id":  "dev-007",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+                                 true
+                             ],
+        "answer_grade":  2,
+        "context_grade":  2,
+        "reason":  "Chênh lệch 7.000 USD mỗi năm là đúng với nhóm chuyên viên đất đai có kinh nghiệm 1–5 năm và bằng cử nhân. Citation trỏ đúng đoạn so sánh.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    },
+    {
+        "query_id":  "dev-008",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+                                 false
+                             ],
+        "answer_grade":  1,
+        "context_grade":  2,
+        "reason":  "Ý chính về trả lương theo giá trị công việc đối với tổ chức là đúng. Phần so sánh với giới tính và chủng tộc không có trong evidence đang dùng, nên chấm 1 điểm và đánh dấu citation chưa hỗ trợ đầy đủ.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    },
+    {
+        "query_id":  "dev-009",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+                                 true,
+                                 true
+                             ],
+        "answer_grade":  2,
+        "context_grade":  2,
+        "reason":  "Vai trò đại diện, thương lượng và mục tiêu đạt hợp đồng công bằng đều đúng. Các ý về giải quyết tranh chấp và quyền lợi chung của ngành có nguồn. Phần tăng lương, phúc lợi nằm trong context nhưng chưa cite đúng đoạn. Hai citation vẫn hỗ trợ các phần tương ứng, còn phần thiếu nguồn được ghi nhận riêng.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    },
+    {
+        "query_id":  "dev-010",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+                                 true
+                             ],
+        "answer_grade":  2,
+        "context_grade":  2,
+        "reason":  "Số lượng 150 nhân viên khớp tình huống cửa hàng trang sức trong tài liệu. Citation đúng đoạn chứa con số này.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    },
+    {
+        "query_id":  "dev-011",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+                                 true
+                             ],
+        "answer_grade":  2,
+        "context_grade":  2,
+        "reason":  "Thứ tự hai lý do nghỉ việc là lương cao hơn, sau đó đến lý do cá nhân. Các ví dụ về gia đình, sức khỏe và chuyển nơi ở đều có trong nguồn.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    },
+    {
+        "query_id":  "dev-012",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+                                 true
+                             ],
+        "answer_grade":  2,
+        "context_grade":  2,
+        "reason":  "Câu trả lời nêu đúng hai giới hạn là thời gian và khoảng cách, kèm cách hiểu theo số tháng, năm và phạm vi hoạt động của người sử dụng lao động.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    },
+    {
+        "query_id":  "dev-013",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+                                 true
+                             ],
+        "answer_grade":  2,
+        "context_grade":  2,
+        "reason":  "Khoản bồi thường 360.000 USD và việc tòa phúc thẩm giữ nguyên phán quyết đều khớp đoạn được trích dẫn.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    },
+    {
+        "query_id":  "dev-014",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+                                 true,
+                                 true
+                             ],
+        "answer_grade":  2,
+        "context_grade":  2,
+        "reason":  "Các hình phạt tù và phạt tiền có trong nguồn thứ nhất. Nguồn thứ hai hỗ trợ ví dụ hoàn trả lợi nhuận từ giao dịch nội gián và việc SEC cùng Bộ Tư pháp truy tố.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    },
+    {
+        "query_id":  "dev-015",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+                                 true
+                             ],
+        "answer_grade":  2,
+        "context_grade":  2,
+        "reason":  "Câu trả lời nêu đúng quyền khởi kiện thay mặt chính phủ và nhận một phần khoản phạt của relator theo quy định qui tam. Citation hỗ trợ cả hai ý.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    },
+    {
+        "query_id":  "dev-016",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+
+                             ],
+        "abstention_correct":  true,
+        "reason":  "Kết quả cuối báo không đủ bằng chứng và không bịa tên nhân viên. Tình huống cửa hàng ở trang PDF 181–182 chỉ nêu nghi ngờ, không xác định người gây mất hàng. Trace kết thúc do bộ kiểm tra citation, nên không coi đây là bằng chứng model chủ động nhận ra thông tin còn thiếu.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    },
+    {
+        "query_id":  "dev-017",
+        "reviewer":  "AI-assisted draft",
+        "human_confirmed":  true,
+        "citation_support":  [
+
+                             ],
+        "abstention_correct":  true,
+        "reason":  "Kết quả cuối không đưa ra ngày phán quyết không có nguồn. Phần vụ Lockard ở trang PDF 198–199 có khoản bồi thường và kết quả phúc thẩm nhưng không có ngày, tháng, năm của phán quyết. Trace kết thúc do bộ kiểm tra citation; cần phân biệt điều này với việc model tự quyết định từ chối.",
+        "human_reviewer":  "Đỗ Thanh Mai"
+    }
+]

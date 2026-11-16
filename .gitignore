@@ -5,7 +5,17 @@ __pycache__/
 .env.*
 !.env.example
 .codex-log/
-
+.cache/
+.venv-1
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
-starter/results/
+starter/results/*
+!starter/results/README.md
+!starter/results/dev-tfidf/
+!starter/results/dev-dense/
+!starter/results/dev-hybrid/
+!starter/results/agent-openai-dev-run2/
+!starter/results/agent-openai-dev-citation/
+!starter/results/agent-openai-dev-context/
+!starter/results/agent-openai-test-baseline/
+!starter/results/agent-openai-test-selected/

@@ -1,0 +1,22 @@
+{
+  "status": "proposed_pending_student_source_review",
+  "selection_split": "dev",
+  "provider": "openai",
+  "model": "gpt-4.1-mini",
+  "retriever": "tfidf",
+  "citation_format": "append",
+  "top_k": 5,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "baseline_run": "agent-openai-dev-run2",
+  "selected_run": "agent-openai-dev-context",
+  "selection_rule": "grounded mean, then fewer false abstentions, then citation support, then resource use",
+  "hashes": {
+    "data/questions.json": "3f87e4e34a833896e58f4de9fa1de513a506a0ac3cbc4932ffc9a71a358b7720",
+    "data/day6_chunks_B.json": "4d0c886592204bc903450fb12e00db9af5475fb0c84bc9a3bb4a50be51d08880",
+    "starter/openai_agent.py": "838f6c3d5951c66608e3f860836a84e1b79fb2cb20f43562748cb6657219a332",
+    "starter/agentic.py": "580cc573008f2d0e3cc6fd785d40029934648e6e5e333cdbe86f7f7db40e26a6",
+    "starter/baseline.py": "531d602a10d0307f985e5b1f5636fe6ee4ad281a66f5f4905fd76019a414f3de"
+  },
+  "limitation": "Human PDF review not yet confirmed. This proposal is not a completed test evaluation."
+}

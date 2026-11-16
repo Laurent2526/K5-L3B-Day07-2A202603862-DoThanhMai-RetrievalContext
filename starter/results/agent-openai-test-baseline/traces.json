@@ -1,0 +1,1876 @@
+[
+  {
+    "status": "answered",
+    "answer": "According to the textbook, the inflation-adjusted real minimum wage declined by 23 percent in the nearly six decades since 1960 [1f81c437b2291175e605cf0c].",
+    "citations": [
+      "1f81c437b2291175e605cf0c"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "inflation-adjusted real minimum wage decline since 1960",
+        "filter": null,
+        "results": [
+          {
+            "id": "1f81c437b2291175e605cf0c",
+            "text": "Compare the twenty-year period of 1949 through 1968 with the fifty-year period from 1968 through 2017. The difference has created a sobering reality for many workers. In the nearly six decades since 1960, the inflation- adjusted real minimum wage actually declined by 23 percent. That means minimum-wage workers did not even break even; the value of their wages declined over fifty years, meaning they have effectively worked half a century with no raise.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 166,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 156,
+              "chunking": "blocks",
+              "chunk_index": 2,
+              "character_count": 455,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.3359207137695952,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e85f02731baf15d8f77f2c30",
+            "text": "In the following chart, nominal wage represents the actual amount of money a worker earns per hour; real wage represents the nominal wage adjusted for inflation. We consider real wages because nominal wages do not take into account changes in prices and, therefore, do not measure workers’ actual purchasing power.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 166,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 156,
+              "chunking": "blocks",
+              "chunk_index": 3,
+              "character_count": 314,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.2506539898845268,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "965b6d3268f4bddc51027218",
+            "text": "Economists, sociologists, psychologists, and politicians all have opinions about this, as have most workers. Some of the factors that feature in calculations are federal and state minimum-wage standards, the cost of living, and the rate of inflation. Should a fair wage include enough money to raise a family, too, if the wage earner is the sole or principal support of a family? Figure 6.8 shows the growth, or lack of growth, in the buying power of a minimum-wage earner since 1940.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 166,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 156,
+              "chunking": "blocks",
+              "chunk_index": 1,
+              "character_count": 484,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.2495253605408329,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[1f81c437b2291175e605cf0c | data/business-ethics_-_WEB.pdf | page 166]\nCompare the twenty-year period of 1949 through 1968 with the fifty-year period from 1968 through 2017. The difference has created a sobering reality for many workers. In the nearly six decades since 1960, the inflation- adjusted real minimum wage actually declined by 23 percent. That means minimum-wage workers did not even break even; the value of their wages declined over fifty years, meaning they have effectively worked half a century with no raise.",
+        "context_ids": [
+          "1f81c437b2291175e605cf0c"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "test-001",
+    "split": "test",
+    "question": "According to the textbook, by what percentage did the inflation-adjusted real minimum wage decline in the nearly six decades since 1960?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "strict",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 5.857320400013123,
+    "context": "[1f81c437b2291175e605cf0c | data/business-ethics_-_WEB.pdf | page 166]\nCompare the twenty-year period of 1949 through 1968 with the fifty-year period from 1968 through 2017. The difference has created a sobering reality for many workers. In the nearly six decades since 1960, the inflation- adjusted real minimum wage actually declined by 23 percent. That means minimum-wage workers did not even break even; the value of their wages declined over fifty years, meaning they have effectively worked half a century with no raise.",
+    "context_ids": [
+      "1f81c437b2291175e605cf0c"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_0b355108ab05e012016afb228ac5e887d2b2e727649d2c474c",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 365,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 17,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 382
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"inflation-adjusted real minimum wage decline since 1960\"}",
+            "call_id": "call_1K53Su0H7yawrdJmONktK38n",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0b355108ab05e012016afb228bd79487d28d8564ab3da6035f",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0438906629c3cb10016afb228c94bc87d2ae196ef19623560f",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 531,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 74,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 605
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"According to the textbook, the inflation-adjusted real minimum wage declined by 23 percent in the nearly six decades since 1960 [1f81c437b2291175e605cf0c].\",\"citations\":[\"1f81c437b2291175e605cf0c\"]}",
+            "call_id": "call_jTFLyQWb0qi12vbNuDUrFaxe",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_0438906629c3cb10016afb228d718887d28ac9ac07f88c5376",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "answered",
+    "answer": "The most common type of workplace drug testing is testing of job applicants [cf8c4caf1b2a8e82712dfa5c].",
+    "citations": [
+      "cf8c4caf1b2a8e82712dfa5c"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "workplace drug testing most common type",
+        "filter": null,
+        "results": [
+          {
+            "id": "cf8c4caf1b2a8e82712dfa5c",
+            "text": "specific procedure that must be followed. However, for the most part, drug testing is not mandatory and depends on whether the employer wants to do it. Multiple states do regulate drug testing, but to varying degrees, and there is no common standard to be followed. Testing of job applicants is the most common form of drug testing.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 182,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 172,
+              "chunking": "blocks",
+              "chunk_index": 0,
+              "character_count": 332,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.568572549132921,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "9873bc67fb5bf080a7d54904",
+            "text": "State laws typically allow it, but the employer must follow state rules, if they exist, about providing notice and following standard procedures intended to prevent inaccurate samples. Testing current employees is much less common, primarily due to cost; however, companies that do use drug testing include some in the pharmaceutical and financial services industries. Some states put legal constraints on drug testing of private-sector employees. For example, in a few states.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 182,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 172,
+              "chunking": "blocks",
+              "chunk_index": 1,
+              "character_count": 477,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.3589550991155567,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "043662300ccde9d18ca51bc2",
+            "text": "• What, ultimately, will you do? Explain your decision. Drug Testing in the Workplace Key issues that arise about a drug testing or monitoring program begin with whether an employer wants or needs to do it. Is it required by law for a particular job, under state or local regulations? Is it for pre- employment clearance? Does the employer need employees’ permission? Does a failed test require mandatory termination?",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 181,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 171,
+              "chunking": "blocks",
+              "chunk_index": 8,
+              "character_count": 417,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.28913599844987947,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cf8c4caf1b2a8e82712dfa5c | data/business-ethics_-_WEB.pdf | page 182]\nspecific procedure that must be followed. However, for the most part, drug testing is not mandatory and depends on whether the employer wants to do it. Multiple states do regulate drug testing, but to varying degrees, and there is no common standard to be followed. Testing of job applicants is the most common form of drug testing.",
+        "context_ids": [
+          "cf8c4caf1b2a8e82712dfa5c"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "test-002",
+    "split": "test",
+    "question": "According to the textbook discussion of workplace drug testing, which type of testing is most common?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "strict",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 2.7606247000512667,
+    "context": "[cf8c4caf1b2a8e82712dfa5c | data/business-ethics_-_WEB.pdf | page 182]\nspecific procedure that must be followed. However, for the most part, drug testing is not mandatory and depends on whether the employer wants to do it. Multiple states do regulate drug testing, but to varying degrees, and there is no common standard to be followed. Testing of job applicants is the most common form of drug testing.",
+    "context_ids": [
+      "cf8c4caf1b2a8e82712dfa5c"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_047ec724873f7181016afb228ea01887d2b92e23b036e3b92d",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 356,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 12,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 368
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"workplace drug testing most common type\"}",
+            "call_id": "call_Jv88k7FXUUpDpHXME5hfnlKk",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_047ec724873f7181016afb228ef66087d2afe154c917d1c474",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_00625fc8a782b38e016afb228fdf5c87d2ab2f12b314acc0b0",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 489,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 65,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 554
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"The most common type of workplace drug testing is testing of job applicants [cf8c4caf1b2a8e82712dfa5c].\",\"citations\":[\"cf8c4caf1b2a8e82712dfa5c\"]}",
+            "call_id": "call_il1t4iClTFdmCay7fQeCYOiu",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_00625fc8a782b38e016afb2290596487d2aa6d86343a587e2d",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "answered",
+    "answer": "Employees should keep confidential proprietary (private) information, the details of patents and copyrights, employee records and salary histories, and customer-related data rather than share them with competitors or the media [6f3ace6f32eea6e37682992f].",
+    "citations": [
+      "6f3ace6f32eea6e37682992f"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "company information employees should keep confidential from competitors or media",
+        "filter": null,
+        "results": [
+          {
+            "id": "6f3ace6f32eea6e37682992f",
+            "text": "In the competitive world of business, many employees encounter information in their day-to-day work that their employers reasonably expect they will keep confidential. Proprietary (private) information, the details of patents and copyrights, employee records and salary histories, and customer-related data are valued company assets that must remain in-house, not in the hands of competitors, trade publications, or the news media.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 193,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 183,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 431,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.3416005233611905,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c8b495423c4da82006c8fb0b",
+            "text": "Employers typically are prohibited from discussing human resource matters relating to any specific employees. Employees, too, should keep complaints confidential unless and until crimes are charged or civil suits are filed.\n\nCASES FROM THE REAL WORLD",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 210,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 200,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 250,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.2484621822250707,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "48343744989e73d54777462a",
+            "text": "If a company is in the midst of confidential negotiations to acquire, or be acquired by, another firm, this information must be kept secret until a deal has been completed (or abandoned). Regulatory statutes and criminal law may require this. Similarly, any internal personnel performance issues or employee criminal investigations should normally be kept confidential within the ranks of management.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 156,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 146,
+              "chunking": "blocks",
+              "chunk_index": 7,
+              "character_count": 400,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.20635480039649315,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[6f3ace6f32eea6e37682992f | data/business-ethics_-_WEB.pdf | page 193]\nIn the competitive world of business, many employees encounter information in their day-to-day work that their employers reasonably expect they will keep confidential. Proprietary (private) information, the details of patents and copyrights, employee records and salary histories, and customer-related data are valued company assets that must remain in-house, not in the hands of competitors, trade publications, or the news media.",
+        "context_ids": [
+          "6f3ace6f32eea6e37682992f"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "test-003",
+    "split": "test",
+    "question": "What examples of company information does the text say employees should keep confidential rather than share with competitors or the media?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "strict",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 3.4195369000080973,
+    "context": "[6f3ace6f32eea6e37682992f | data/business-ethics_-_WEB.pdf | page 193]\nIn the competitive world of business, many employees encounter information in their day-to-day work that their employers reasonably expect they will keep confidential. Proprietary (private) information, the details of patents and copyrights, employee records and salary histories, and customer-related data are valued company assets that must remain in-house, not in the hands of competitors, trade publications, or the news media.",
+    "context_ids": [
+      "6f3ace6f32eea6e37682992f"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_0f44ab0baf781a75016afb22916c6087d2b56191cd04008eb2",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 360,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 15,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 375
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"company information employees should keep confidential from competitors or media\"}",
+            "call_id": "call_mNY5oKQeJtkqhHklyPC3fHML",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0f44ab0baf781a75016afb2292108c87d2989e4a87db78badb",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0872a17fa038b811016afb2293076487d2bc5b6b357b71ec75",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 505,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 86,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 591
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"Employees should keep confidential proprietary (private) information, the details of patents and copyrights, employee records and salary histories, and customer-related data rather than share them with competitors or the media [6f3ace6f32eea6e37682992f].\",\"citations\":[\"6f3ace6f32eea6e37682992f\"]}",
+            "call_id": "call_JXZoRO8skEtvAlPEwLPiGLEh",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_0872a17fa038b811016afb2293a54487d2bd125dbc2ed41d56",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "answered",
+    "answer": "The Foreign Corrupt Practices Act (FCPA) prohibits an agent of any company incorporated in the United States from extending a bribe to a foreign government official to obtain a business advantage abroad. However, the FCPA does not specifically prohibit the extension of a bribe to a private officer of a nongovernmental company in a foreign country. This means that bribery involving private-sector officers in foreign companies is not specifically covered by the FCPA under that provision [b465fe209a26d7fcc1703a48].",
+    "citations": [
+      "b465fe209a26d7fcc1703a48"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "FCPA prohibits bribery by agents of US companies to obtain business advantage abroad",
+        "filter": null,
+        "results": [
+          {
+            "id": "b465fe209a26d7fcc1703a48",
+            "text": "The FCPA prohibits an agent of any company incorporated in the United States from extending a bribe to a foreign government official to achieve a business advantage in that country, but it does not specifically prohibit the extension of a bribe to a private officer of a nongovernmental company in a foreign country.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 207,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 197,
+              "chunking": "blocks",
+              "chunk_index": 4,
+              "character_count": 316,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.2265447329810138,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "6ed638403dd381623dcca6ab",
+            "text": "OSHA and related regulations give employees several important rights, including the right to make a confidential complaint with OSHA that might result in an inspection of the workplace, to obtain information about the hazards of the workplace and ways to avoid harm, to obtain and review documentation of work- related illnesses and injuries at the job site, to obtain copies of tests done to measure workplace hazards, and protection against any employer sanctions as a consequence of complaining to",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 158,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 148,
+              "chunking": "blocks",
+              "chunk_index": 2,
+              "character_count": 500,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.21414308805902477,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d2bfda1d7b79570b12679854",
+            "text": "law prohibiting bribery in international business dealings is the Foreign Corrupt Practices Act (FCPA), which is an amendment to the Securities and Exchange Act of 1934, one of the most important laws promoting transparency in corporate governance. The FCPA dates to 1977 and was amended in 1988 and 1998.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 207,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 197,
+              "chunking": "blocks",
+              "chunk_index": 1,
+              "character_count": 305,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.199792965632675,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[b465fe209a26d7fcc1703a48 | data/business-ethics_-_WEB.pdf | page 207]\nThe FCPA prohibits an agent of any company incorporated in the United States from extending a bribe to a foreign government official to achieve a business advantage in that country, but it does not specifically prohibit the extension of a bribe to a private officer of a nongovernmental company in a foreign country.\n\n[d2bfda1d7b79570b12679854 | data/business-ethics_-_WEB.pdf | page 207]\nlaw prohibiting bribery in international business dealings is the Foreign Corrupt Practices Act (FCPA), which is an amendment to the Securities and Exchange Act of 1934, one of the most important laws promoting transparency in corporate governance. The FCPA dates to 1977 and was amended in 1988 and 1998.",
+        "context_ids": [
+          "b465fe209a26d7fcc1703a48",
+          "d2bfda1d7b79570b12679854"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "test-004",
+    "split": "test",
+    "question": "According to the textbook, whom does the FCPA prohibit an agent of a US-incorporated company from bribing to obtain a business advantage abroad, and what private-sector situation is not specifically prohibited by that provision?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "strict",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 6.399351799977012,
+    "context": "[b465fe209a26d7fcc1703a48 | data/business-ethics_-_WEB.pdf | page 207]\nThe FCPA prohibits an agent of any company incorporated in the United States from extending a bribe to a foreign government official to achieve a business advantage in that country, but it does not specifically prohibit the extension of a bribe to a private officer of a nongovernmental company in a foreign country.\n\n[d2bfda1d7b79570b12679854 | data/business-ethics_-_WEB.pdf | page 207]\nlaw prohibiting bribery in international business dealings is the Foreign Corrupt Practices Act (FCPA), which is an amendment to the Securities and Exchange Act of 1934, one of the most important laws promoting transparency in corporate governance. The FCPA dates to 1977 and was amended in 1988 and 1998.",
+    "context_ids": [
+      "b465fe209a26d7fcc1703a48",
+      "d2bfda1d7b79570b12679854"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_0a8721e9971694de016afb229612c887d2bca4b1464c7aaaec",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 381,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 20,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 401
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"FCPA prohibits bribery by agents of US companies to obtain business advantage abroad\"}",
+            "call_id": "call_dUVTiLDgRPlzc654DboSlIuw",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0a8721e9971694de016afb2297b2e087d2b72bd8a76908bb85",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_07abd89c8154745b016afb2298a46c87d28dd84881634e3068",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 626,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 137,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 763
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"The Foreign Corrupt Practices Act (FCPA) prohibits an agent of any company incorporated in the United States from extending a bribe to a foreign government official to obtain a business advantage abroad. However, the FCPA does not specifically prohibit the extension of a bribe to a private officer of a nongovernmental company in a foreign country. This means that bribery involving private-sector officers in foreign companies is not specifically covered by the FCPA under that provision [b465fe209a26d7fcc1703a48].\",\"citations\":[\"b465fe209a26d7fcc1703a48\"]}",
+            "call_id": "call_7Jbg78arjhJ3VU27JqeFTkil",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_07abd89c8154745b016afb22991e4887d294af0599f66074a9",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "motives for whistleblowing",
+        "filter": null,
+        "results": [
+          {
+            "id": "754730744dcdf98b3276073d",
+            "text": "Whistleblowing: Risks and Rewards The act of whistleblowing—going to an official government agency and disclosing an employer’s violation of the law—is different from everyday criticism. In fact, whistleblowing is largely viewed as a public service because it helps society reduce bad workplace behavior. Being a whistleblower is not easy, however, and someone inclined to act as one should expect many hurdles.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 211,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 201,
+              "chunking": "blocks",
+              "chunk_index": 4,
+              "character_count": 411,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.4286396079016312,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "b264d4917edac86e57751ce4",
+            "text": "twenty different federal laws across various topics. (There is no all-purpose whistleblower protection; it must be granted by individual statutes.) A sample of the specific laws under which whistleblowing employees are protected can be found in the environmental area, where it is in the public interest for employees to report violations of the law to the authorities, which, in turn, helps the average citizen concerned about clean air and water.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 212,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 202,
+              "chunking": "blocks",
+              "chunk_index": 0,
+              "character_count": 448,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.1624381527697957,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "af8481cfdd1743bf58f34c3c",
+            "text": "• Identify situations in which an employee becomes a whistleblower This chapter has explained the many responsibilities employees owe their employers. But workers are not robots. They have minds of their own and the freedom to criticize their bosses and firms, even if managers and companies do not always welcome such criticism. What kind of criticism is fair and ethical, what is legal, and how should a whistleblowing employee be treated?\n\nLimiting Pay Secrecy",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 209,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 199,
+              "chunking": "blocks",
+              "chunk_index": 2,
+              "character_count": 463,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.14857889990874354,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[754730744dcdf98b3276073d | data/business-ethics_-_WEB.pdf | page 211]\nWhistleblowing: Risks and Rewards The act of whistleblowing—going to an official government agency and disclosing an employer’s violation of the law—is different from everyday criticism. In fact, whistleblowing is largely viewed as a public service because it helps society reduce bad workplace behavior. Being a whistleblower is not easy, however, and someone inclined to act as one should expect many hurdles.",
+        "context_ids": [
+          "754730744dcdf98b3276073d"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "appropriate motives for whistleblowing rejected motives",
+        "filter": null,
+        "results": [
+          {
+            "id": "754730744dcdf98b3276073d",
+            "text": "Whistleblowing: Risks and Rewards The act of whistleblowing—going to an official government agency and disclosing an employer’s violation of the law—is different from everyday criticism. In fact, whistleblowing is largely viewed as a public service because it helps society reduce bad workplace behavior. Being a whistleblower is not easy, however, and someone inclined to act as one should expect many hurdles.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 211,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 201,
+              "chunking": "blocks",
+              "chunk_index": 4,
+              "character_count": 411,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.3278306168799605,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "b264d4917edac86e57751ce4",
+            "text": "twenty different federal laws across various topics. (There is no all-purpose whistleblower protection; it must be granted by individual statutes.) A sample of the specific laws under which whistleblowing employees are protected can be found in the environmental area, where it is in the public interest for employees to report violations of the law to the authorities, which, in turn, helps the average citizen concerned about clean air and water.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 212,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 202,
+              "chunking": "blocks",
+              "chunk_index": 0,
+              "character_count": 448,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.12423536893395135,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "725d58ebb97566c8f37cac24",
+            "text": "When in doubt about whether the size or value of a gift renders it impossible for an employee to accept it, workers should be advised to check with the appropriate officer or department within their company. Be it an “ethics hotline” or simply the human resources department, wise firms provide an easy protocol for employees to follow in determining what falls within and without the protocols for accepting gifts.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 206,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 196,
+              "chunking": "blocks",
+              "chunk_index": 7,
+              "character_count": 415,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.11772744198935582,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[754730744dcdf98b3276073d | data/business-ethics_-_WEB.pdf | page 211]\nWhistleblowing: Risks and Rewards The act of whistleblowing—going to an official government agency and disclosing an employer’s violation of the law—is different from everyday criticism. In fact, whistleblowing is largely viewed as a public service because it helps society reduce bad workplace behavior. Being a whistleblower is not easy, however, and someone inclined to act as one should expect many hurdles.",
+        "context_ids": [
+          "754730744dcdf98b3276073d"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "motives for whistleblowing appropriate and rejected",
+        "filter": null,
+        "results": [
+          {
+            "id": "754730744dcdf98b3276073d",
+            "text": "Whistleblowing: Risks and Rewards The act of whistleblowing—going to an official government agency and disclosing an employer’s violation of the law—is different from everyday criticism. In fact, whistleblowing is largely viewed as a public service because it helps society reduce bad workplace behavior. Being a whistleblower is not easy, however, and someone inclined to act as one should expect many hurdles.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 211,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 201,
+              "chunking": "blocks",
+              "chunk_index": 4,
+              "character_count": 411,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.3396276982207254,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a82f4adc389d72d25b3374a7",
+            "text": "OSHA also refers to the Occupational Safety and Health Administration, which operates as a division of the Department of Labor and oversees enforcement of the law. This act created the National Institute for Occupational Safety and Health (NIOSH), which serves as the research institute for OSHA and enunciates appropriate standards for safety and health on the job.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 157,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 147,
+              "chunking": "blocks",
+              "chunk_index": 7,
+              "character_count": 366,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.14108871749940713,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "af8481cfdd1743bf58f34c3c",
+            "text": "• Identify situations in which an employee becomes a whistleblower This chapter has explained the many responsibilities employees owe their employers. But workers are not robots. They have minds of their own and the freedom to criticize their bosses and firms, even if managers and companies do not always welcome such criticism. What kind of criticism is fair and ethical, what is legal, and how should a whistleblowing employee be treated?\n\nLimiting Pay Secrecy",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 209,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 199,
+              "chunking": "blocks",
+              "chunk_index": 2,
+              "character_count": 463,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.1399082622674515,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[754730744dcdf98b3276073d | data/business-ethics_-_WEB.pdf | page 211]\nWhistleblowing: Risks and Rewards The act of whistleblowing—going to an official government agency and disclosing an employer’s violation of the law—is different from everyday criticism. In fact, whistleblowing is largely viewed as a public service because it helps society reduce bad workplace behavior. Being a whistleblower is not easy, however, and someone inclined to act as one should expect many hurdles.",
+        "context_ids": [
+          "754730744dcdf98b3276073d"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "query_id": "test-005",
+    "split": "test",
+    "question": "What motives does the textbook describe as appropriate for whistleblowing, and what motive does it reject?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "strict",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 5.320644200022798,
+    "context": "[754730744dcdf98b3276073d | data/business-ethics_-_WEB.pdf | page 211]\nWhistleblowing: Risks and Rewards The act of whistleblowing—going to an official government agency and disclosing an employer’s violation of the law—is different from everyday criticism. In fact, whistleblowing is largely viewed as a public service because it helps society reduce bad workplace behavior. Being a whistleblower is not easy, however, and someone inclined to act as one should expect many hurdles.",
+    "context_ids": [
+      "754730744dcdf98b3276073d"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_0aa10f58cf8f0897016afb229b332087d28dd33ffc7ef9cc64",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 358,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 11,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 369
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"motives for whistleblowing\"}",
+            "call_id": "call_9i9ivbxnhtx7jLNXwdQvsXtG",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0aa10f58cf8f0897016afb229c524487d29d367e00ebeb3fec",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_06a9189819cd66d7016afb229cf3d487d2816d8c1256db1c07",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 504,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 21,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 525
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"appropriate motives for whistleblowing rejected motives\"}",
+            "call_id": "call_ipIBgiVWckC1MSh03WdH4Pzy",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_06a9189819cd66d7016afb229d527087d2b8703fb74c9360e6",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_05c4a303f274aa05016afb229dd40087d2a27fca2f23ebd6d6",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 514,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 22,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 536
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"motives for whistleblowing appropriate and rejected\"}",
+            "call_id": "call_AoytYAkmR0REtrAGUzJBzzPH",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_05c4a303f274aa05016afb229eb74c87d2bac6da01837934ee",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_003911c40890d07e016afb229f6aec87d29c44be26d5964942",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 525,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 22,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 547
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"motives for whistleblowing appropriate motives rejected\"}",
+            "call_id": "call_YJyJyJgDrJwRHVeEELoPFB6E",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_003911c40890d07e016afb229fe5c087d288b56ef4efe10309",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "monthly salary of Kathy Fryman in customer-service case",
+        "filter": null,
+        "results": [
+          {
+            "id": "f265916cf8a62a9510f45102",
+            "text": "Sometimes engaged employees go above and beyond in the interest of customer service, even if they have no “customers” to speak of. Kathy Fryman is one such employee. Fryman was a custodian for three decades at a one hundred-year-old school in the Augusta (KY) Independent School District.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 198,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 188,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 288,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.38571187878705054,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "6595f73f00130d2a4204371e",
+            "text": "• Is there a way for a manager to find, develop, and encourage the next Fryman, or is the desire to “do something good for somebody” an inherent trait in some employees that is missing in others?\n\n• What is the appropriate means to reward a worker with Fryman’s level of commitment? Her salary was fixed by school district pay schedules. Should she have been given an extra stipend for service above and beyond the expected? Additional time off with pay? Some other reward?",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 199,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 189,
+              "chunking": "blocks",
+              "chunk_index": 1,
+              "character_count": 473,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.20113434572214314,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "1d6774fb96aadcf44dbfd109",
+            "text": "• Employees who display Fryman’s zeal often do so for their own internal rewards. Others may simply want to be recognized and appreciated for their effort. If you were the superintendent in her district, how would you recognize Fryman? Could she, for example, be invited to speak to new hires about opportunities to render exceptional service? Employees who treat customers well are assets to the company and deserve to be treated as such.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 199,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 189,
+              "chunking": "blocks",
+              "chunk_index": 2,
+              "character_count": 439,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.17172868325624405,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[f265916cf8a62a9510f45102 | data/business-ethics_-_WEB.pdf | page 198]\nSometimes engaged employees go above and beyond in the interest of customer service, even if they have no “customers” to speak of. Kathy Fryman is one such employee. Fryman was a custodian for three decades at a one hundred-year-old school in the Augusta (KY) Independent School District.",
+        "context_ids": [
+          "f265916cf8a62a9510f45102"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "monthly salary of Kathy Fryman customer-service case",
+        "filter": null,
+        "results": [
+          {
+            "id": "f265916cf8a62a9510f45102",
+            "text": "Sometimes engaged employees go above and beyond in the interest of customer service, even if they have no “customers” to speak of. Kathy Fryman is one such employee. Fryman was a custodian for three decades at a one hundred-year-old school in the Augusta (KY) Independent School District.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 198,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 188,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 288,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.3768905703085539,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "6595f73f00130d2a4204371e",
+            "text": "• Is there a way for a manager to find, develop, and encourage the next Fryman, or is the desire to “do something good for somebody” an inherent trait in some employees that is missing in others?\n\n• What is the appropriate means to reward a worker with Fryman’s level of commitment? Her salary was fixed by school district pay schedules. Should she have been given an extra stipend for service above and beyond the expected? Additional time off with pay? Some other reward?",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 199,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 189,
+              "chunking": "blocks",
+              "chunk_index": 1,
+              "character_count": 473,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.19349485374118963,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "1d6774fb96aadcf44dbfd109",
+            "text": "• Employees who display Fryman’s zeal often do so for their own internal rewards. Others may simply want to be recognized and appreciated for their effort. If you were the superintendent in her district, how would you recognize Fryman? Could she, for example, be invited to speak to new hires about opportunities to render exceptional service? Employees who treat customers well are assets to the company and deserve to be treated as such.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 199,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 189,
+              "chunking": "blocks",
+              "chunk_index": 2,
+              "character_count": 439,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.16816217377076778,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[f265916cf8a62a9510f45102 | data/business-ethics_-_WEB.pdf | page 198]\nSometimes engaged employees go above and beyond in the interest of customer service, even if they have no “customers” to speak of. Kathy Fryman is one such employee. Fryman was a custodian for three decades at a one hundred-year-old school in the Augusta (KY) Independent School District.",
+        "context_ids": [
+          "f265916cf8a62a9510f45102"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "monthly salary of Kathy Fryman in customer-service case site:data/business-ethics_-_WEB.pdf",
+        "filter": null,
+        "results": [
+          {
+            "id": "f265916cf8a62a9510f45102",
+            "text": "Sometimes engaged employees go above and beyond in the interest of customer service, even if they have no “customers” to speak of. Kathy Fryman is one such employee. Fryman was a custodian for three decades at a one hundred-year-old school in the Augusta (KY) Independent School District.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 198,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 188,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 288,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.3247942326854615,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "6595f73f00130d2a4204371e",
+            "text": "• Is there a way for a manager to find, develop, and encourage the next Fryman, or is the desire to “do something good for somebody” an inherent trait in some employees that is missing in others?\n\n• What is the appropriate means to reward a worker with Fryman’s level of commitment? Her salary was fixed by school district pay schedules. Should she have been given an extra stipend for service above and beyond the expected? Additional time off with pay? Some other reward?",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 199,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 189,
+              "chunking": "blocks",
+              "chunk_index": 1,
+              "character_count": 473,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.16936806740552227,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "6f3ace6f32eea6e37682992f",
+            "text": "In the competitive world of business, many employees encounter information in their day-to-day work that their employers reasonably expect they will keep confidential. Proprietary (private) information, the details of patents and copyrights, employee records and salary histories, and customer-related data are valued company assets that must remain in-house, not in the hands of competitors, trade publications, or the news media.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 193,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 183,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 431,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.14982573359770582,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[f265916cf8a62a9510f45102 | data/business-ethics_-_WEB.pdf | page 198]\nSometimes engaged employees go above and beyond in the interest of customer service, even if they have no “customers” to speak of. Kathy Fryman is one such employee. Fryman was a custodian for three decades at a one hundred-year-old school in the Augusta (KY) Independent School District.",
+        "context_ids": [
+          "f265916cf8a62a9510f45102"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "query_id": "test-006",
+    "split": "test",
+    "question": "What exact monthly salary in US dollars does the textbook give for Kathy Fryman in the customer-service case?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "strict",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 6.138489300035872,
+    "context": "[f265916cf8a62a9510f45102 | data/business-ethics_-_WEB.pdf | page 198]\nSometimes engaged employees go above and beyond in the interest of customer service, even if they have no “customers” to speak of. Kathy Fryman is one such employee. Fryman was a custodian for three decades at a one hundred-year-old school in the Augusta (KY) Independent School District.",
+    "context_ids": [
+      "f265916cf8a62a9510f45102"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_0cc67e8a1a1b084f016afb22a08cc487d28a5f71e8ca6b88de",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 359,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 15,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 374
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"monthly salary of Kathy Fryman in customer-service case\"}",
+            "call_id": "call_kgBM8sdteJ1lnZFCgX6HjmSc",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0cc67e8a1a1b084f016afb22a0f06c87d2ab545caa801a8775",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0b0ae409579cb0c3016afb22a281ac87d293e263a8ea90b416",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 490,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 22,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 512
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"monthly salary of Kathy Fryman customer-service case\"}",
+            "call_id": "call_tx8RzOlg3wjErPO9fxrZd7QZ",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0b0ae409579cb0c3016afb22a3080487d2998b0aa3f04a912a",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_00fc04a0373bbed4016afb22a3bcc087d298b799b864dea196",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 501,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 33,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 534
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"monthly salary of Kathy Fryman in customer-service case site:data/business-ethics_-_WEB.pdf\"}",
+            "call_id": "call_RINzZoJplbOYjdqSFVlyfbbc",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_00fc04a0373bbed4016afb22a4694487d2b91c6beacd0015aa",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0554fa5c14a32341016afb22a5430c87d2be4a4d34bd068c27",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 523,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 23,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 546
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"exact monthly salary of Kathy Fryman customer-service case\"}",
+            "call_id": "call_anj1P335xN1oLUPpkD6Ra3eX",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0554fa5c14a32341016afb22a60f5087d296793167345409ab",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "exact date Ivan Boesky paid Dennis Levine for pretakeover information",
+        "filter": null,
+        "results": [
+          {
+            "id": "05a8a364b685fc71cfcd75a0",
+            "text": "Boesky went to the source—the major investment banks—to get insider information. He paid Levine and Siegel to give him pretakeover details, an illegal action, and he profited enormously from nearly every major deal in the merger-crazy 1980s, including huge deals involving oil companies such as Texaco, Getty, Gulf, and Chevron. The SEC started to become suspicious after receiving a tip that someone was leaking information.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 205,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 195,
+              "chunking": "blocks",
+              "chunk_index": 4,
+              "character_count": 425,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.2272251839360628,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "0262d811e99041f9c9d326d9",
+            "text": "Investigators discovered Levine’s secret Swiss bank account, with all the money Boesky had paid him. Levine then gave up Boesky in a plea deal; the SEC started watching Boesky and subsequently caught Siegel and Milken. The penalties were the most severe ever given at the time. Milken, the biggest catch of all, agreed to pay $200 million in government fines, $400 million to investors who had been hurt by his actions, and $500 million to DBL clients—for a grand total of $1.1 billion.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 205,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 195,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 486,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.2246724488854666,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "5dae72e7e28724e9fafe99a5",
+            "text": "Insider Trading and Fiduciary Duty One of the most famous cases of insider trading implicated Michael Milken, Dennis Levine, and Martin Siegel, all executives of Drexel Burnham Lambert (DBL), and the company itself.26 Ivan Boesky, also accused, was an arbitrageur, an outside investor who bet on corporate takeovers and appeared to be able to uncannily anticipate takeover targets, buy their stock ahead of time, and earn huge profits. Everyone wondered how; the answer was that he cheated.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 205,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 195,
+              "chunking": "blocks",
+              "chunk_index": 3,
+              "character_count": 490,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.20782328497865293,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[05a8a364b685fc71cfcd75a0 | data/business-ethics_-_WEB.pdf | page 205]\nBoesky went to the source—the major investment banks—to get insider information. He paid Levine and Siegel to give him pretakeover details, an illegal action, and he profited enormously from nearly every major deal in the merger-crazy 1980s, including huge deals involving oil companies such as Texaco, Getty, Gulf, and Chevron. The SEC started to become suspicious after receiving a tip that someone was leaking information.",
+        "context_ids": [
+          "05a8a364b685fc71cfcd75a0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "exact calendar date Ivan Boesky paid Dennis Levine pretakeover information",
+        "filter": null,
+        "results": [
+          {
+            "id": "05a8a364b685fc71cfcd75a0",
+            "text": "Boesky went to the source—the major investment banks—to get insider information. He paid Levine and Siegel to give him pretakeover details, an illegal action, and he profited enormously from nearly every major deal in the merger-crazy 1980s, including huge deals involving oil companies such as Texaco, Getty, Gulf, and Chevron. The SEC started to become suspicious after receiving a tip that someone was leaking information.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 205,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 195,
+              "chunking": "blocks",
+              "chunk_index": 4,
+              "character_count": 425,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.21394176932940104,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "0262d811e99041f9c9d326d9",
+            "text": "Investigators discovered Levine’s secret Swiss bank account, with all the money Boesky had paid him. Levine then gave up Boesky in a plea deal; the SEC started watching Boesky and subsequently caught Siegel and Milken. The penalties were the most severe ever given at the time. Milken, the biggest catch of all, agreed to pay $200 million in government fines, $400 million to investors who had been hurt by his actions, and $500 million to DBL clients—for a grand total of $1.1 billion.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 205,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 195,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 486,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.20781379290630425,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "5dae72e7e28724e9fafe99a5",
+            "text": "Insider Trading and Fiduciary Duty One of the most famous cases of insider trading implicated Michael Milken, Dennis Levine, and Martin Siegel, all executives of Drexel Burnham Lambert (DBL), and the company itself.26 Ivan Boesky, also accused, was an arbitrageur, an outside investor who bet on corporate takeovers and appeared to be able to uncannily anticipate takeover targets, buy their stock ahead of time, and earn huge profits. Everyone wondered how; the answer was that he cheated.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 205,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 195,
+              "chunking": "blocks",
+              "chunk_index": 3,
+              "character_count": 490,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.19567409089959054,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[05a8a364b685fc71cfcd75a0 | data/business-ethics_-_WEB.pdf | page 205]\nBoesky went to the source—the major investment banks—to get insider information. He paid Levine and Siegel to give him pretakeover details, an illegal action, and he profited enormously from nearly every major deal in the merger-crazy 1980s, including huge deals involving oil companies such as Texaco, Getty, Gulf, and Chevron. The SEC started to become suspicious after receiving a tip that someone was leaking information.",
+        "context_ids": [
+          "05a8a364b685fc71cfcd75a0"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "exact date Ivan Boesky paid Dennis Levine for pretakeover information",
+        "filter": null,
+        "results": [
+          {
+            "id": "05a8a364b685fc71cfcd75a0",
+            "text": "Boesky went to the source—the major investment banks—to get insider information. He paid Levine and Siegel to give him pretakeover details, an illegal action, and he profited enormously from nearly every major deal in the merger-crazy 1980s, including huge deals involving oil companies such as Texaco, Getty, Gulf, and Chevron. The SEC started to become suspicious after receiving a tip that someone was leaking information.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 205,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 195,
+              "chunking": "blocks",
+              "chunk_index": 4,
+              "character_count": 425,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.2272251839360628,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "0262d811e99041f9c9d326d9",
+            "text": "Investigators discovered Levine’s secret Swiss bank account, with all the money Boesky had paid him. Levine then gave up Boesky in a plea deal; the SEC started watching Boesky and subsequently caught Siegel and Milken. The penalties were the most severe ever given at the time. Milken, the biggest catch of all, agreed to pay $200 million in government fines, $400 million to investors who had been hurt by his actions, and $500 million to DBL clients—for a grand total of $1.1 billion.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 205,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 195,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 486,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.2246724488854666,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "5dae72e7e28724e9fafe99a5",
+            "text": "Insider Trading and Fiduciary Duty One of the most famous cases of insider trading implicated Michael Milken, Dennis Levine, and Martin Siegel, all executives of Drexel Burnham Lambert (DBL), and the company itself.26 Ivan Boesky, also accused, was an arbitrageur, an outside investor who bet on corporate takeovers and appeared to be able to uncannily anticipate takeover targets, buy their stock ahead of time, and earn huge profits. Everyone wondered how; the answer was that he cheated.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 205,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 195,
+              "chunking": "blocks",
+              "chunk_index": 3,
+              "character_count": 490,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.20782328497865293,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[05a8a364b685fc71cfcd75a0 | data/business-ethics_-_WEB.pdf | page 205]\nBoesky went to the source—the major investment banks—to get insider information. He paid Levine and Siegel to give him pretakeover details, an illegal action, and he profited enormously from nearly every major deal in the merger-crazy 1980s, including huge deals involving oil companies such as Texaco, Getty, Gulf, and Chevron. The SEC started to become suspicious after receiving a tip that someone was leaking information.",
+        "context_ids": [
+          "05a8a364b685fc71cfcd75a0"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "query_id": "test-007",
+    "split": "test",
+    "question": "On what exact calendar date (day, month and year) did Ivan Boesky first pay Dennis Levine for pretakeover information, according to the textbook?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "strict",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 5.2246322999708354,
+    "context": "[05a8a364b685fc71cfcd75a0 | data/business-ethics_-_WEB.pdf | page 205]\nBoesky went to the source—the major investment banks—to get insider information. He paid Levine and Siegel to give him pretakeover details, an illegal action, and he profited enormously from nearly every major deal in the merger-crazy 1980s, including huge deals involving oil companies such as Texaco, Getty, Gulf, and Chevron. The SEC started to become suspicious after receiving a tip that someone was leaking information.",
+    "context_ids": [
+      "05a8a364b685fc71cfcd75a0"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_0a1033a3bcb56abf016afb22a6ae6087d2bc547d8c4d763ea5",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 370,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 19,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 389
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"exact date Ivan Boesky paid Dennis Levine for pretakeover information\"}",
+            "call_id": "call_p9fnvRMxnGAdjFDvggmM7UkJ",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0a1033a3bcb56abf016afb22a74e2487d28dec12daca5a229e",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_09ef9aab8494d16c016afb22a8079c87d2966bb2eb36b43fd3",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 536,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 27,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 563
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"exact calendar date Ivan Boesky paid Dennis Levine pretakeover information\"}",
+            "call_id": "call_NJ4bAumN3LNN1cRZ343DiCko",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_09ef9aab8494d16c016afb22a8b11087d295d81ca7fad8be8e",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_04807ba48780bacf016afb22a95b2487d280fc5752c6fd4f30",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 552,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 27,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 579
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"exact date Ivan Boesky paid Dennis Levine for pretakeover information\"}",
+            "call_id": "call_tBafxtaBaSKjZfUbvSI460Mm",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_04807ba48780bacf016afb22a9f92487d2af9dbf824765c19b",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0e761b90629ae20d016afb22aaa97087d28c7cd0169f35eb5f",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 568,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 27,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 595
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"exact calendar date Ivan Boesky paid Dennis Levine pretakeover information\"}",
+            "call_id": "call_sGjygYdb1LcNJlrbLW9md0ha",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0e761b90629ae20d016afb22ab308887d2b0a95a4e7f631295",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  }
+]

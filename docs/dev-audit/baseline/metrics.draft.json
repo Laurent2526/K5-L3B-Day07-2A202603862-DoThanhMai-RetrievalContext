@@ -1,0 +1,57 @@
+{
+  "label": "baseline",
+  "run": "agent-openai-dev-run2",
+  "review_status": "AI_DRAFT_NOT_HUMAN_CONFIRMED",
+  "trace_sha256": "53bb8f628d66a7af806203be3e6e25302e9a2d367ce9734fddcb5464277ec20a",
+  "metrics": {
+    "cases": 17,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 17,
+      "N": 17
+    },
+    "grounded_answer": {
+      "0": 3,
+      "1": 0,
+      "2": 12,
+      "N": 15,
+      "mean": 1.6
+    },
+    "citation_validity": {
+      "n": 12,
+      "N": 12
+    },
+    "answer_citation_coverage": {
+      "n": 12,
+      "N": 12
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 3,
+      "N": 15
+    }
+  },
+  "context_grades": {
+    "0": 1,
+    "1": 0,
+    "2": 14
+  },
+  "context_evidence_rate": {
+    "n": 14,
+    "N": 15
+  },
+  "median_seconds": 3.064895700023044,
+  "search_distribution": {
+    "1": 14,
+    "3": 3
+  },
+  "usage": {
+    "input_tokens": 18429,
+    "output_tokens": 1646,
+    "total_tokens": 20075
+  },
+  "cost_usd": null
+}

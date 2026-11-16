@@ -1,0 +1,177 @@
+[
+  {
+    "query_id": "dev-001",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-002",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-003",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-004",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-005",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [],
+    "answer_grade": 0,
+    "context_grade": 2,
+    "reason": "Context đủ evidence nhưng câu trả lời cuối bị guard từ chối do thiếu citation inline."
+  },
+  {
+    "query_id": "dev-006",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-007",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-008",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-009",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-010",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [],
+    "answer_grade": 0,
+    "context_grade": 2,
+    "reason": "Context đủ evidence nhưng câu trả lời cuối bị guard từ chối do thiếu citation inline."
+  },
+  {
+    "query_id": "dev-011",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-012",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [],
+    "answer_grade": 0,
+    "context_grade": 0,
+    "reason": "Context cuối thiếu evidence time/distance; tìm lặp rồi chạm search limit. Từ chối câu có đáp án chấm 0."
+  },
+  {
+    "query_id": "dev-013",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-014",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-015",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-016",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Kết quả cuối nêu thiếu bằng chứng, không thêm khẳng định vô căn cứ. Lý do dừng: invalid_or_missing_citations; cần phân biệt guard dừng với model chủ động từ chối. The scenario describes suspicions, not an identified culprit. Reviewed the jewelry-store scenario and surrounding chunks on PDF pages 181-182 and searched the corpus for jewelry, inventory, and stealing; the corpus does not identify two responsible employees. Do not infer names or guilt from suspicion."
+  },
+  {
+    "query_id": "dev-017",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Kết quả cuối nêu thiếu bằng chứng, không thêm khẳng định vô căn cứ. Lý do dừng: search_limit; cần phân biệt guard dừng với model chủ động từ chối. Reviewed the Lockard case and surrounding chunks on PDF pages 198-199, and searched all chunks mentioning Lockard, jury, verdict, and 360,000. The award and appeal outcome are given, but the exact day, month, and year of the jury verdict are not provided."
+  }
+]

@@ -1,0 +1,1338 @@
+[
+  {
+    "query_id": "dev-001",
+    "split": "dev",
+    "question": "According to the textbook, in what year was the Occupational Safety and Health Act passed?",
+    "strategy": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 157,
+        "evidence": "Workplace Safety under the Occupational Safety and Health Act The primary federal law ensuring physical safety on the job is the Occupational Safety and Health Act (OSHA), which was passed in 1970.5 The goal of the law is to ensure that employers provide a workplace environment free of risk to employees’ safety and health, such as mechanical or electrical dangers, toxic chemicals, severe heat or cold, unsanitary conditions, and dangerous equipment."
+      }
+    ],
+    "results": [
+      {
+        "id": "d23f97c287e49bde6711a1f5",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 157,
+        "text": "Workplace Safety under the Occupational Safety and Health Act The primary federal law ensuring physical safety on the job is the Occupational Safety and Health Act (OSHA), which was passed in 1970.5 The goal of the law is to ensure that employers provide a workplace environment free of risk to employees’ safety and health, such as mechanical or electrical dangers, toxic chemicals, severe heat or cold, unsanitary conditions, and dangerous equipment.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 6,
+          "printed_page": 147,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 452,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.8034192206513432,
+        "strategy": "dense",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "a82f4adc389d72d25b3374a7",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 157,
+        "text": "OSHA also refers to the Occupational Safety and Health Administration, which operates as a division of the Department of Labor and oversees enforcement of the law. This act created the National Institute for Occupational Safety and Health (NIOSH), which serves as the research institute for OSHA and enunciates appropriate standards for safety and health on the job.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 7,
+          "printed_page": 147,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 366,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.69892178171407,
+        "strategy": "dense",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "2dded05259698981becfce29",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 211,
+        "text": "Under many federal laws, an employer cannot retaliate by firing, demoting, or taking any other adverse action against workers who report injuries, concerns, or other protected activity. One of the first laws with a specific whistleblower protection provision was the Occupational Safety and Health Act of 1970. Since passage of that law, Congress has expanded whistleblower authority to protect workers who report violations of more than",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 9,
+          "printed_page": 201,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 437,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.678488911255203,
+        "strategy": "dense",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[d23f97c287e49bde6711a1f5 | data/business-ethics_-_WEB.pdf | page 157]\nWorkplace Safety under the Occupational Safety and Health Act The primary federal law ensuring physical safety on the job is the Occupational Safety and Health Act (OSHA), which was passed in 1970.5 The goal of the law is to ensure that employers provide a workplace environment free of risk to employees’ safety and health, such as mechanical or electrical dangers, toxic chemicals, severe heat or cold, unsanitary conditions, and dangerous equipment.",
+    "context_ids": [
+      "d23f97c287e49bde6711a1f5"
+    ],
+    "context_chars": 523,
+    "elapsed_ms": 250.14760001795366,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-002",
+    "split": "dev",
+    "question": "Which federal department contains the Occupational Safety and Health Administration?",
+    "strategy": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 157,
+        "evidence": "OSHA also refers to the Occupational Safety and Health Administration, which operates as a division of the Department of Labor and oversees enforcement of the law. This act created the National Institute for Occupational Safety and Health (NIOSH), which serves as the research institute for OSHA and enunciates appropriate standards for safety and health on the job."
+      }
+    ],
+    "results": [
+      {
+        "id": "a82f4adc389d72d25b3374a7",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 157,
+        "text": "OSHA also refers to the Occupational Safety and Health Administration, which operates as a division of the Department of Labor and oversees enforcement of the law. This act created the National Institute for Occupational Safety and Health (NIOSH), which serves as the research institute for OSHA and enunciates appropriate standards for safety and health on the job.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 7,
+          "printed_page": 147,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 366,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7879281278827232,
+        "strategy": "dense",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "d23f97c287e49bde6711a1f5",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 157,
+        "text": "Workplace Safety under the Occupational Safety and Health Act The primary federal law ensuring physical safety on the job is the Occupational Safety and Health Act (OSHA), which was passed in 1970.5 The goal of the law is to ensure that employers provide a workplace environment free of risk to employees’ safety and health, such as mechanical or electrical dangers, toxic chemicals, severe heat or cold, unsanitary conditions, and dangerous equipment.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 6,
+          "printed_page": 147,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 452,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7679983606338016,
+        "strategy": "dense",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "2dded05259698981becfce29",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 211,
+        "text": "Under many federal laws, an employer cannot retaliate by firing, demoting, or taking any other adverse action against workers who report injuries, concerns, or other protected activity. One of the first laws with a specific whistleblower protection provision was the Occupational Safety and Health Act of 1970. Since passage of that law, Congress has expanded whistleblower authority to protect workers who report violations of more than",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 9,
+          "printed_page": 201,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 437,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.6739385529719921,
+        "strategy": "dense",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[a82f4adc389d72d25b3374a7 | data/business-ethics_-_WEB.pdf | page 157]\nOSHA also refers to the Occupational Safety and Health Administration, which operates as a division of the Department of Labor and oversees enforcement of the law. This act created the National Institute for Occupational Safety and Health (NIOSH), which serves as the research institute for OSHA and enunciates appropriate standards for safety and health on the job.",
+    "context_ids": [
+      "a82f4adc389d72d25b3374a7"
+    ],
+    "context_chars": 437,
+    "elapsed_ms": 17.005299974698573,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-003",
+    "split": "dev",
+    "question": "What does OSHA do after an anonymous worker report if it finds reasonable grounds to believe a violation exists?",
+    "strategy": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 158,
+        "evidence": "OSHA about workplace conditions or hazards.6 A worker who believes his or her OSHA rights are being violated can make an anonymous report. OSHA will then establish whether there are reasonable grounds for believing a violation exists. If so, OSHA will conduct an inspection of the workplace and report any findings to the employer and employee, or their representatives, including any steps needed to correct safety and health issues."
+      }
+    ],
+    "results": [
+      {
+        "id": "b321218a7500096e3ef246ff",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 158,
+        "text": "OSHA about workplace conditions or hazards.6 A worker who believes his or her OSHA rights are being violated can make an anonymous report. OSHA will then establish whether there are reasonable grounds for believing a violation exists. If so, OSHA will conduct an inspection of the workplace and report any findings to the employer and employee, or their representatives, including any steps needed to correct safety and health issues.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 3,
+          "printed_page": 148,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 434,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.8836817408705281,
+        "strategy": "dense",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "0ea0895d37db2db66bfc2c7a",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 211,
+        "text": "Internal reporting gives management a chance to start an investigation and attempt to rectify the situation. The employee who goes to the government should also have some kind of hard evidence that wrongful actions have occurred; the violation should be serious, and blowing the whistle should have some likelihood of stopping the wrongful act.",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 8,
+          "printed_page": 201,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 344,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7260078951115684,
+        "strategy": "dense",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "cfda832ece5a1db41b680006",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 211,
+        "text": "Of course, even if an employee has a personal revenge motive, if the company actively is breaking the law, it is still important that the wrongdoing be reported. In any case, knowing when and how to blow the whistle is a challenge for an employee wanting to do the right thing. The employee should usually try internal reporting channels first, to disclose the problem to management before going public. Sometimes workers mistakenly identify something as wrongdoing that was not wrongdoing after all.",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 7,
+          "printed_page": 201,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 500,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7193868374641791,
+        "strategy": "dense",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[b321218a7500096e3ef246ff | data/business-ethics_-_WEB.pdf | page 158]\nOSHA about workplace conditions or hazards.6 A worker who believes his or her OSHA rights are being violated can make an anonymous report. OSHA will then establish whether there are reasonable grounds for believing a violation exists. If so, OSHA will conduct an inspection of the workplace and report any findings to the employer and employee, or their representatives, including any steps needed to correct safety and health issues.",
+    "context_ids": [
+      "b321218a7500096e3ef246ff"
+    ],
+    "context_chars": 505,
+    "elapsed_ms": 17.319599981419742,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-004",
+    "split": "dev",
+    "question": "Which part of the Civil Rights Act does the EEOC enforce to prohibit workplace discrimination including sexual harassment?",
+    "strategy": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 159,
+        "evidence": "More than thirty thousand complaints of sexual, gender, racial, or creedal harassment are filed each year, illustrating the frequency of the problem.10 The EEOC enforces Title VII of the Civil Rights Act (CRA) of 1964, which prohibits workplace discrimination including sexual harassment.11 (As discussed elsewhere in the text, the CRA also protects employees from discrimination based on race, gender, religion, and national origin.)"
+      }
+    ],
+    "results": [
+      {
+        "id": "76521a581244432f6a0e86fc",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 159,
+        "text": "More than thirty thousand complaints of sexual, gender, racial, or creedal harassment are filed each year, illustrating the frequency of the problem.10 The EEOC enforces Title VII of the Civil Rights Act (CRA) of 1964, which prohibits workplace discrimination including sexual harassment.11 (As discussed elsewhere in the text, the CRA also protects employees from discrimination based on race, gender, religion, and national origin.)",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 5,
+          "printed_page": 149,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 434,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.848886515166954,
+        "strategy": "dense",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "f692ace196ea9dd1477c1870",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 159,
+        "text": "The two complaints most frequently filed with the Equal Employment Opportunity Commission (EEOC), which strives to eliminate racial, gender, and religious discrimination in the workplace, are sexual harassment and racial harassment. Together, these categories made up two-thirds of all cases filed during 2017.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 4,
+          "printed_page": 149,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 310,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7904554369909963,
+        "strategy": "dense",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "dc1454746b62e39b5d4cd3f8",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 159,
+        "text": "According to EEOC guidelines, it is unlawful to sexually harass a person because of that person’s sex, either through explicit offers in exchange for sexual favors (known as quid pro quo) or through actions at a broader more systemic level that create a “hostile working environment.” Sexual harassment includes unwelcome touching, requests for sexual favors, any other verbal or physical harassment of a sexual nature, offensive remarks based on a person’s sex, and off-color jokes.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 6,
+          "printed_page": 149,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 483,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7223319841821184,
+        "strategy": "dense",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[76521a581244432f6a0e86fc | data/business-ethics_-_WEB.pdf | page 159]\nMore than thirty thousand complaints of sexual, gender, racial, or creedal harassment are filed each year, illustrating the frequency of the problem.10 The EEOC enforces Title VII of the Civil Rights Act (CRA) of 1964, which prohibits workplace discrimination including sexual harassment.11 (As discussed elsewhere in the text, the CRA also protects employees from discrimination based on race, gender, religion, and national origin.)",
+    "context_ids": [
+      "76521a581244432f6a0e86fc"
+    ],
+    "context_chars": 505,
+    "elapsed_ms": 18.466999987140298,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-005",
+    "split": "dev",
+    "question": "What does quid pro quo mean in the discussion of sexual harassment?",
+    "strategy": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 159,
+        "evidence": "According to EEOC guidelines, it is unlawful to sexually harass a person because of that person’s sex, either through explicit offers in exchange for sexual favors (known as quid pro quo) or through actions at a broader more systemic level that create a “hostile working environment.” Sexual harassment includes unwelcome touching, requests for sexual favors, any other verbal or physical harassment of a sexual nature, offensive remarks based on a person’s sex, and off-color jokes."
+      }
+    ],
+    "results": [
+      {
+        "id": "dc1454746b62e39b5d4cd3f8",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 159,
+        "text": "According to EEOC guidelines, it is unlawful to sexually harass a person because of that person’s sex, either through explicit offers in exchange for sexual favors (known as quid pro quo) or through actions at a broader more systemic level that create a “hostile working environment.” Sexual harassment includes unwelcome touching, requests for sexual favors, any other verbal or physical harassment of a sexual nature, offensive remarks based on a person’s sex, and off-color jokes.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 6,
+          "printed_page": 149,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 483,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.8089159017155112,
+        "strategy": "dense",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "4e526cccad3c628df53ab351",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 159,
+        "text": "Although the law does not prohibit mild teasing, offhand comments, or isolated incidents that are not serious, harassment does become illegal when, according to the law, it is so frequent “that it creates a hostile or offensive work environment or when it is so severe that it results in an adverse employment decision (such as the victim being fired or demoted).”12 It is management’s responsibility to prevent harassment through education, training, and enforcement of a policy against it, and",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 8,
+          "printed_page": 149,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 495,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.6695531210170129,
+        "strategy": "dense",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "5b3133d8b3847d1b40761f38",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 204,
+        "text": "We are also witnessing an increased level of public awareness about harassment in the workplace, particularly because of the #MeToo movement that followed revelations in 2017 and 2018 of years of sexual predation by powerful men in Hollywood and Washington, DC, as well as across workplaces of all kinds, including in sports and the arts. A victim of sexual harassment can be a man or a woman, and/or the same sex as the harasser.",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 1,
+          "printed_page": 194,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 430,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.6676033934236587,
+        "strategy": "dense",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[dc1454746b62e39b5d4cd3f8 | data/business-ethics_-_WEB.pdf | page 159]\nAccording to EEOC guidelines, it is unlawful to sexually harass a person because of that person’s sex, either through explicit offers in exchange for sexual favors (known as quid pro quo) or through actions at a broader more systemic level that create a “hostile working environment.” Sexual harassment includes unwelcome touching, requests for sexual favors, any other verbal or physical harassment of a sexual nature, offensive remarks based on a person’s sex, and off-color jokes.",
+    "context_ids": [
+      "dc1454746b62e39b5d4cd3f8"
+    ],
+    "context_chars": 554,
+    "elapsed_ms": 15.419600007589906,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-006",
+    "split": "dev",
+    "question": "What percentages of workers aged eighteen to thirty-five rank career advancement and work-life balance as most important at work?",
+    "strategy": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 163,
+        "evidence": "Workers aged eighteen to thirty-five rank career advancement opportunities (32%) and work-life balance (33%) as most important to them at work. However, 42 percent of workers older than thirty-five say work-life balance is the most important feature. This is likely because Generation X (born in the years 1965–1980) place a high value on opportunities for work-life balance, although, like Baby Boomers (born in the years 1946–1964), they also value salary and a solid retirement plan."
+      }
+    ],
+    "results": [
+      {
+        "id": "cdbb38161e47852274a8b8c9",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 163,
+        "text": "Workers aged eighteen to thirty-five rank career advancement opportunities (32%) and work-life balance (33%) as most important to them at work. However, 42 percent of workers older than thirty-five say work-life balance is the most important feature. This is likely because Generation X (born in the years 1965–1980) place a high value on opportunities for work-life balance, although, like Baby Boomers (born in the years 1946–1964), they also value salary and a solid retirement plan.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 1,
+          "printed_page": 153,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 486,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.8948338690499161,
+        "strategy": "dense",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "15631273506a863cfb941c2a",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 163,
+        "text": "Figure 6.6 As this chart shows, men and women view the importance of various benefits differently, even if their top-ranked benefits are the same (i.e., better insurance, work-from-home options, and more flexible hours). (attribution: Copyright Rice University, OpenStax, under CC BY NC-SA 4.0 license) Age and generation also play a role in the types of perks that employees value.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 0,
+          "printed_page": 153,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 382,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.6873781476206167,
+        "strategy": "dense",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "b460b1d73eedffd724c43528",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 191,
+        "text": "One indicator that our understanding of the term is changing is that millennials are three times more likely than older generations to change jobs, according to a Forbes Human Resources Council survey (Figure 7.2).3 About nine in ten millennials (91 percent) say they do not expect to stay with their current job longer than three years, compared with older workers who often anticipated spending ten years or even an entire career with one employer, relying on an implicit social contract between",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 2,
+          "printed_page": 181,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 497,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.6675854126338564,
+        "strategy": "dense",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[cdbb38161e47852274a8b8c9 | data/business-ethics_-_WEB.pdf | page 163]\nWorkers aged eighteen to thirty-five rank career advancement opportunities (32%) and work-life balance (33%) as most important to them at work. However, 42 percent of workers older than thirty-five say work-life balance is the most important feature. This is likely because Generation X (born in the years 1965–1980) place a high value on opportunities for work-life balance, although, like Baby Boomers (born in the years 1946–1964), they also value salary and a solid retirement plan.",
+    "context_ids": [
+      "cdbb38161e47852274a8b8c9"
+    ],
+    "context_chars": 557,
+    "elapsed_ms": 28.950900014024228,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-007",
+    "split": "dev",
+    "question": "In the comparison of land professionals with one to five years of experience and a bachelor degree, how much more did men earn per year than women?",
+    "strategy": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 168,
+        "evidence": "Median salaries were compared for male and female land professionals with similar experience (one to five years) and educational background (bachelor’s degree), and men earned $7000 more per year than their female counterparts.26 Doesn’t the law require men and women to be paid the same? The answer is yes and no. Compensation discrimination has been illegal for more than fifty years under a U.S. law called the Equal Pay Act, passed in 1963. But the problem persists."
+      }
+    ],
+    "results": [
+      {
+        "id": "fe84c38d572af977e6a27cc8",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 168,
+        "text": "Median salaries were compared for male and female land professionals with similar experience (one to five years) and educational background (bachelor’s degree), and men earned $7000 more per year than their female counterparts.26 Doesn’t the law require men and women to be paid the same? The answer is yes and no. Compensation discrimination has been illegal for more than fifty years under a U.S. law called the Equal Pay Act, passed in 1963. But the problem persists.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 5,
+          "printed_page": 158,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 470,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7468066811561584,
+        "strategy": "dense",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "6de63dd981716f4871815238",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 168,
+        "text": "about $600,000 per year, compared with their male counterparts, who earned more than $800,000 per year.25 That $200,000 difference amounts to a wage gap of about 35 percent each year. The same is true in mid-level jobs as well.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 3,
+          "printed_page": 158,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 227,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7062122436229066,
+        "strategy": "dense",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "2ed5c1047e42ed0674008c20",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 168,
+        "text": "Even after all possible qualifiers have been added, it remains true that women earn less than men. Managers sometimes offer multiple excuses to justify pay inequities between women and men, such as, “Women take time off for having babies” or “Women have less experience,” but these usually do not explain away the differences. The data show that a woman with the same education, experience, and skills, doing the same job as a man, is still likely to earn less, at all levels from bottom to top.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 1,
+          "printed_page": 158,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 495,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.6961750388145447,
+        "strategy": "dense",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[fe84c38d572af977e6a27cc8 | data/business-ethics_-_WEB.pdf | page 168]\nMedian salaries were compared for male and female land professionals with similar experience (one to five years) and educational background (bachelor’s degree), and men earned $7000 more per year than their female counterparts.26 Doesn’t the law require men and women to be paid the same? The answer is yes and no. Compensation discrimination has been illegal for more than fifty years under a U.S. law called the Equal Pay Act, passed in 1963. But the problem persists.",
+    "context_ids": [
+      "fe84c38d572af977e6a27cc8"
+    ],
+    "context_chars": 541,
+    "elapsed_ms": 21.743300021626055,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-008",
+    "split": "dev",
+    "question": "Under the comparable worth concept, what should determine worker pay?",
+    "strategy": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 169,
+        "evidence": "The idea of pay equivalency is closely related to comparable worth, a concept that has been put into action on a limited basis over the years, but never on a large scale. Comparable worth holds that workers should be paid on the basis of the worth of their job to the organization. Equivalent work and comparable worth can be important next steps in the path to equal pay, but they are challenging to implement because they require rethinking the entire basis for pay decisions.\n\nLINK TO LEARNING"
+      }
+    ],
+    "results": [
+      {
+        "id": "81ed4aa046ae1f8ccaf56408",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 169,
+        "text": "The idea of pay equivalency is closely related to comparable worth, a concept that has been put into action on a limited basis over the years, but never on a large scale. Comparable worth holds that workers should be paid on the basis of the worth of their job to the organization. Equivalent work and comparable worth can be important next steps in the path to equal pay, but they are challenging to implement because they require rethinking the entire basis for pay decisions.\n\nLINK TO LEARNING",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 4,
+          "printed_page": 159,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 496,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.8323631534684648,
+        "strategy": "dense",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "f45d8230c3986a0ca4d40a10",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 177,
+        "text": "Is Management Compensation Fair? We gain yet another perspective on labor by looking at management compensation relative to that of employees.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 0,
+          "printed_page": 167,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 142,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.769271731376648,
+        "strategy": "dense",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "f78e238b0dcf0243dbce40b0",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 165,
+        "text": "The CFSI report makes clear that ensuring workers are paid a fair wage is not only an ethical practice; it is also an effective way to achieve employees’ highest and most productive level of performance, which is what every manager wants. In the process, it also makes workers more loyal to the company and less likely to jump ship at the first sign of a slightly better wage somewhere else. The concept of a fair wage has a greater significance than simply one worker’s pay or one company’s policy.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 4,
+          "printed_page": 155,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 499,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7188106989506099,
+        "strategy": "dense",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[81ed4aa046ae1f8ccaf56408 | data/business-ethics_-_WEB.pdf | page 169]\nThe idea of pay equivalency is closely related to comparable worth, a concept that has been put into action on a limited basis over the years, but never on a large scale. Comparable worth holds that workers should be paid on the basis of the worth of their job to the organization. Equivalent work and comparable worth can be important next steps in the path to equal pay, but they are challenging to implement because they require rethinking the entire basis for pay decisions.\n\nLINK TO LEARNING\n\n[f45d8230c3986a0ca4d40a10 | data/business-ethics_-_WEB.pdf | page 177]\nIs Management Compensation Fair? We gain yet another perspective on labor by looking at management compensation relative to that of employees.",
+    "context_ids": [
+      "81ed4aa046ae1f8ccaf56408",
+      "f45d8230c3986a0ca4d40a10"
+    ],
+    "context_chars": 782,
+    "elapsed_ms": 15.396200004033744,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-009",
+    "split": "dev",
+    "question": "What role do unions play in collective bargaining, and what agreement does the process seek?",
+    "strategy": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 172,
+        "evidence": "Unions act as the agent/lawyer/negotiator for employees during collective bargaining, a negotiation process aimed at getting management’s agreement to a fair employment contract for members of the union. Everyone wants to be successful in any important negotiation, and people often turn to professionals to help them in such a situation. However, in the United States, as elsewhere around the globe, the concept of worker organization has been about more than simply good representation."
+      }
+    ],
+    "results": [
+      {
+        "id": "b182e178b9977158c53ff7fe",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 172,
+        "text": "Unions act as the agent/lawyer/negotiator for employees during collective bargaining, a negotiation process aimed at getting management’s agreement to a fair employment contract for members of the union. Everyone wants to be successful in any important negotiation, and people often turn to professionals to help them in such a situation. However, in the United States, as elsewhere around the globe, the concept of worker organization has been about more than simply good representation.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 4,
+          "printed_page": 162,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 488,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.8465087322299917,
+        "strategy": "dense",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "1030d4fbc54019edb4496c78",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 172,
+        "text": "Unions create a formal dispute resolution process for workers. Workers are required to pay union dues/fees that some might rather not pay. Unions act as an organized lobbying group for worker rights. Unions sometimes lead to a closed culture that makes it harder to diversify the workforce. Collective bargaining agreements often set norms for employment for an entire industry—benefiting all workers, including those who are not at a union company.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 6,
+          "printed_page": 162,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 449,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.8168269639261656,
+        "strategy": "dense",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "c8fe80059d3e3019a6c980c9",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 173,
+        "text": "The value of unions is a topic that produces significant disagreement. Historically, unions have attained many improvements for workers in terms of wages and benefits, standardized employment practices, labor protections (e.g., child labor laws), workplace environment, and on-the-job safety. Nevertheless, sometimes unions have acted in their own interests to sustain their own existence, without primary concern for the workers they represent.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 0,
+          "printed_page": 163,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 445,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7480043395758972,
+        "strategy": "dense",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[b182e178b9977158c53ff7fe | data/business-ethics_-_WEB.pdf | page 172]\nUnions act as the agent/lawyer/negotiator for employees during collective bargaining, a negotiation process aimed at getting management’s agreement to a fair employment contract for members of the union. Everyone wants to be successful in any important negotiation, and people often turn to professionals to help them in such a situation. However, in the United States, as elsewhere around the globe, the concept of worker organization has been about more than simply good representation.",
+    "context_ids": [
+      "b182e178b9977158c53ff7fe"
+    ],
+    "context_chars": 559,
+    "elapsed_ms": 19.466200028546154,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-010",
+    "split": "dev",
+    "question": "In the Security versus Privacy jewelry-store scenario, how many employees does the manager oversee?",
+    "strategy": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 181,
+        "evidence": "Security versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer."
+      }
+    ],
+    "results": [
+      {
+        "id": "2d323a612ff81da7ad8910ba",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 181,
+        "text": "Security versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 5,
+          "printed_page": 171,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 499,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.8276511924058925,
+        "strategy": "dense",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "825fb01b55e285a28523fbd5",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 181,
+        "text": "You are weighing the pros of catching the thieves against the possible loss of other employees’ trust.\n\nCritical Thinking\n\n• What issues must you confront as you decide whether you will take the recommendation of your assistant managers?",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 7,
+          "printed_page": 171,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 237,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.6985927044506506,
+        "strategy": "dense",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "2c6cc0a32fe0130017115256",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 181,
+        "text": "To prevent this, your assistant managers are urging you to place discreet cameras in the restrooms and break rooms, where these exchanges are likely occurring. Some managers might be concerned about using cameras at all due to privacy issues; others might want to use them without notifying employees or putting up signs because they do not want to tip off the suspects or deal with the negative reaction of the workforce (although that brings up invasion of privacy issues).",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 6,
+          "printed_page": 171,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 475,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.6697676777839708,
+        "strategy": "dense",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[2d323a612ff81da7ad8910ba | data/business-ethics_-_WEB.pdf | page 181]\nSecurity versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer.",
+    "context_ids": [
+      "2d323a612ff81da7ad8910ba"
+    ],
+    "context_chars": 570,
+    "elapsed_ms": 17.336799995973706,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-011",
+    "split": "dev",
+    "question": "According to the PayScale report cited in the textbook, what are the two leading reasons people give for leaving their jobs, in order?",
+    "strategy": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 192,
+        "evidence": "According to PayScale’s Compensation Best Practices Report, the two leading motivators people give for leaving their job are first, higher pay, and second, personal reasons (e.g., family, health, marriage, spousal relocation).7 Of course, beyond money, workers seek meaning in their work, and it is largely true that money alone does not motivate employees to higher performance. However, it is a mistake for managers to think money is not a central factor influencing employees’ job satisfaction."
+      }
+    ],
+    "results": [
+      {
+        "id": "fe8603ec2acc090ae377569d",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 192,
+        "text": "According to PayScale’s Compensation Best Practices Report, the two leading motivators people give for leaving their job are first, higher pay, and second, personal reasons (e.g., family, health, marriage, spousal relocation).7 Of course, beyond money, workers seek meaning in their work, and it is largely true that money alone does not motivate employees to higher performance. However, it is a mistake for managers to think money is not a central factor influencing employees’ job satisfaction.",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 6,
+          "printed_page": 182,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 497,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7734232409848715,
+        "strategy": "dense",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "3daf11911f259d10eeb7418b",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 170,
+        "text": "• How would each of the normative theories of ethical behavior (virtue ethics, utilitarianism, deontology, and justice theory) view this issue and these proposed solutions? Part of the reason that initial pay disparity is heightened over a career is that when a worker changes jobs, the new employer usually asks what the employee was making in his or her last job and uses that as a baseline for pay in the new job.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 5,
+          "printed_page": 160,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 416,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7293023249714903,
+        "strategy": "dense",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "83ca50ec25fb198bdb24ace2",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 191,
+        "text": "When they see chief executive officers (CEOs) and other managers leaving to work for the highest bidder, subordinates quickly conclude that they, too, ought to look out for themselves, just as their bosses do, rather than trying to build up seniority with the company. Switching jobs can often be a way for employees to improve their salaries. Consider professional sports. For decades",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 9,
+          "printed_page": 181,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 385,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7078832002843383,
+        "strategy": "dense",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[fe8603ec2acc090ae377569d | data/business-ethics_-_WEB.pdf | page 192]\nAccording to PayScale’s Compensation Best Practices Report, the two leading motivators people give for leaving their job are first, higher pay, and second, personal reasons (e.g., family, health, marriage, spousal relocation).7 Of course, beyond money, workers seek meaning in their work, and it is largely true that money alone does not motivate employees to higher performance. However, it is a mistake for managers to think money is not a central factor influencing employees’ job satisfaction.",
+    "context_ids": [
+      "fe8603ec2acc090ae377569d"
+    ],
+    "context_chars": 568,
+    "elapsed_ms": 19.392100046388805,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-012",
+    "split": "dev",
+    "question": "According to the textbook discussion, by which two dimensions are enforceable non-compete agreements usually limited?",
+    "strategy": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 194,
+        "evidence": "To be enforceable, non-compete agreements are usually limited by time and distance (i.e., they are in effect for a certain number of months or years and within a certain radius of the employer’s operations). However, some companies have begun requiring these agreements even from mid- and lower- level workers in an attempt to prevent them from changing jobs, including those who have no access to any confidential intellectual property. About 20 percent of the U.S."
+      }
+    ],
+    "results": [
+      {
+        "id": "e7696e7f8a89ce8cc67b25cc",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 194,
+        "text": "To be enforceable, non-compete agreements are usually limited by time and distance (i.e., they are in effect for a certain number of months or years and within a certain radius of the employer’s operations). However, some companies have begun requiring these agreements even from mid- and lower- level workers in an attempt to prevent them from changing jobs, including those who have no access to any confidential intellectual property. About 20 percent of the U.S.",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 5,
+          "printed_page": 184,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 466,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.75196931505295,
+        "strategy": "dense",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "c9ba661a7c9d847e6496b1a9",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 194,
+        "text": "private-sector workforce, and about one in six people in jobs earning less than $40,000 a year, are now covered by non-compete agreements.11 The increased use of such agreements has left many employees feeling trapped by their limited mobility. Recently non- competes have been challenged by the Federal Trade Commission. While enforcement of the FTCs rule was struck down by a court, non-compete agreement could continue be challenged in the future.\n\nLINK TO LEARNING",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 6,
+          "printed_page": 184,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 468,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7375875271804627,
+        "strategy": "dense",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "a064575255c9cbaa506350f0",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 194,
+        "text": "companies have long used non-compete agreements as a way to provide another layer of confidentiality, ensuring that employees with access to sensitive information will not compete with the company during or for some period after their employment there. The stated purpose of such agreements is to protect the company’s intellectual property, which is the manifestation of original ideas protected by legal means such as patent, copyright, or trademark.",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 4,
+          "printed_page": 184,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 452,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.721163706710119,
+        "strategy": "dense",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[e7696e7f8a89ce8cc67b25cc | data/business-ethics_-_WEB.pdf | page 194]\nTo be enforceable, non-compete agreements are usually limited by time and distance (i.e., they are in effect for a certain number of months or years and within a certain radius of the employer’s operations). However, some companies have begun requiring these agreements even from mid- and lower- level workers in an attempt to prevent them from changing jobs, including those who have no access to any confidential intellectual property. About 20 percent of the U.S.",
+    "context_ids": [
+      "e7696e7f8a89ce8cc67b25cc"
+    ],
+    "context_chars": 537,
+    "elapsed_ms": 15.428200014866889,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-013",
+    "split": "dev",
+    "question": "How much did the jury award Lockard, and what did the appeals court do?",
+    "strategy": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 199,
+        "evidence": "Although it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking"
+      }
+    ],
+    "results": [
+      {
+        "id": "827d733a264d7ba02eb75eec",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 199,
+        "text": "Although it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 5,
+          "printed_page": 189,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 404,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.6315475294455153,
+        "strategy": "dense",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "29d036d1cc3c46c8d8380fae",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 192,
+        "text": "professional athletes were tied to one team and could not sell their services to the highest bidder, meaning that their salaries were effectively capped. Finally, after several court decisions (including the Curt Flood reserve clause case involving the St. Louis Cardinals and Major League Baseball),6 players achieved some degree of freedom and can now switch employers frequently in an effort to maximize their earning potential. The same evolution occurred in the entertainment industry.",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 0,
+          "printed_page": 182,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 490,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.577582555341201,
+        "strategy": "dense",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "5f2e37d20ab948260616904a",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 212,
+        "text": "If the government believes it is a worthwhile case and intervenes in the lawsuit, then the relator (whistleblower) is entitled to receive between 15 and 25 percent of the amount the government recovers. If the government thinks winning is a long shot and declines to intervene in the lawsuit, the relator’s share increases to 25 to 30 percent.",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 7,
+          "printed_page": 202,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 343,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.5644210500215272,
+        "strategy": "dense",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[827d733a264d7ba02eb75eec | data/business-ethics_-_WEB.pdf | page 199]\nAlthough it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking",
+    "context_ids": [
+      "827d733a264d7ba02eb75eec"
+    ],
+    "context_chars": 475,
+    "elapsed_ms": 17.182699986733496,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-014",
+    "split": "dev",
+    "question": "What legal penalties can insider trading and bribery result in, according to the textbook?",
+    "strategy": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 204,
+        "evidence": "• Discuss bribery and its legal and ethical consequences Employees may face ethical dilemmas in the area of finance, especially in situations such as bribery and insider trading in securities. Such dubious “profit opportunities” can offer the chance of realizing thousands or millions of dollars, creating serious temptation for an employee. However, insider trading and bribery are serious violations of the law that can result in incarceration and large fines.\n\nInsider Trading"
+      }
+    ],
+    "results": [
+      {
+        "id": "870a128afa72dc04ca4aa35f",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 204,
+        "text": "• Discuss bribery and its legal and ethical consequences Employees may face ethical dilemmas in the area of finance, especially in situations such as bribery and insider trading in securities. Such dubious “profit opportunities” can offer the chance of realizing thousands or millions of dollars, creating serious temptation for an employee. However, insider trading and bribery are serious violations of the law that can result in incarceration and large fines.\n\nInsider Trading",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 3,
+          "printed_page": 194,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 479,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7878716118412376,
+        "strategy": "dense",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "c2f03f62c600bbf0223605fa",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 204,
+        "text": "These include trading by an insider (generally someone who performs work for the company) who possesses significant confidential information relevant to the valuation of the company’s stock, and trading by someone outside of the company who is given this sort of information by an insider or who obtains it inappropriately. Even being the messenger (the one communicating material nonpublic information to others on behalf of someone else) can be a legal violation.",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 7,
+          "printed_page": 194,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 465,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7296940845433539,
+        "strategy": "dense",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "7a814f28ef6780136c0e690d",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 205,
+        "text": "Not only does insider trading create a public relations nightmare, it also subjects the company to legal liability. DBL ended up being held liable in civil lawsuits due to the actions of its employees, and it was also charged with violations of the Racketeer Influenced and Corrupt Organizations (RICO) Act) and ultimately failed, going bankrupt in 1990. (As a note of interest regarding the aftermath of all of this for Milken, he has tried to redeem his image since his incarceration.",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 7,
+          "printed_page": 195,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 486,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.7289457482728032,
+        "strategy": "dense",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[870a128afa72dc04ca4aa35f | data/business-ethics_-_WEB.pdf | page 204]\n• Discuss bribery and its legal and ethical consequences Employees may face ethical dilemmas in the area of finance, especially in situations such as bribery and insider trading in securities. Such dubious “profit opportunities” can offer the chance of realizing thousands or millions of dollars, creating serious temptation for an employee. However, insider trading and bribery are serious violations of the law that can result in incarceration and large fines.\n\nInsider Trading",
+    "context_ids": [
+      "870a128afa72dc04ca4aa35f"
+    ],
+    "context_chars": 550,
+    "elapsed_ms": 23.00909999758005,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "dev-015",
+    "split": "dev",
+    "question": "What does the qui tam provision allow private persons called relators to do?",
+    "strategy": "dense",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 212,
+        "evidence": "More importantly for our discussion, the qui tam provision of the law allows private persons (called relators) to file lawsuits for violations of the FCA on behalf of the government and to receive part of any penalty imposed. The person bringing the action is a type of a whistleblower, but one who initiates legal action on his or her own rather than simply reporting it to a government agency."
+      }
+    ],
+    "results": [
+      {
+        "id": "3d4ecf10cc3a13f0786f776d",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 212,
+        "text": "More importantly for our discussion, the qui tam provision of the law allows private persons (called relators) to file lawsuits for violations of the FCA on behalf of the government and to receive part of any penalty imposed. The person bringing the action is a type of a whistleblower, but one who initiates legal action on his or her own rather than simply reporting it to a government agency.",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 6,
+          "printed_page": 202,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 395,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.8754505440861327,
+        "strategy": "dense",
+        "rank": 1,
+        "hit": true
+      },
+      {
+        "id": "5f2e37d20ab948260616904a",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 212,
+        "text": "If the government believes it is a worthwhile case and intervenes in the lawsuit, then the relator (whistleblower) is entitled to receive between 15 and 25 percent of the amount the government recovers. If the government thinks winning is a long shot and declines to intervene in the lawsuit, the relator’s share increases to 25 to 30 percent.",
+        "metadata": {
+          "chapter": 7,
+          "chunking": "blocks",
+          "chunk_index": 7,
+          "printed_page": 202,
+          "chapter_title": "What Employees Owe Employers",
+          "character_count": 343,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.6379002764343931,
+        "strategy": "dense",
+        "rank": 2,
+        "hit": false
+      },
+      {
+        "id": "f4232e044479f38d724fbb6b",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 180,
+        "text": "To prevail on a common law claim of invasion of privacy, which is a tort, the employee must demonstrate a right to privacy with respect to the information being monitored. Several state constitutions, such as those in Louisiana, Florida, South Carolina, and California, expressly provide citizens a right to privacy, which may protect employees with respect to monitoring of their personal electronic information and personal communication in the workplace.",
+        "metadata": {
+          "chapter": 6,
+          "chunking": "blocks",
+          "chunk_index": 2,
+          "printed_page": 170,
+          "chapter_title": "What Employers Owe Employees",
+          "character_count": 457,
+          "chunk_parameters": "500",
+          "extraction_status": "ok"
+        },
+        "score": 0.6359656832197728,
+        "strategy": "dense",
+        "rank": 3,
+        "hit": false
+      }
+    ],
+    "context": "[3d4ecf10cc3a13f0786f776d | data/business-ethics_-_WEB.pdf | page 212]\nMore importantly for our discussion, the qui tam provision of the law allows private persons (called relators) to file lawsuits for violations of the FCA on behalf of the government and to receive part of any penalty imposed. The person bringing the action is a type of a whistleblower, but one who initiates legal action on his or her own rather than simply reporting it to a government agency.",
+    "context_ids": [
+      "3d4ecf10cc3a13f0786f776d"
+    ],
+    "context_chars": 466,
+    "elapsed_ms": 13.810599979478866,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  }
+]

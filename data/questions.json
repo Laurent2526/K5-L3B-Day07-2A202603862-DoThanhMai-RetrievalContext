@@ -1,0 +1,228 @@
+[
+  {
+    "id": "dev-001",
+    "split": "dev",
+    "answerable": true,
+    "question": "According to the textbook, in what year was the Occupational Safety and Health Act passed?",
+    "expected_answer": "1970.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 157,
+        "evidence": "Workplace Safety under the Occupational Safety and Health Act The primary federal law ensuring physical safety on the job is the Occupational Safety and Health Act (OSHA), which was passed in 1970.5 The goal of the law is to ensure that employers provide a workplace environment free of risk to employees’ safety and health, such as mechanical or electrical dangers, toxic chemicals, severe heat or cold, unsanitary conditions, and dangerous equipment."
+      }
+    ]
+  },
+  {
+    "id": "dev-002",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which federal department contains the Occupational Safety and Health Administration?",
+    "expected_answer": "The Department of Labor.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 157,
+        "evidence": "OSHA also refers to the Occupational Safety and Health Administration, which operates as a division of the Department of Labor and oversees enforcement of the law. This act created the National Institute for Occupational Safety and Health (NIOSH), which serves as the research institute for OSHA and enunciates appropriate standards for safety and health on the job."
+      }
+    ]
+  },
+  {
+    "id": "dev-003",
+    "split": "dev",
+    "answerable": true,
+    "question": "What does OSHA do after an anonymous worker report if it finds reasonable grounds to believe a violation exists?",
+    "expected_answer": "It inspects the workplace and reports findings, including needed corrective steps, to the employer and employee or their representatives.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 158,
+        "evidence": "OSHA about workplace conditions or hazards.6 A worker who believes his or her OSHA rights are being violated can make an anonymous report. OSHA will then establish whether there are reasonable grounds for believing a violation exists. If so, OSHA will conduct an inspection of the workplace and report any findings to the employer and employee, or their representatives, including any steps needed to correct safety and health issues."
+      }
+    ]
+  },
+  {
+    "id": "dev-004",
+    "split": "dev",
+    "answerable": true,
+    "question": "Which part of the Civil Rights Act does the EEOC enforce to prohibit workplace discrimination including sexual harassment?",
+    "expected_answer": "Title VII of the Civil Rights Act of 1964.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 159,
+        "evidence": "More than thirty thousand complaints of sexual, gender, racial, or creedal harassment are filed each year, illustrating the frequency of the problem.10 The EEOC enforces Title VII of the Civil Rights Act (CRA) of 1964, which prohibits workplace discrimination including sexual harassment.11 (As discussed elsewhere in the text, the CRA also protects employees from discrimination based on race, gender, religion, and national origin.)"
+      }
+    ]
+  },
+  {
+    "id": "dev-005",
+    "split": "dev",
+    "answerable": true,
+    "question": "What does quid pro quo mean in the discussion of sexual harassment?",
+    "expected_answer": "Explicit offers in exchange for sexual favors.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 159,
+        "evidence": "According to EEOC guidelines, it is unlawful to sexually harass a person because of that person’s sex, either through explicit offers in exchange for sexual favors (known as quid pro quo) or through actions at a broader more systemic level that create a “hostile working environment.” Sexual harassment includes unwelcome touching, requests for sexual favors, any other verbal or physical harassment of a sexual nature, offensive remarks based on a person’s sex, and off-color jokes."
+      }
+    ]
+  },
+  {
+    "id": "dev-006",
+    "split": "dev",
+    "answerable": true,
+    "question": "What percentages of workers aged eighteen to thirty-five rank career advancement and work-life balance as most important at work?",
+    "expected_answer": "Career advancement: 32%; work-life balance: 33%.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 163,
+        "evidence": "Workers aged eighteen to thirty-five rank career advancement opportunities (32%) and work-life balance (33%) as most important to them at work. However, 42 percent of workers older than thirty-five say work-life balance is the most important feature. This is likely because Generation X (born in the years 1965–1980) place a high value on opportunities for work-life balance, although, like Baby Boomers (born in the years 1946–1964), they also value salary and a solid retirement plan."
+      }
+    ]
+  },
+  {
+    "id": "dev-007",
+    "split": "dev",
+    "answerable": true,
+    "question": "In the comparison of land professionals with one to five years of experience and a bachelor degree, how much more did men earn per year than women?",
+    "expected_answer": "Men earned $7,000 more per year.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 168,
+        "evidence": "Median salaries were compared for male and female land professionals with similar experience (one to five years) and educational background (bachelor’s degree), and men earned $7000 more per year than their female counterparts.26 Doesn’t the law require men and women to be paid the same? The answer is yes and no. Compensation discrimination has been illegal for more than fifty years under a U.S. law called the Equal Pay Act, passed in 1963. But the problem persists."
+      }
+    ]
+  },
+  {
+    "id": "dev-008",
+    "split": "dev",
+    "answerable": true,
+    "question": "Under the comparable worth concept, what should determine worker pay?",
+    "expected_answer": "The worth of the job to the organization.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 169,
+        "evidence": "The idea of pay equivalency is closely related to comparable worth, a concept that has been put into action on a limited basis over the years, but never on a large scale. Comparable worth holds that workers should be paid on the basis of the worth of their job to the organization. Equivalent work and comparable worth can be important next steps in the path to equal pay, but they are challenging to implement because they require rethinking the entire basis for pay decisions.\n\nLINK TO LEARNING"
+      }
+    ]
+  },
+  {
+    "id": "dev-009",
+    "split": "dev",
+    "answerable": true,
+    "question": "What role do unions play in collective bargaining, and what agreement does the process seek?",
+    "expected_answer": "Unions represent employees as agents, lawyers, or negotiators to obtain management agreement to a fair employment contract for union members.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 172,
+        "evidence": "Unions act as the agent/lawyer/negotiator for employees during collective bargaining, a negotiation process aimed at getting management’s agreement to a fair employment contract for members of the union. Everyone wants to be successful in any important negotiation, and people often turn to professionals to help them in such a situation. However, in the United States, as elsewhere around the globe, the concept of worker organization has been about more than simply good representation."
+      }
+    ]
+  },
+  {
+    "id": "dev-010",
+    "split": "dev",
+    "answerable": true,
+    "question": "In the Security versus Privacy jewelry-store scenario, how many employees does the manager oversee?",
+    "expected_answer": "150 employees.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 181,
+        "evidence": "Security versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer."
+      }
+    ]
+  },
+  {
+    "id": "dev-011",
+    "split": "dev",
+    "answerable": true,
+    "question": "According to the PayScale report cited in the textbook, what are the two leading reasons people give for leaving their jobs, in order?",
+    "expected_answer": "First, higher pay; second, personal reasons such as family, health, marriage, or spousal relocation.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 192,
+        "evidence": "According to PayScale’s Compensation Best Practices Report, the two leading motivators people give for leaving their job are first, higher pay, and second, personal reasons (e.g., family, health, marriage, spousal relocation).7 Of course, beyond money, workers seek meaning in their work, and it is largely true that money alone does not motivate employees to higher performance. However, it is a mistake for managers to think money is not a central factor influencing employees’ job satisfaction."
+      }
+    ]
+  },
+  {
+    "id": "dev-012",
+    "split": "dev",
+    "answerable": true,
+    "question": "According to the textbook discussion, by which two dimensions are enforceable non-compete agreements usually limited?",
+    "expected_answer": "Time and distance: a defined duration and a defined radius of the employer operations.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 194,
+        "evidence": "To be enforceable, non-compete agreements are usually limited by time and distance (i.e., they are in effect for a certain number of months or years and within a certain radius of the employer’s operations). However, some companies have begun requiring these agreements even from mid- and lower- level workers in an attempt to prevent them from changing jobs, including those who have no access to any confidential intellectual property. About 20 percent of the U.S."
+      }
+    ]
+  },
+  {
+    "id": "dev-013",
+    "split": "dev",
+    "answerable": true,
+    "question": "How much did the jury award Lockard, and what did the appeals court do?",
+    "expected_answer": "The jury awarded her $360,000, and the appeals court upheld the judgment.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 199,
+        "evidence": "Although it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking"
+      }
+    ]
+  },
+  {
+    "id": "dev-014",
+    "split": "dev",
+    "answerable": true,
+    "question": "What legal penalties can insider trading and bribery result in, according to the textbook?",
+    "expected_answer": "Incarceration and large fines.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 204,
+        "evidence": "• Discuss bribery and its legal and ethical consequences Employees may face ethical dilemmas in the area of finance, especially in situations such as bribery and insider trading in securities. Such dubious “profit opportunities” can offer the chance of realizing thousands or millions of dollars, creating serious temptation for an employee. However, insider trading and bribery are serious violations of the law that can result in incarceration and large fines.\n\nInsider Trading"
+      }
+    ]
+  },
+  {
+    "id": "dev-015",
+    "split": "dev",
+    "answerable": true,
+    "question": "What does the qui tam provision allow private persons called relators to do?",
+    "expected_answer": "File lawsuits for violations of the False Claims Act on behalf of the government and receive part of any penalty imposed.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 212,
+        "evidence": "More importantly for our discussion, the qui tam provision of the law allows private persons (called relators) to file lawsuits for violations of the FCA on behalf of the government and to receive part of any penalty imposed. The person bringing the action is a type of a whistleblower, but one who initiates legal action on his or her own rather than simply reporting it to a government agency."
+      }
+    ]
+  },
+  {
+    "id": "dev-016",
+    "split": "dev",
+    "answerable": false,
+    "question": "In the Security versus Privacy jewelry-store scenario, what are the names of the two employees responsible for the missing inventory?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The scenario describes suspicions, not an identified culprit. Reviewed the jewelry-store scenario and surrounding chunks on PDF pages 181-182 and searched the corpus for jewelry, inventory, and stealing; the corpus does not identify two responsible employees. Do not infer names or guilt from suspicion."
+  },
+  {
+    "id": "dev-017",
+    "split": "dev",
+    "answerable": false,
+    "question": "In the Lockard workplace harassment case, what was the exact calendar date (day, month, and year) of the jury verdict awarding $360,000?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Reviewed the Lockard case and surrounding chunks on PDF pages 198-199, and searched all chunks mentioning Lockard, jury, verdict, and 360,000. The award and appeal outcome are given, but the exact day, month, and year of the jury verdict are not provided."
+  }
+]

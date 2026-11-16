@@ -1,0 +1,269 @@
+[
+  {
+    "query_id": "test-001",
+    "question": "According to the textbook, by what percentage did the inflation-adjusted real minimum wage decline in the nearly six decades since 1960?",
+    "expected_answer": "It declined by 23 percent.",
+    "absence_reason": null,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 166,
+        "evidence": "Compare the twenty-year period of 1949 through 1968 with the fifty-year period from 1968 through 2017. The difference has created a sobering reality for many workers. In the nearly six decades since 1960, the inflation- adjusted real minimum wage actually declined by 23 percent. That means minimum-wage workers did not even break even; the value of their wages declined over fifty years, meaning they have effectively worked half a century with no raise."
+      }
+    ],
+    "answer": "According to the textbook, the inflation-adjusted real minimum wage declined by 23 percent in the nearly six decades since 1960 [1f81c437b2291175e605cf0c].",
+    "context": "[1f81c437b2291175e605cf0c | data/business-ethics_-_WEB.pdf | page 166]\nCompare the twenty-year period of 1949 through 1968 with the fifty-year period from 1968 through 2017. The difference has created a sobering reality for many workers. In the nearly six decades since 1960, the inflation- adjusted real minimum wage actually declined by 23 percent. That means minimum-wage workers did not even break even; the value of their wages declined over fifty years, meaning they have effectively worked half a century with no raise.",
+    "citation_sources": [
+      {
+        "id": "1f81c437b2291175e605cf0c",
+        "text": "Compare the twenty-year period of 1949 through 1968 with the fifty-year period from 1968 through 2017. The difference has created a sobering reality for many workers. In the nearly six decades since 1960, the inflation- adjusted real minimum wage actually declined by 23 percent. That means minimum-wage workers did not even break even; the value of their wages declined over fifty years, meaning they have effectively worked half a century with no raise.",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 166,
+        "metadata": {
+          "extraction_status": "ok",
+          "chapter": 6,
+          "chapter_title": "What Employers Owe Employees",
+          "printed_page": 156,
+          "chunking": "blocks",
+          "chunk_index": 2,
+          "character_count": 455,
+          "chunk_parameters": "500",
+          "strategy": "B",
+          "license": "CC BY-NC-SA 4.0",
+          "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+        }
+      }
+    ],
+    "review": {
+      "query_id": "test-001",
+      "reviewer": "AI-assisted test draft",
+      "human_confirmed": false,
+      "raw_status": "answered",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "answer_grade": 2,
+      "semantic_status": "answered",
+      "reason": "Nội dung đáp án và điều kiện/số liệu khớp nguồn; citation có trong context và hỗ trợ các phần được nêu."
+    }
+  },
+  {
+    "query_id": "test-002",
+    "question": "According to the textbook discussion of workplace drug testing, which type of testing is most common?",
+    "expected_answer": "Testing job applicants is the most common form of drug testing.",
+    "absence_reason": null,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 182,
+        "evidence": "specific procedure that must be followed. However, for the most part, drug testing is not mandatory and depends on whether the employer wants to do it. Multiple states do regulate drug testing, but to varying degrees, and there is no common standard to be followed. Testing of job applicants is the most common form of drug testing."
+      }
+    ],
+    "answer": "The most common type of workplace drug testing is testing of job applicants [cf8c4caf1b2a8e82712dfa5c].",
+    "context": "[cf8c4caf1b2a8e82712dfa5c | data/business-ethics_-_WEB.pdf | page 182]\nspecific procedure that must be followed. However, for the most part, drug testing is not mandatory and depends on whether the employer wants to do it. Multiple states do regulate drug testing, but to varying degrees, and there is no common standard to be followed. Testing of job applicants is the most common form of drug testing.",
+    "citation_sources": [
+      {
+        "id": "cf8c4caf1b2a8e82712dfa5c",
+        "text": "specific procedure that must be followed. However, for the most part, drug testing is not mandatory and depends on whether the employer wants to do it. Multiple states do regulate drug testing, but to varying degrees, and there is no common standard to be followed. Testing of job applicants is the most common form of drug testing.",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 182,
+        "metadata": {
+          "extraction_status": "ok",
+          "chapter": 6,
+          "chapter_title": "What Employers Owe Employees",
+          "printed_page": 172,
+          "chunking": "blocks",
+          "chunk_index": 0,
+          "character_count": 332,
+          "chunk_parameters": "500",
+          "strategy": "B",
+          "license": "CC BY-NC-SA 4.0",
+          "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+        }
+      }
+    ],
+    "review": {
+      "query_id": "test-002",
+      "reviewer": "AI-assisted test draft",
+      "human_confirmed": false,
+      "raw_status": "answered",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "answer_grade": 2,
+      "semantic_status": "answered",
+      "reason": "Nội dung đáp án và điều kiện/số liệu khớp nguồn; citation có trong context và hỗ trợ các phần được nêu."
+    }
+  },
+  {
+    "query_id": "test-003",
+    "question": "What examples of company information does the text say employees should keep confidential rather than share with competitors or the media?",
+    "expected_answer": "Proprietary information; details of patents and copyrights; employee records and salary histories; and customer-related data.",
+    "absence_reason": null,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 193,
+        "evidence": "In the competitive world of business, many employees encounter information in their day-to-day work that their employers reasonably expect they will keep confidential. Proprietary (private) information, the details of patents and copyrights, employee records and salary histories, and customer-related data are valued company assets that must remain in-house, not in the hands of competitors, trade publications, or the news media."
+      }
+    ],
+    "answer": "Employees should keep confidential proprietary (private) information, the details of patents and copyrights, employee records and salary histories, and customer-related data rather than share them with competitors or the media [6f3ace6f32eea6e37682992f].",
+    "context": "[6f3ace6f32eea6e37682992f | data/business-ethics_-_WEB.pdf | page 193]\nIn the competitive world of business, many employees encounter information in their day-to-day work that their employers reasonably expect they will keep confidential. Proprietary (private) information, the details of patents and copyrights, employee records and salary histories, and customer-related data are valued company assets that must remain in-house, not in the hands of competitors, trade publications, or the news media.",
+    "citation_sources": [
+      {
+        "id": "6f3ace6f32eea6e37682992f",
+        "text": "In the competitive world of business, many employees encounter information in their day-to-day work that their employers reasonably expect they will keep confidential. Proprietary (private) information, the details of patents and copyrights, employee records and salary histories, and customer-related data are valued company assets that must remain in-house, not in the hands of competitors, trade publications, or the news media.",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 193,
+        "metadata": {
+          "extraction_status": "ok",
+          "chapter": 7,
+          "chapter_title": "What Employees Owe Employers",
+          "printed_page": 183,
+          "chunking": "blocks",
+          "chunk_index": 5,
+          "character_count": 431,
+          "chunk_parameters": "500",
+          "strategy": "B",
+          "license": "CC BY-NC-SA 4.0",
+          "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+        }
+      }
+    ],
+    "review": {
+      "query_id": "test-003",
+      "reviewer": "AI-assisted test draft",
+      "human_confirmed": false,
+      "raw_status": "answered",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "answer_grade": 2,
+      "semantic_status": "answered",
+      "reason": "Nội dung đáp án và điều kiện/số liệu khớp nguồn; citation có trong context và hỗ trợ các phần được nêu."
+    }
+  },
+  {
+    "query_id": "test-004",
+    "question": "According to the textbook, whom does the FCPA prohibit an agent of a US-incorporated company from bribing to obtain a business advantage abroad, and what private-sector situation is not specifically prohibited by that provision?",
+    "expected_answer": "It prohibits bribing a foreign government official for business advantage; it does not specifically prohibit bribing a private officer of a nongovernmental company in a foreign country.",
+    "absence_reason": null,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 207,
+        "evidence": "The FCPA prohibits an agent of any company incorporated in the United States from extending a bribe to a foreign government official to achieve a business advantage in that country, but it does not specifically prohibit the extension of a bribe to a private officer of a nongovernmental company in a foreign country."
+      }
+    ],
+    "answer": "The Foreign Corrupt Practices Act (FCPA) prohibits an agent of any company incorporated in the United States from extending a bribe to a foreign government official to obtain a business advantage abroad. However, the FCPA does not specifically prohibit the extension of a bribe to a private officer of a nongovernmental company in a foreign country. This means that bribery involving private-sector officers in foreign companies is not specifically covered by the FCPA under that provision [b465fe209a26d7fcc1703a48].",
+    "context": "[b465fe209a26d7fcc1703a48 | data/business-ethics_-_WEB.pdf | page 207]\nThe FCPA prohibits an agent of any company incorporated in the United States from extending a bribe to a foreign government official to achieve a business advantage in that country, but it does not specifically prohibit the extension of a bribe to a private officer of a nongovernmental company in a foreign country.\n\n[d2bfda1d7b79570b12679854 | data/business-ethics_-_WEB.pdf | page 207]\nlaw prohibiting bribery in international business dealings is the Foreign Corrupt Practices Act (FCPA), which is an amendment to the Securities and Exchange Act of 1934, one of the most important laws promoting transparency in corporate governance. The FCPA dates to 1977 and was amended in 1988 and 1998.",
+    "citation_sources": [
+      {
+        "id": "b465fe209a26d7fcc1703a48",
+        "text": "The FCPA prohibits an agent of any company incorporated in the United States from extending a bribe to a foreign government official to achieve a business advantage in that country, but it does not specifically prohibit the extension of a bribe to a private officer of a nongovernmental company in a foreign country.",
+        "source_id": "openstax-business-ethics-web",
+        "source": "data/business-ethics_-_WEB.pdf",
+        "page": 207,
+        "metadata": {
+          "extraction_status": "ok",
+          "chapter": 7,
+          "chapter_title": "What Employees Owe Employers",
+          "printed_page": 197,
+          "chunking": "blocks",
+          "chunk_index": 4,
+          "character_count": 316,
+          "chunk_parameters": "500",
+          "strategy": "B",
+          "license": "CC BY-NC-SA 4.0",
+          "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+        }
+      }
+    ],
+    "review": {
+      "query_id": "test-004",
+      "reviewer": "AI-assisted test draft",
+      "human_confirmed": false,
+      "raw_status": "answered",
+      "citation_support": [
+        true
+      ],
+      "context_grade": 2,
+      "answer_grade": 2,
+      "semantic_status": "answered",
+      "reason": "Nội dung đáp án và điều kiện/số liệu khớp nguồn; citation có trong context và hỗ trợ các phần được nêu."
+    }
+  },
+  {
+    "query_id": "test-005",
+    "question": "What motives does the textbook describe as appropriate for whistleblowing, and what motive does it reject?",
+    "expected_answer": "Appropriate motives are getting the company to comply with the law or protecting potential victims; revenge on a boss is not an appropriate motive.",
+    "absence_reason": null,
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 211,
+        "evidence": "Blowing the whistle on your employer is thus a big decision with significant ramifications. However, most employees do not want to cover up unethical or illegal conduct, nor should they. When should employees decide to blow the whistle on their boss or company? Ethicists say it should be done with an appropriate motive—to get the company to comply with the law or to protect potential victims—and not to get revenge on a boss at whom you are angry."
+      }
+    ],
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "[754730744dcdf98b3276073d | data/business-ethics_-_WEB.pdf | page 211]\nWhistleblowing: Risks and Rewards The act of whistleblowing—going to an official government agency and disclosing an employer’s violation of the law—is different from everyday criticism. In fact, whistleblowing is largely viewed as a public service because it helps society reduce bad workplace behavior. Being a whistleblower is not easy, however, and someone inclined to act as one should expect many hurdles.",
+    "citation_sources": [],
+    "review": {
+      "query_id": "test-005",
+      "reviewer": "AI-assisted test draft",
+      "human_confirmed": false,
+      "raw_status": "abstain",
+      "citation_support": [],
+      "context_grade": 0,
+      "answer_grade": 0,
+      "semantic_status": "abstain",
+      "reason": "Context cuối không chứa evidence về động cơ whistleblowing. Agent tìm lặp và chạm search_limit; từ chối nhầm câu có đáp án nên điểm 0."
+    }
+  },
+  {
+    "query_id": "test-006",
+    "question": "What exact monthly salary in US dollars does the textbook give for Kathy Fryman in the customer-service case?",
+    "expected_answer": null,
+    "absence_reason": "Reviewed all Fryman references and surrounding source passages on PDF pages 198-199 and searched the 449-chunk corpus for Fryman, salary and pay schedules. The text says her salary was fixed by school district pay schedules but supplies no dollar amount or monthly rate. Do not infer salary from job title or years of service.",
+    "gold": null,
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "[f265916cf8a62a9510f45102 | data/business-ethics_-_WEB.pdf | page 198]\nSometimes engaged employees go above and beyond in the interest of customer service, even if they have no “customers” to speak of. Kathy Fryman is one such employee. Fryman was a custodian for three decades at a one hundred-year-old school in the Augusta (KY) Independent School District.",
+    "citation_sources": [],
+    "review": {
+      "query_id": "test-006",
+      "reviewer": "AI-assisted test draft",
+      "human_confirmed": false,
+      "raw_status": "abstain",
+      "citation_support": [],
+      "semantic_status": "abstain",
+      "abstention_correct": true,
+      "reason": "Kết quả cuối báo không đủ bằng chứng và không đưa ra mức lương/ngày tháng không có nguồn. Guard dừng do search_limit, không đồng nghĩa model chủ động kết luận thiếu thông tin."
+    }
+  },
+  {
+    "query_id": "test-007",
+    "question": "On what exact calendar date (day, month and year) did Ivan Boesky first pay Dennis Levine for pretakeover information, according to the textbook?",
+    "expected_answer": null,
+    "absence_reason": "Reviewed all references to Boesky, Levine and Siegel and the insider-trading case on PDF page 205. The text describes payments in the 1980s, investigations and penalties, but does not specify the day, month and year of the first payment. General decade information cannot answer an exact-date question.",
+    "gold": null,
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "[05a8a364b685fc71cfcd75a0 | data/business-ethics_-_WEB.pdf | page 205]\nBoesky went to the source—the major investment banks—to get insider information. He paid Levine and Siegel to give him pretakeover details, an illegal action, and he profited enormously from nearly every major deal in the merger-crazy 1980s, including huge deals involving oil companies such as Texaco, Getty, Gulf, and Chevron. The SEC started to become suspicious after receiving a tip that someone was leaking information.",
+    "citation_sources": [],
+    "review": {
+      "query_id": "test-007",
+      "reviewer": "AI-assisted test draft",
+      "human_confirmed": false,
+      "raw_status": "abstain",
+      "citation_support": [],
+      "semantic_status": "abstain",
+      "abstention_correct": true,
+      "reason": "Kết quả cuối báo không đủ bằng chứng và không đưa ra mức lương/ngày tháng không có nguồn. Guard dừng do search_limit, không đồng nghĩa model chủ động kết luận thiếu thông tin."
+    }
+  }
+]

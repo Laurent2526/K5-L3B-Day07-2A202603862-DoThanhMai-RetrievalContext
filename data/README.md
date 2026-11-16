@@ -1,5 +1,18 @@
 # Định dạng dữ liệu
 
+## Dữ liệu mình dùng trong bài
+
+- `day6_chunks_B.json`: 449 chunks từ cấu hình B của Day 6.
+- `questions.json`: 17 câu dev, gồm 15 câu có đáp án và 2 câu thiếu bằng chứng.
+- `questions_test.json`: 7 câu test mới, gồm 5 câu có đáp án và 2 câu thiếu bằng chứng.
+- `source_manifest.json`: nguồn sách, giấy phép, trang được chọn và thông tin embedding.
+- `test_manifest.json`: hash bộ test và cấu hình đã chốt trước khi tạo test.
+
+Các file `example_*.json` và `agent_cases_example.json` là mẫu của đề, không
+phải dữ liệu được dùng trong các bảng kết quả của mình.
+
+## Schema
+
 Các file `example_*.json` chỉ minh họa định dạng, không đủ để nộp bài. Dữ liệu thật là JSON array UTF-8; nếu dùng định dạng khác, ghi cách chuyển trong README.
 
 - **Chunk:** `id`, `text`, `source_id`, `source`, `page`, `metadata`. ID phải duy nhất; giữ phiên bản hoặc ngày nếu có.

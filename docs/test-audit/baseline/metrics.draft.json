@@ -1,0 +1,78 @@
+{
+  "review_status": "AI_DRAFT_NOT_HUMAN_CONFIRMED",
+  "configuration": "baseline",
+  "trace_sha256": "ca6e841ad74614622210827021070c73f77ca6dcac998ddb241c749dcbef86cc",
+  "raw_statuses": {
+    "answered": 4,
+    "abstain": 3
+  },
+  "semantic_statuses": {
+    "answered": 4,
+    "abstain": 3
+  },
+  "metrics_semantic_review": {
+    "cases": 7,
+    "provider_errors": 0,
+    "tool_use": {
+      "n": 7,
+      "N": 7
+    },
+    "grounded_answer": {
+      "0": 1,
+      "1": 0,
+      "2": 4,
+      "N": 5,
+      "mean": 1.6
+    },
+    "citation_validity": {
+      "n": 4,
+      "N": 4
+    },
+    "answer_citation_coverage": {
+      "n": 4,
+      "N": 4
+    },
+    "abstention": {
+      "n": 2,
+      "N": 2
+    },
+    "false_abstention": {
+      "n": 1,
+      "N": 5
+    }
+  },
+  "abstention_by_raw_status": {
+    "n": 2,
+    "N": 2
+  },
+  "retrieval_first_agent_query": {
+    "hit1": {
+      "n": 4,
+      "N": 5
+    },
+    "hit3": {
+      "n": 4,
+      "N": 5
+    }
+  },
+  "context_evidence_rate": {
+    "n": 4,
+    "N": 5
+  },
+  "context_grades": {
+    "0": 1,
+    "1": 0,
+    "2": 4
+  },
+  "median_seconds": 5.320644200022798,
+  "search_distribution": {
+    "1": 4,
+    "3": 3
+  },
+  "usage": {
+    "input_tokens": 9413,
+    "output_tokens": 695,
+    "total_tokens": 10108
+  },
+  "limitation": "Semantic abstention is an explicit AI-assisted review; human confirmation pending. agent_metrics.py directly on raw selected traces rejects abstention_correct=true for an answered status; use this report to disclose the mismatch, not to rewrite traces."
+}

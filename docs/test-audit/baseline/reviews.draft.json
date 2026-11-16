@@ -1,0 +1,85 @@
+[
+  {
+    "query_id": "test-001",
+    "reviewer": "AI-assisted test draft",
+    "human_confirmed": false,
+    "raw_status": "answered",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "answer_grade": 2,
+    "semantic_status": "answered",
+    "reason": "Nội dung đáp án và điều kiện/số liệu khớp nguồn; citation có trong context và hỗ trợ các phần được nêu."
+  },
+  {
+    "query_id": "test-002",
+    "reviewer": "AI-assisted test draft",
+    "human_confirmed": false,
+    "raw_status": "answered",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "answer_grade": 2,
+    "semantic_status": "answered",
+    "reason": "Nội dung đáp án và điều kiện/số liệu khớp nguồn; citation có trong context và hỗ trợ các phần được nêu."
+  },
+  {
+    "query_id": "test-003",
+    "reviewer": "AI-assisted test draft",
+    "human_confirmed": false,
+    "raw_status": "answered",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "answer_grade": 2,
+    "semantic_status": "answered",
+    "reason": "Nội dung đáp án và điều kiện/số liệu khớp nguồn; citation có trong context và hỗ trợ các phần được nêu."
+  },
+  {
+    "query_id": "test-004",
+    "reviewer": "AI-assisted test draft",
+    "human_confirmed": false,
+    "raw_status": "answered",
+    "citation_support": [
+      true
+    ],
+    "context_grade": 2,
+    "answer_grade": 2,
+    "semantic_status": "answered",
+    "reason": "Nội dung đáp án và điều kiện/số liệu khớp nguồn; citation có trong context và hỗ trợ các phần được nêu."
+  },
+  {
+    "query_id": "test-005",
+    "reviewer": "AI-assisted test draft",
+    "human_confirmed": false,
+    "raw_status": "abstain",
+    "citation_support": [],
+    "context_grade": 0,
+    "answer_grade": 0,
+    "semantic_status": "abstain",
+    "reason": "Context cuối không chứa evidence về động cơ whistleblowing. Agent tìm lặp và chạm search_limit; từ chối nhầm câu có đáp án nên điểm 0."
+  },
+  {
+    "query_id": "test-006",
+    "reviewer": "AI-assisted test draft",
+    "human_confirmed": false,
+    "raw_status": "abstain",
+    "citation_support": [],
+    "semantic_status": "abstain",
+    "abstention_correct": true,
+    "reason": "Kết quả cuối báo không đủ bằng chứng và không đưa ra mức lương/ngày tháng không có nguồn. Guard dừng do search_limit, không đồng nghĩa model chủ động kết luận thiếu thông tin."
+  },
+  {
+    "query_id": "test-007",
+    "reviewer": "AI-assisted test draft",
+    "human_confirmed": false,
+    "raw_status": "abstain",
+    "citation_support": [],
+    "semantic_status": "abstain",
+    "abstention_correct": true,
+    "reason": "Kết quả cuối báo không đủ bằng chứng và không đưa ra mức lương/ngày tháng không có nguồn. Guard dừng do search_limit, không đồng nghĩa model chủ động kết luận thiếu thông tin."
+  }
+]

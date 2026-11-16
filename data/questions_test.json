@@ -1,0 +1,88 @@
+[
+  {
+    "id": "test-001",
+    "split": "test",
+    "answerable": true,
+    "question": "According to the textbook, by what percentage did the inflation-adjusted real minimum wage decline in the nearly six decades since 1960?",
+    "expected_answer": "It declined by 23 percent.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 166,
+        "evidence": "Compare the twenty-year period of 1949 through 1968 with the fifty-year period from 1968 through 2017. The difference has created a sobering reality for many workers. In the nearly six decades since 1960, the inflation- adjusted real minimum wage actually declined by 23 percent. That means minimum-wage workers did not even break even; the value of their wages declined over fifty years, meaning they have effectively worked half a century with no raise."
+      }
+    ]
+  },
+  {
+    "id": "test-002",
+    "split": "test",
+    "answerable": true,
+    "question": "According to the textbook discussion of workplace drug testing, which type of testing is most common?",
+    "expected_answer": "Testing job applicants is the most common form of drug testing.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 182,
+        "evidence": "specific procedure that must be followed. However, for the most part, drug testing is not mandatory and depends on whether the employer wants to do it. Multiple states do regulate drug testing, but to varying degrees, and there is no common standard to be followed. Testing of job applicants is the most common form of drug testing."
+      }
+    ]
+  },
+  {
+    "id": "test-003",
+    "split": "test",
+    "answerable": true,
+    "question": "What examples of company information does the text say employees should keep confidential rather than share with competitors or the media?",
+    "expected_answer": "Proprietary information; details of patents and copyrights; employee records and salary histories; and customer-related data.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 193,
+        "evidence": "In the competitive world of business, many employees encounter information in their day-to-day work that their employers reasonably expect they will keep confidential. Proprietary (private) information, the details of patents and copyrights, employee records and salary histories, and customer-related data are valued company assets that must remain in-house, not in the hands of competitors, trade publications, or the news media."
+      }
+    ]
+  },
+  {
+    "id": "test-004",
+    "split": "test",
+    "answerable": true,
+    "question": "According to the textbook, whom does the FCPA prohibit an agent of a US-incorporated company from bribing to obtain a business advantage abroad, and what private-sector situation is not specifically prohibited by that provision?",
+    "expected_answer": "It prohibits bribing a foreign government official for business advantage; it does not specifically prohibit bribing a private officer of a nongovernmental company in a foreign country.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 207,
+        "evidence": "The FCPA prohibits an agent of any company incorporated in the United States from extending a bribe to a foreign government official to achieve a business advantage in that country, but it does not specifically prohibit the extension of a bribe to a private officer of a nongovernmental company in a foreign country."
+      }
+    ]
+  },
+  {
+    "id": "test-005",
+    "split": "test",
+    "answerable": true,
+    "question": "What motives does the textbook describe as appropriate for whistleblowing, and what motive does it reject?",
+    "expected_answer": "Appropriate motives are getting the company to comply with the law or protecting potential victims; revenge on a boss is not an appropriate motive.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 211,
+        "evidence": "Blowing the whistle on your employer is thus a big decision with significant ramifications. However, most employees do not want to cover up unethical or illegal conduct, nor should they. When should employees decide to blow the whistle on their boss or company? Ethicists say it should be done with an appropriate motive—to get the company to comply with the law or to protect potential victims—and not to get revenge on a boss at whom you are angry."
+      }
+    ]
+  },
+  {
+    "id": "test-006",
+    "split": "test",
+    "answerable": false,
+    "question": "What exact monthly salary in US dollars does the textbook give for Kathy Fryman in the customer-service case?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Reviewed all Fryman references and surrounding source passages on PDF pages 198-199 and searched the 449-chunk corpus for Fryman, salary and pay schedules. The text says her salary was fixed by school district pay schedules but supplies no dollar amount or monthly rate. Do not infer salary from job title or years of service."
+  },
+  {
+    "id": "test-007",
+    "split": "test",
+    "answerable": false,
+    "question": "On what exact calendar date (day, month and year) did Ivan Boesky first pay Dennis Levine for pretakeover information, according to the textbook?",
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Reviewed all references to Boesky, Levine and Siegel and the insider-trading case on PDF page 205. The text describes payments in the 1980s, investigations and penalties, but does not specify the day, month and year of the first payment. General decade information cannot answer an exact-date question."
+  }
+]

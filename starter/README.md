@@ -1,4 +1,46 @@
-# Starter Day 7
+# Code triển khai Day 7
+
+Mình mở rộng khung có sẵn để thử ba cách retrieval và xây agent. Bài hiện dùng
+OpenAI `gpt-4.1-mini`; Gemini được giữ lại từ các lần thử trước. Các lệnh chạy
+đầy đủ nằm trong [RUNBOOK](../docs/RUNBOOK.md).
+
+## Agent Gemini
+
+Cài `python -m pip install --upgrade google-genai`, đặt `GEMINI_API_KEY`
+trong môi trường và chọn model bằng `--model` hoặc `GEMINI_MODEL`.
+Không ghi key vào source hay commit `.env`.
+
+```powershell
+python starter/gemini_agent.py --chunks data/day6_chunks_B.json --questions data/questions.json --split dev --query-id dev-001 --model gemini-flash-latest --output starter/results/agent-gemini-smoke
+```
+
+Adapter dùng Gemini Interactions API `v1beta`, function calling thủ công, TF-IDF
+local và cùng prompt/context budget với agent OpenAI. Bỏ `--query-id` để chạy
+cả split, gồm câu thiếu evidence. Mỗi output directory phải mới. Không gửi gold
+hoặc đáp án chuẩn tới model. Trace ghi model version thực tế, token usage,
+tool calls và context; chi phí chưa tính là `null`, không mặc định bằng 0.
+Alias `gemini-flash-latest` có thể thay đổi model; dùng model version cụ thể
+còn được tài khoản hỗ trợ khi chốt cấu hình. Cần tự chấm grounding, citation
+và abstention; unit test hiện có không thay thế lần gọi Gemini thật.
+
+## Dense và Hybrid trên dữ liệu Day 6
+
+`dense.py` và `hybrid.py` dùng `DATABASE_URL` từ biến môi trường, chỉ đọc
+snapshot B của `BAAI/bge-small-en-v1.5` trong bảng `ingestion_chunks`.
+Cài `psycopg[binary]` và `fastembed==0.9.1`, bật database Day 6 trước khi chạy.
+Các script kiểm tra corpus database khớp `--chunks`, loại câu `answerable: false`
+khỏi retrieval metrics và từ chối ghi đè kết quả đã tồn tại.
+
+```powershell
+python starter/hybrid.py --chunks data/day6_chunks_B.json --questions data/questions.json --split dev --output starter/results/dev-hybrid --candidate-k 10 --rrf-constant 60
+```
+
+Có thể thêm `--cache-dir <cache-FastEmbed-Day6>` để dùng lại model đã tải.
+Hybrid lấy 10 candidates mỗi retriever, cộng `1 / (60 + rank)` theo chunk ID,
+phá hòa theo ID và lấy top-3; giữ context budget 800 ký tự như baseline.
+Trace lưu cả candidates, rank/score thành phần và điểm RRF. Summary ghi
+thời gian setup riêng; thời gian query gồm embedding, SQL, TF-IDF, fusion và
+chọn context. Không dùng gold để truy vấn hay hợp nhất ranking.
 
 | File | Công dụng |
 |---|---|
@@ -6,17 +48,26 @@
 | `baseline.py` | TF-IDF lexical baseline, chạy offline |
 | `convert_day6.py` | Chuyển một số trường JSON từ Day 6 |
 | `agent_metrics.py` | Tổng hợp nhãn đánh giá do bạn tự chấm |
+| `dense.py` | Truy vấn exact cosine trên pgvector, chỉ đọc snapshot B |
+| `hybrid.py` | Kết hợp dense và TF-IDF bằng RRF |
+| `openai_agent.py` | Agent OpenAI, xử lý citation và lưu trace |
+| `gemini_agent.py` | Adapter Gemini dùng lại vòng lặp agent |
 
-Starter **chưa phải solution hoàn chỉnh**. Bạn phải nối model và vector store thật, triển khai ít nhất 3 phương pháp retrieval do bạn chọn, gồm dense trên vector store Day 6. Mock chỉ dùng để test code.
+Mình đã nối model và vector store thật, chạy TF-IDF, dense và hybrid trên dev,
+sau đó đánh giá agent trên dev và test. Các unit test dùng mock để kiểm tra
+logic; kết quả benchmark được lấy từ những lần chạy riêng có lưu trace.
 
 ## 1. Kết nối agent
 
-Trong `agentic.py`, hiện thực:
+`agentic.py` chứa vòng lặp chung với hai interface:
 
-- `Controller.decide`: gọi model thật và trả `{action: "search", query: "..."}` hoặc `{action: "answer", answer: "... [chunk-id]", citations: ["chunk-id"]}`.
-- `Retriever.search`: tạo query embedding tương thích Day 6, truy vấn vector store thật và trả chunk theo [định dạng dữ liệu](../data/README.md).
+- `Controller.decide`: trả yêu cầu `search` hoặc câu trả lời `answer` cùng citations.
+- `Retriever.search`: nhận query và trả các chunk theo [định dạng dữ liệu](../data/README.md).
 
-Tự viết chương trình nối hai phần với `run_agent`, hoặc thay thế bằng kiến trúc nhiều tool. Tham số `max_searches`, `top_k` và `budget` chỉ là mặc định của ví dụ, không phải giới hạn của đề. Xem `tests/test_agentic.py` để hiểu cách gọi; kết nối trong test là mock. Khung code kiểm tra citation ID có trong context, nhưng bạn phải tự đọc xem nguồn có hỗ trợ câu trả lời. Báo lỗi kết nối, không thay bằng kết quả giả.
+Mình nối hai phần này trong `openai_agent.py`. Agent đang dùng TF-IDF; dense và
+hybrid có script benchmark riêng. Các tham số `max_searches`, `top_k` và
+`budget` được truyền qua CLI. Bộ kiểm tra chỉ xác nhận ID citation nằm trong
+context; nội dung có thực sự được nguồn hỗ trợ hay không được chấm riêng.
 
 ## 2. Chạy TF-IDF baseline
 
@@ -58,6 +109,10 @@ Thay đường dẫn trong `< >`. Script tổng hợp nhãn bạn đã chấm, k
 
 ## Lưu ý
 
-TF-IDF dùng cách tách từ đơn giản. `baseline.py` dùng mặc định context budget 800 ký tự, gồm cả nguồn; chunk không vừa bị bỏ. Bạn có thể chọn cách khác. File kết quả cùng tên sẽ bị ghi đè. `starter/data/` và `starter/results/` không được Git theo dõi mặc định; nếu được phép chia sẻ, dùng `git add -f <đường-dẫn>`, hoặc ghi cách tái tạo. Không nộp dữ liệu mật và secret.
+TF-IDF dùng cách tách từ đơn giản. `baseline.py` mặc định gói context tối đa
+800 ký tự, gồm cả nguồn; chunk không vừa sẽ bị bỏ. Script baseline có thể ghi
+đè file cùng tên, còn dense, hybrid và agent yêu cầu thư mục output mới.
+Các thư mục kết quả chính đã được cho phép theo dõi bằng Git trong `.gitignore`.
+Debug cũ nằm trong `_archive/` và không đưa vào bài nộp.
 
 Khung agent ưu tiên giữ chunk từ lần search trước. Khi chunk đầu chiếm gần hết budget, lần search sau có thể không thêm được evidence; hãy kiểm tra trace và thử cách chọn context phù hợp trên dev. Citation ID hợp lệ hoặc verifier trả “đúng” không đảm bảo câu trả lời được hỗ trợ; cần chấm thủ công.

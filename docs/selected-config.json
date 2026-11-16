@@ -1,0 +1,32 @@
+{
+  "status": "frozen_for_test",
+  "selected_at": "2026-11-16T22:25:19.587522+07:00",
+  "selection_basis": "AI-assisted dev audit, three fixed runs; human confirmation remains pending and is not asserted",
+  "provider": "openai",
+  "model": "gpt-4.1-mini",
+  "strategy": "tfidf",
+  "citation_format": "append",
+  "top_k": 5,
+  "budget_chars": 2400,
+  "max_searches": 3,
+  "baseline": {
+    "citation_format": "strict",
+    "top_k": 3,
+    "budget_chars": 800,
+    "max_searches": 3
+  },
+  "selection_rule": "grounded mean, then false abstention, then citation support, then resources",
+  "dev_results": {
+    "baseline": "starter/results/agent-openai-dev-run2",
+    "citation": "starter/results/agent-openai-dev-citation",
+    "selected": "starter/results/agent-openai-dev-context"
+  },
+  "human_review_confirmed": false,
+  "sha256": {
+    "starter/openai_agent.py": "838f6c3d5951c66608e3f860836a84e1b79fb2cb20f43562748cb6657219a332",
+    "starter/agentic.py": "580cc573008f2d0e3cc6fd785d40029934648e6e5e333cdbe86f7f7db40e26a6",
+    "starter/baseline.py": "531d602a10d0307f985e5b1f5636fe6ee4ad281a66f5f4905fd76019a414f3de",
+    "data/day6_chunks_B.json": "4d0c886592204bc903450fb12e00db9af5475fb0c84bc9a3bb4a50be51d08880",
+    "data/questions.json": "3f87e4e34a833896e58f4de9fa1de513a506a0ac3cbc4932ffc9a71a358b7720"
+  }
+}

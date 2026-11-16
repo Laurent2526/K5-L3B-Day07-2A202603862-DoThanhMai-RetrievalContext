@@ -116,12 +116,15 @@ def main():
     questions = json.loads(args.questions.read_text(encoding='utf-8'))
     # Do not inspect held-out test evidence during dev work.
     selected = [q for q in questions if q.get('split') == args.split]
-    validate(chunks, selected)
+    # Unanswerable cases belong to agent/abstention evaluation, not retrieval metrics.
+    answerable = [q for q in selected if q.get('answerable') is not False]
+    validate(chunks, answerable)
     started = time.perf_counter()
     index = TfidfIndex(chunks)
     index_seconds = time.perf_counter() - started
-    traces = evaluate(index, selected)
+    traces = evaluate(index, answerable)
     summary = {'strategy': 'tfidf', 'split': args.split, 'n': len(traces),
+               'unanswerable_excluded': len(selected) - len(answerable),
                'hit1': sum(t['hit1'] for t in traces), 'hit3': sum(t['hit3'] for t in traces),
                'context_hit': sum(t['context_hit'] for t in traces),
                'avg_context_chars': statistics.mean(t['context_chars'] for t in traces),

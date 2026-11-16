@@ -1,0 +1,19 @@
+{
+  "status": "token_price_estimate_not_billing_receipt",
+  "price_checked_date": "2026-11-16",
+  "source": "https://developers.openai.com/api/docs/models/gpt-4.1-mini",
+  "usd_per_million_tokens": {
+    "input": 0.4,
+    "cached_input": 0.1,
+    "output": 1.6
+  },
+  "traces": "starter/results/agent-openai-dev-citation/traces.json",
+  "usage": {
+    "input_tokens": 18256,
+    "cached_input_tokens": 0,
+    "output_tokens": 1697,
+    "api_calls": 40
+  },
+  "estimated_usd": 0.0100176,
+  "limitations": "Only recorded successful calls, standard text-token pricing. Excludes failed/unrecorded requests, other runs, tax, credits and account-specific billing adjustments."
+}

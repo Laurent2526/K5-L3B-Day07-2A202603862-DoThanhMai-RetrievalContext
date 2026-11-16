@@ -1,0 +1,3621 @@
+[
+  {
+    "status": "answered",
+    "answer": "The Occupational Safety and Health Act was passed in 1970 according to the textbook [d23f97c287e49bde6711a1f5].",
+    "citations": [
+      "d23f97c287e49bde6711a1f5"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Occupational Safety and Health Act year passed",
+        "filter": null,
+        "results": [
+          {
+            "id": "d23f97c287e49bde6711a1f5",
+            "text": "Workplace Safety under the Occupational Safety and Health Act The primary federal law ensuring physical safety on the job is the Occupational Safety and Health Act (OSHA), which was passed in 1970.5 The goal of the law is to ensure that employers provide a workplace environment free of risk to employees’ safety and health, such as mechanical or electrical dangers, toxic chemicals, severe heat or cold, unsanitary conditions, and dangerous equipment.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 157,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 147,
+              "chunking": "blocks",
+              "chunk_index": 6,
+              "character_count": 452,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.5478515394381189,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a82f4adc389d72d25b3374a7",
+            "text": "OSHA also refers to the Occupational Safety and Health Administration, which operates as a division of the Department of Labor and oversees enforcement of the law. This act created the National Institute for Occupational Safety and Health (NIOSH), which serves as the research institute for OSHA and enunciates appropriate standards for safety and health on the job.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 157,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 147,
+              "chunking": "blocks",
+              "chunk_index": 7,
+              "character_count": 366,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.45322327153650926,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "473e7d671e009923b2a2ef85",
+            "text": "6.1 The Workplace Environment and Working Conditions\n\nLearning Objectives\n\nBy the end of this section, you will be able to:\n\n• Identify specific ethical duties managers owe employees\n\n• Describe the provisions of the Occupational Safety and Health Act\n\n• Identify Equal Employment Opportunity Commission protections, including those against sexual harassment at work",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 156,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 146,
+              "chunking": "blocks",
+              "chunk_index": 0,
+              "character_count": 366,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.25298871990801974,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[d23f97c287e49bde6711a1f5 | data/business-ethics_-_WEB.pdf | page 157]\nWorkplace Safety under the Occupational Safety and Health Act The primary federal law ensuring physical safety on the job is the Occupational Safety and Health Act (OSHA), which was passed in 1970.5 The goal of the law is to ensure that employers provide a workplace environment free of risk to employees’ safety and health, such as mechanical or electrical dangers, toxic chemicals, severe heat or cold, unsanitary conditions, and dangerous equipment.",
+        "context_ids": [
+          "d23f97c287e49bde6711a1f5"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "dev-001",
+    "split": "dev",
+    "question": "According to the textbook, in what year was the Occupational Safety and Health Act passed?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 3.13098399998853,
+    "context": "[d23f97c287e49bde6711a1f5 | data/business-ethics_-_WEB.pdf | page 157]\nWorkplace Safety under the Occupational Safety and Health Act The primary federal law ensuring physical safety on the job is the Occupational Safety and Health Act (OSHA), which was passed in 1970.5 The goal of the law is to ensure that employers provide a workplace environment free of risk to employees’ safety and health, such as mechanical or electrical dangers, toxic chemicals, severe heat or cold, unsanitary conditions, and dangerous equipment.",
+    "context_ids": [
+      "d23f97c287e49bde6711a1f5"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_00067dc76db2b0b5016afa956a618c87d28bdd216acdc4a80d",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 355,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 13,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 368
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"Occupational Safety and Health Act year passed\"}",
+            "call_id": "call_sSJkCN70BHBp0e4Qbtf2wCy0",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_00067dc76db2b0b5016afa956ae8e087d2be48d11e83cf0767",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_07fcebc980b786e5016afa956b8d0487d2b03a4658e62c7041",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 514,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 68,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 582
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"The Occupational Safety and Health Act was passed in 1970 according to the textbook [d23f97c287e49bde6711a1f5].\",\"citations\":[\"d23f97c287e49bde6711a1f5\"]}",
+            "call_id": "call_KgGGQ3j2yl68RVYthlfaF6sg",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_07fcebc980b786e5016afa956c215887d2ac7e94575cc23994",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "answered",
+    "answer": "The Occupational Safety and Health Administration (OSHA) is a division of the Department of Labor [a82f4adc389d72d25b3374a7].",
+    "citations": [
+      "a82f4adc389d72d25b3374a7"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Occupational Safety and Health Administration federal department",
+        "filter": null,
+        "results": [
+          {
+            "id": "a82f4adc389d72d25b3374a7",
+            "text": "OSHA also refers to the Occupational Safety and Health Administration, which operates as a division of the Department of Labor and oversees enforcement of the law. This act created the National Institute for Occupational Safety and Health (NIOSH), which serves as the research institute for OSHA and enunciates appropriate standards for safety and health on the job.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 157,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 147,
+              "chunking": "blocks",
+              "chunk_index": 7,
+              "character_count": 366,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.5392452296400706,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d23f97c287e49bde6711a1f5",
+            "text": "Workplace Safety under the Occupational Safety and Health Act The primary federal law ensuring physical safety on the job is the Occupational Safety and Health Act (OSHA), which was passed in 1970.5 The goal of the law is to ensure that employers provide a workplace environment free of risk to employees’ safety and health, such as mechanical or electrical dangers, toxic chemicals, severe heat or cold, unsanitary conditions, and dangerous equipment.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 157,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 147,
+              "chunking": "blocks",
+              "chunk_index": 6,
+              "character_count": 452,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.43664289865103717,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "473e7d671e009923b2a2ef85",
+            "text": "6.1 The Workplace Environment and Working Conditions\n\nLearning Objectives\n\nBy the end of this section, you will be able to:\n\n• Identify specific ethical duties managers owe employees\n\n• Describe the provisions of the Occupational Safety and Health Act\n\n• Identify Equal Employment Opportunity Commission protections, including those against sexual harassment at work",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 156,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 146,
+              "chunking": "blocks",
+              "chunk_index": 0,
+              "character_count": 366,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.20237417933676694,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[a82f4adc389d72d25b3374a7 | data/business-ethics_-_WEB.pdf | page 157]\nOSHA also refers to the Occupational Safety and Health Administration, which operates as a division of the Department of Labor and oversees enforcement of the law. This act created the National Institute for Occupational Safety and Health (NIOSH), which serves as the research institute for OSHA and enunciates appropriate standards for safety and health on the job.",
+        "context_ids": [
+          "a82f4adc389d72d25b3374a7"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "dev-002",
+    "split": "dev",
+    "question": "Which federal department contains the Occupational Safety and Health Administration?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 3.0796539000002667,
+    "context": "[a82f4adc389d72d25b3374a7 | data/business-ethics_-_WEB.pdf | page 157]\nOSHA also refers to the Occupational Safety and Health Administration, which operates as a division of the Department of Labor and oversees enforcement of the law. This act created the National Institute for Occupational Safety and Health (NIOSH), which serves as the research institute for OSHA and enunciates appropriate standards for safety and health on the job.",
+    "context_ids": [
+      "a82f4adc389d72d25b3374a7"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_00594a1f6148488a016afa956cea2487d2badb9555cb8e6e30",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 349,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 13,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 362
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"Occupational Safety and Health Administration federal department\"}",
+            "call_id": "call_mcVg62UeoPBlTqIDUjJFfxmN",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_00594a1f6148488a016afa956d4c3c87d28bc3e9b9550d501b",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_086b5199d4c80203016afa956dfa8087d2b75087bf6c30d914",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 482,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 68,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 550
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"The Occupational Safety and Health Administration (OSHA) is a division of the Department of Labor [a82f4adc389d72d25b3374a7].\",\"citations\":[\"a82f4adc389d72d25b3374a7\"]}",
+            "call_id": "call_OFNRCrcGhIC680abvwjNY7UE",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_086b5199d4c80203016afa956ea1e887d2895031a55c6925c6",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "answered",
+    "answer": "After an anonymous worker report, if OSHA finds reasonable grounds to believe a violation exists, it will conduct an inspection of the workplace and report any findings to the employer and employee, or their representatives. This report includes any steps needed to correct the safety and health issues [b321218a7500096e3ef246ff].",
+    "citations": [
+      "b321218a7500096e3ef246ff"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "OSHA action after anonymous worker report with reasonable grounds for violation",
+        "filter": null,
+        "results": [
+          {
+            "id": "b321218a7500096e3ef246ff",
+            "text": "OSHA about workplace conditions or hazards.6 A worker who believes his or her OSHA rights are being violated can make an anonymous report. OSHA will then establish whether there are reasonable grounds for believing a violation exists. If so, OSHA will conduct an inspection of the workplace and report any findings to the employer and employee, or their representatives, including any steps needed to correct safety and health issues.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 158,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 148,
+              "chunking": "blocks",
+              "chunk_index": 3,
+              "character_count": 434,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.4627676611582406,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "2dded05259698981becfce29",
+            "text": "Under many federal laws, an employer cannot retaliate by firing, demoting, or taking any other adverse action against workers who report injuries, concerns, or other protected activity. One of the first laws with a specific whistleblower protection provision was the Occupational Safety and Health Act of 1970. Since passage of that law, Congress has expanded whistleblower authority to protect workers who report violations of more than",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 211,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 201,
+              "chunking": "blocks",
+              "chunk_index": 9,
+              "character_count": 437,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.1316370349048192,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "a82f4adc389d72d25b3374a7",
+            "text": "OSHA also refers to the Occupational Safety and Health Administration, which operates as a division of the Department of Labor and oversees enforcement of the law. This act created the National Institute for Occupational Safety and Health (NIOSH), which serves as the research institute for OSHA and enunciates appropriate standards for safety and health on the job.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 157,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 147,
+              "chunking": "blocks",
+              "chunk_index": 7,
+              "character_count": 366,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.09252290612399089,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[b321218a7500096e3ef246ff | data/business-ethics_-_WEB.pdf | page 158]\nOSHA about workplace conditions or hazards.6 A worker who believes his or her OSHA rights are being violated can make an anonymous report. OSHA will then establish whether there are reasonable grounds for believing a violation exists. If so, OSHA will conduct an inspection of the workplace and report any findings to the employer and employee, or their representatives, including any steps needed to correct safety and health issues.",
+        "context_ids": [
+          "b321218a7500096e3ef246ff"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "dev-003",
+    "split": "dev",
+    "question": "What does OSHA do after an anonymous worker report if it finds reasonable grounds to believe a violation exists?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 2.3583326000371017,
+    "context": "[b321218a7500096e3ef246ff | data/business-ethics_-_WEB.pdf | page 158]\nOSHA about workplace conditions or hazards.6 A worker who believes his or her OSHA rights are being violated can make an anonymous report. OSHA will then establish whether there are reasonable grounds for believing a violation exists. If so, OSHA will conduct an inspection of the workplace and report any findings to the employer and employee, or their representatives, including any steps needed to correct safety and health issues.",
+    "context_ids": [
+      "b321218a7500096e3ef246ff"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_0c129e4a62c9b202016afa9570069c87d29d8d0bdfbe0b4ca0",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 358,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 17,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 375
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"OSHA action after anonymous worker report with reasonable grounds for violation\"}",
+            "call_id": "call_uDuwtKE9eZrXioq2ojbMxkUw",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0c129e4a62c9b202016afa95706ffc87d2b0b90ba98d0f2b6d",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_054bf67acc9c642f016afa9570f7e887d2a5ca06db3886ff97",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 501,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 96,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 597
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"After an anonymous worker report, if OSHA finds reasonable grounds to believe a violation exists, it will conduct an inspection of the workplace and report any findings to the employer and employee, or their representatives. This report includes any steps needed to correct the safety and health issues [b321218a7500096e3ef246ff].\",\"citations\":[\"b321218a7500096e3ef246ff\"]}",
+            "call_id": "call_iTqse1q7QUaCymK8zyiFy5LH",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_054bf67acc9c642f016afa9571713c87d29e49f01654dea591",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "answered",
+    "answer": "The EEOC enforces Title VII of the Civil Rights Act (CRA) of 1964 to prohibit workplace discrimination including sexual harassment. This part of the CRA also protects employees from discrimination based on race, gender, religion, and national origin [76521a581244432f6a0e86fc].",
+    "citations": [
+      "76521a581244432f6a0e86fc"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Which part of the Civil Rights Act does the EEOC enforce to prohibit workplace discrimination including sexual harassment?",
+        "filter": null,
+        "results": [
+          {
+            "id": "76521a581244432f6a0e86fc",
+            "text": "More than thirty thousand complaints of sexual, gender, racial, or creedal harassment are filed each year, illustrating the frequency of the problem.10 The EEOC enforces Title VII of the Civil Rights Act (CRA) of 1964, which prohibits workplace discrimination including sexual harassment.11 (As discussed elsewhere in the text, the CRA also protects employees from discrimination based on race, gender, religion, and national origin.)",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 159,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 149,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 434,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.3884091697423527,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f692ace196ea9dd1477c1870",
+            "text": "The two complaints most frequently filed with the Equal Employment Opportunity Commission (EEOC), which strives to eliminate racial, gender, and religious discrimination in the workplace, are sexual harassment and racial harassment. Together, these categories made up two-thirds of all cases filed during 2017.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 159,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 149,
+              "chunking": "blocks",
+              "chunk_index": 4,
+              "character_count": 310,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.2473062612447241,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "5b3133d8b3847d1b40761f38",
+            "text": "We are also witnessing an increased level of public awareness about harassment in the workplace, particularly because of the #MeToo movement that followed revelations in 2017 and 2018 of years of sexual predation by powerful men in Hollywood and Washington, DC, as well as across workplaces of all kinds, including in sports and the arts. A victim of sexual harassment can be a man or a woman, and/or the same sex as the harasser.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 204,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 194,
+              "chunking": "blocks",
+              "chunk_index": 1,
+              "character_count": 430,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.1923751673445223,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[76521a581244432f6a0e86fc | data/business-ethics_-_WEB.pdf | page 159]\nMore than thirty thousand complaints of sexual, gender, racial, or creedal harassment are filed each year, illustrating the frequency of the problem.10 The EEOC enforces Title VII of the Civil Rights Act (CRA) of 1964, which prohibits workplace discrimination including sexual harassment.11 (As discussed elsewhere in the text, the CRA also protects employees from discrimination based on race, gender, religion, and national origin.)",
+        "context_ids": [
+          "76521a581244432f6a0e86fc"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "dev-004",
+    "split": "dev",
+    "question": "Which part of the Civil Rights Act does the EEOC enforce to prohibit workplace discrimination including sexual harassment?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 2.591483199968934,
+    "context": "[76521a581244432f6a0e86fc | data/business-ethics_-_WEB.pdf | page 159]\nMore than thirty thousand complaints of sexual, gender, racial, or creedal harassment are filed each year, illustrating the frequency of the problem.10 The EEOC enforces Title VII of the Civil Rights Act (CRA) of 1964, which prohibits workplace discrimination including sexual harassment.11 (As discussed elsewhere in the text, the CRA also protects employees from discrimination based on race, gender, religion, and national origin.)",
+    "context_ids": [
+      "76521a581244432f6a0e86fc"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_08ee7d6ba79b01cc016afa95725c7887d29487c1f9b764555c",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 358,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 25,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 383
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"Which part of the Civil Rights Act does the EEOC enforce to prohibit workplace discrimination including sexual harassment?\"}",
+            "call_id": "call_J08y6G05NBXuZ5KRcrVxnUkH",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_08ee7d6ba79b01cc016afa9572aeb887d29a5f1495028f7b1e",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_00e35d0d0f096429016afa95735df487d2ab349b7fbf17bc09",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 519,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 94,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 613
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"The EEOC enforces Title VII of the Civil Rights Act (CRA) of 1964 to prohibit workplace discrimination including sexual harassment. This part of the CRA also protects employees from discrimination based on race, gender, religion, and national origin [76521a581244432f6a0e86fc].\",\"citations\":[\"76521a581244432f6a0e86fc\"]}",
+            "call_id": "call_2VTBeoLkTSzLg5zAqeB1Tppr",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_00e35d0d0f096429016afa9573d3a887d2bb91a3e2d31fdf8c",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "answered",
+    "answer": "Quid pro quo in the discussion of sexual harassment refers to explicit offers made in exchange for sexual favors, which is unlawful according to EEOC guidelines. It is a form of sexual harassment where such offers are made based on a person's sex [dc1454746b62e39b5d4cd3f8].",
+    "citations": [
+      "dc1454746b62e39b5d4cd3f8"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "quid pro quo sexual harassment",
+        "filter": null,
+        "results": [
+          {
+            "id": "dc1454746b62e39b5d4cd3f8",
+            "text": "According to EEOC guidelines, it is unlawful to sexually harass a person because of that person’s sex, either through explicit offers in exchange for sexual favors (known as quid pro quo) or through actions at a broader more systemic level that create a “hostile working environment.” Sexual harassment includes unwelcome touching, requests for sexual favors, any other verbal or physical harassment of a sexual nature, offensive remarks based on a person’s sex, and off-color jokes.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 159,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 149,
+              "chunking": "blocks",
+              "chunk_index": 6,
+              "character_count": 483,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.4017974960247089,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "adcc340e86dc5585fbd7aa78",
+            "text": "harassment Employees must not engage in unwelcome or unwanted sexual advances, requests for sexual favors, and other verbal or physical conduct of a sexual nature. Behaviors such as conditioning promotions, awards, training, or other job benefits upon acceptance of unwelcome actions of a sexual nature are always wrong.24\n\nWorkplace\n\nrespect Employees must show respect for their colleagues at every level. Neither inappropriate nor illegal behavior will be tolerated.\n\nTable 7.1\n\nLINK TO LEARNING",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 203,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 193,
+              "chunking": "blocks",
+              "chunk_index": 4,
+              "character_count": 498,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.17292230984634305,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "5b3133d8b3847d1b40761f38",
+            "text": "We are also witnessing an increased level of public awareness about harassment in the workplace, particularly because of the #MeToo movement that followed revelations in 2017 and 2018 of years of sexual predation by powerful men in Hollywood and Washington, DC, as well as across workplaces of all kinds, including in sports and the arts. A victim of sexual harassment can be a man or a woman, and/or the same sex as the harasser.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 204,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 194,
+              "chunking": "blocks",
+              "chunk_index": 1,
+              "character_count": 430,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.1555296816426487,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[dc1454746b62e39b5d4cd3f8 | data/business-ethics_-_WEB.pdf | page 159]\nAccording to EEOC guidelines, it is unlawful to sexually harass a person because of that person’s sex, either through explicit offers in exchange for sexual favors (known as quid pro quo) or through actions at a broader more systemic level that create a “hostile working environment.” Sexual harassment includes unwelcome touching, requests for sexual favors, any other verbal or physical harassment of a sexual nature, offensive remarks based on a person’s sex, and off-color jokes.",
+        "context_ids": [
+          "dc1454746b62e39b5d4cd3f8"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "dev-005",
+    "split": "dev",
+    "question": "What does quid pro quo mean in the discussion of sexual harassment?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 7.149850599991623,
+    "context": "[dc1454746b62e39b5d4cd3f8 | data/business-ethics_-_WEB.pdf | page 159]\nAccording to EEOC guidelines, it is unlawful to sexually harass a person because of that person’s sex, either through explicit offers in exchange for sexual favors (known as quid pro quo) or through actions at a broader more systemic level that create a “hostile working environment.” Sexual harassment includes unwelcome touching, requests for sexual favors, any other verbal or physical harassment of a sexual nature, offensive remarks based on a person’s sex, and off-color jokes.",
+    "context_ids": [
+      "dc1454746b62e39b5d4cd3f8"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_0e936ea51db74e8b016afa9574f02487d2857c3bd06f5f0f9a",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 351,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 10,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 361
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"quid pro quo sexual harassment\"}",
+            "call_id": "call_QoUbG0acBwuXDVR2A8C5Bpkg",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0e936ea51db74e8b016afa957541dc87d2a351c3129d863a3b",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0454db1b5050eb2b016afa95777e6487d28b67629a6a1b3093",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 522,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 99,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 621
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"Quid pro quo in the discussion of sexual harassment refers to explicit offers made in exchange for sexual favors, which is unlawful according to EEOC guidelines. It is a form of sexual harassment where such offers are made based on a person's sex [dc1454746b62e39b5d4cd3f8].\",\"citations\":[\"dc1454746b62e39b5d4cd3f8\"]}",
+            "call_id": "call_8jOsT4C1cQvifHzdqLixO0cQ",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_0454db1b5050eb2b016afa9577f34c87d2a38dd34a40cec945",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "answered",
+    "answer": "Workers aged eighteen to thirty-five rank career advancement opportunities as most important at 32%, and work-life balance as most important at 33% [cdbb38161e47852274a8b8c9].",
+    "citations": [
+      "cdbb38161e47852274a8b8c9"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "percentages of workers aged 18 to 35 ranking career advancement and work-life balance as most important",
+        "filter": null,
+        "results": [
+          {
+            "id": "cdbb38161e47852274a8b8c9",
+            "text": "Workers aged eighteen to thirty-five rank career advancement opportunities (32%) and work-life balance (33%) as most important to them at work. However, 42 percent of workers older than thirty-five say work-life balance is the most important feature. This is likely because Generation X (born in the years 1965–1980) place a high value on opportunities for work-life balance, although, like Baby Boomers (born in the years 1946–1964), they also value salary and a solid retirement plan.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 163,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 153,
+              "chunking": "blocks",
+              "chunk_index": 1,
+              "character_count": 486,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.48164719715425575,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "16e5dfd1a62e4f5bf77dcf75",
+            "text": "Otherwise, for most workers, at-will employment usually works to the employer’s advantage, not the employee’s. Another reason the concept of loyalty to an organization seems to be changing at all levels is the important role money plays in career decisions.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 191,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 181,
+              "chunking": "blocks",
+              "chunk_index": 8,
+              "character_count": 257,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.1494780257155537,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "5dc5b38ba8e7f3a822c20bb5",
+            "text": "Essentially that doubled their pay, and as a result, he says, employee focus and engagement have skyrocketed, as have company profits.40 Managers must carefully balance the short term, such as quarterly profits, versus long-term sustainability as a successful company. This requires recognizing the value of work that each person contributes and devising a fair, and sometimes creative, compensation plan.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 171,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 161,
+              "chunking": "blocks",
+              "chunk_index": 8,
+              "character_count": 405,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.11004421473228655,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[cdbb38161e47852274a8b8c9 | data/business-ethics_-_WEB.pdf | page 163]\nWorkers aged eighteen to thirty-five rank career advancement opportunities (32%) and work-life balance (33%) as most important to them at work. However, 42 percent of workers older than thirty-five say work-life balance is the most important feature. This is likely because Generation X (born in the years 1965–1980) place a high value on opportunities for work-life balance, although, like Baby Boomers (born in the years 1946–1964), they also value salary and a solid retirement plan.",
+        "context_ids": [
+          "cdbb38161e47852274a8b8c9"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "dev-006",
+    "split": "dev",
+    "question": "What percentages of workers aged eighteen to thirty-five rank career advancement and work-life balance as most important at work?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 3.008894699974917,
+    "context": "[cdbb38161e47852274a8b8c9 | data/business-ethics_-_WEB.pdf | page 163]\nWorkers aged eighteen to thirty-five rank career advancement opportunities (32%) and work-life balance (33%) as most important to them at work. However, 42 percent of workers older than thirty-five say work-life balance is the most important feature. This is likely because Generation X (born in the years 1965–1980) place a high value on opportunities for work-life balance, although, like Baby Boomers (born in the years 1946–1964), they also value salary and a solid retirement plan.",
+    "context_ids": [
+      "cdbb38161e47852274a8b8c9"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_036a2354cd63fa70016afa957c185087d2ac9101f5d80f4eda",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 360,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 25,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 385
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"percentages of workers aged 18 to 35 ranking career advancement and work-life balance as most important\"}",
+            "call_id": "call_tI4toD91nvjaxkQRrSZUAcT0",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_036a2354cd63fa70016afa957c9be487d28d6f6d21434941ab",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0dffcb4ed54f847e016afa957d2dd887d2a3334392a42e25ff",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 547,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 78,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 625
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"Workers aged eighteen to thirty-five rank career advancement opportunities as most important at 32%, and work-life balance as most important at 33% [cdbb38161e47852274a8b8c9].\",\"citations\":[\"cdbb38161e47852274a8b8c9\"]}",
+            "call_id": "call_lM0QQZCJea8qIUx0DiK2s6C9",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_0dffcb4ed54f847e016afa957dd27887d28f56531febc5c890",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "answered",
+    "answer": "Men with one to five years of experience and a bachelor degree earned $7000 more per year than women with similar qualifications and experience [fe84c38d572af977e6a27cc8].",
+    "citations": [
+      "fe84c38d572af977e6a27cc8"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "compensation difference between men and women land professionals with 1 to 5 years experience and bachelor degree",
+        "filter": null,
+        "results": [
+          {
+            "id": "fe84c38d572af977e6a27cc8",
+            "text": "Median salaries were compared for male and female land professionals with similar experience (one to five years) and educational background (bachelor’s degree), and men earned $7000 more per year than their female counterparts.26 Doesn’t the law require men and women to be paid the same? The answer is yes and no. Compensation discrimination has been illegal for more than fifty years under a U.S. law called the Equal Pay Act, passed in 1963. But the problem persists.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 168,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 158,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 470,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.38843539888150613,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "2ed5c1047e42ed0674008c20",
+            "text": "Even after all possible qualifiers have been added, it remains true that women earn less than men. Managers sometimes offer multiple excuses to justify pay inequities between women and men, such as, “Women take time off for having babies” or “Women have less experience,” but these usually do not explain away the differences. The data show that a woman with the same education, experience, and skills, doing the same job as a man, is still likely to earn less, at all levels from bottom to top.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 168,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 158,
+              "chunking": "blocks",
+              "chunk_index": 1,
+              "character_count": 495,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.24285444359263447,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "deb41fd4cfa330ef761a597a",
+            "text": "In a long-term study of compensation in the energy industry, researchers looked at the job of a land professional—who negotiates with property owners to lease land on which the oil companies then drill wells—and found evidence of women consistently getting paid less than men for doing the same job.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 168,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 158,
+              "chunking": "blocks",
+              "chunk_index": 4,
+              "character_count": 299,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.220527458349932,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[fe84c38d572af977e6a27cc8 | data/business-ethics_-_WEB.pdf | page 168]\nMedian salaries were compared for male and female land professionals with similar experience (one to five years) and educational background (bachelor’s degree), and men earned $7000 more per year than their female counterparts.26 Doesn’t the law require men and women to be paid the same? The answer is yes and no. Compensation discrimination has been illegal for more than fifty years under a U.S. law called the Equal Pay Act, passed in 1963. But the problem persists.",
+        "context_ids": [
+          "fe84c38d572af977e6a27cc8"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "dev-007",
+    "split": "dev",
+    "question": "In the comparison of land professionals with one to five years of experience and a bachelor degree, how much more did men earn per year than women?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 1.9454383999691345,
+    "context": "[fe84c38d572af977e6a27cc8 | data/business-ethics_-_WEB.pdf | page 168]\nMedian salaries were compared for male and female land professionals with similar experience (one to five years) and educational background (bachelor’s degree), and men earned $7000 more per year than their female counterparts.26 Doesn’t the law require men and women to be paid the same? The answer is yes and no. Compensation discrimination has been illegal for more than fifty years under a U.S. law called the Equal Pay Act, passed in 1963. But the problem persists.",
+    "context_ids": [
+      "fe84c38d572af977e6a27cc8"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_00fa61ccbe2634db016afa957f1c0087d2bedd0f604ad5fdd8",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 367,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 25,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 392
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"compensation difference between men and women land professionals with 1 to 5 years experience and bachelor degree\"}",
+            "call_id": "call_H88Am9ymS6f6oqzeOdeRBCgX",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_00fa61ccbe2634db016afa957f64b087d2b0ca4c41c6683cc2",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0dae980ca1157e96016afa957fe59487d2972e306508edeea5",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 547,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 74,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 621
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"Men with one to five years of experience and a bachelor degree earned $7000 more per year than women with similar qualifications and experience [fe84c38d572af977e6a27cc8].\",\"citations\":[\"fe84c38d572af977e6a27cc8\"]}",
+            "call_id": "call_J6iArkUDNBEzcV26BBmUgt5p",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_0dae980ca1157e96016afa95803a9487d29c4d5deb785e4cbb",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "answered",
+    "answer": "Under the comparable worth concept, worker pay should be determined based on the worth of their job to the organization rather than merely on job titles or traditional pay scales. This concept emphasizes pay equivalency by assessing the value and contribution of the job itself. However, implementing this is challenging because it requires rethinking the entire basis for pay decisions [81ed4aa046ae1f8ccaf56408].",
+    "citations": [
+      "81ed4aa046ae1f8ccaf56408"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "comparable worth concept worker pay",
+        "filter": null,
+        "results": [
+          {
+            "id": "81ed4aa046ae1f8ccaf56408",
+            "text": "The idea of pay equivalency is closely related to comparable worth, a concept that has been put into action on a limited basis over the years, but never on a large scale. Comparable worth holds that workers should be paid on the basis of the worth of their job to the organization. Equivalent work and comparable worth can be important next steps in the path to equal pay, but they are challenging to implement because they require rethinking the entire basis for pay decisions.\n\nLINK TO LEARNING",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 169,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 159,
+              "chunking": "blocks",
+              "chunk_index": 4,
+              "character_count": 496,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.5589857629303125,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "704bf7bb4df8bd035aeadec9",
+            "text": "Though the federal government has not yet passed the Paycheck Fairness Act, some states have taken action on their own. The website for the National Conference of State Legislatures’ section on state equal pay laws (https://openstax.org/l/53PayLaws) provides a chart listing states that go beyond the current federal law to mandate equal pay for comparable or equivalent work. Look up your state in the chart. How does it compare with others in this regard?",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 169,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 159,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 457,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.1322847755585928,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "765b5ff00404fbd361167d8b",
+            "text": "Between 1978 and 2014, inflation-adjusted CEO pay increased by almost 1,000 percent in the United States, while worker pay rose 11 percent.47 A popular way to compare the fairness of a company’s compensation system with that in other countries is the widely reported pay ratio, which measures how many times greater CEO pay is than the wages for the average employee. The average multiplier effect in the United States is in the range of three hundred.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 177,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 167,
+              "chunking": "blocks",
+              "chunk_index": 1,
+              "character_count": 452,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.1194543475447682,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[81ed4aa046ae1f8ccaf56408 | data/business-ethics_-_WEB.pdf | page 169]\nThe idea of pay equivalency is closely related to comparable worth, a concept that has been put into action on a limited basis over the years, but never on a large scale. Comparable worth holds that workers should be paid on the basis of the worth of their job to the organization. Equivalent work and comparable worth can be important next steps in the path to equal pay, but they are challenging to implement because they require rethinking the entire basis for pay decisions.\n\nLINK TO LEARNING",
+        "context_ids": [
+          "81ed4aa046ae1f8ccaf56408"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "dev-008",
+    "split": "dev",
+    "question": "Under the comparable worth concept, what should determine worker pay?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 13.88171380001586,
+    "context": "[81ed4aa046ae1f8ccaf56408 | data/business-ethics_-_WEB.pdf | page 169]\nThe idea of pay equivalency is closely related to comparable worth, a concept that has been put into action on a limited basis over the years, but never on a large scale. Comparable worth holds that workers should be paid on the basis of the worth of their job to the organization. Equivalent work and comparable worth can be important next steps in the path to equal pay, but they are challenging to implement because they require rethinking the entire basis for pay decisions.\n\nLINK TO LEARNING",
+    "context_ids": [
+      "81ed4aa046ae1f8ccaf56408"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_0e8b8b10fb858bf6016afa9581439887d28cfe739569abe0aa",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 350,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 11,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 361
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"comparable worth concept worker pay\"}",
+            "call_id": "call_p78HN6HZPGbYaJRtHBgnqabj",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0e8b8b10fb858bf6016afa9581a88487d29aedf57e6e4dd445",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_007feddedbff488a016afa958cb7c887d29e83f68f7126c2c8",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 510,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 112,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 622
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"Under the comparable worth concept, worker pay should be determined based on the worth of their job to the organization rather than merely on job titles or traditional pay scales. This concept emphasizes pay equivalency by assessing the value and contribution of the job itself. However, implementing this is challenging because it requires rethinking the entire basis for pay decisions [81ed4aa046ae1f8ccaf56408].\",\"citations\":[\"81ed4aa046ae1f8ccaf56408\"]}",
+            "call_id": "call_qbzh3a39EBWHbObd5VYdkJW2",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_007feddedbff488a016afa958d559887d2b5865d6fab978e63",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "answered",
+    "answer": "Unions play the role of acting as the agent, lawyer, or negotiator for employees during collective bargaining. The process seeks management's agreement to a fair employment contract for the union members. This negotiation is aimed at securing a fair employment contract through collective bargaining between the union representing employees and the management [b182e178b9977158c53ff7fe].",
+    "citations": [
+      "b182e178b9977158c53ff7fe"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "role of unions in collective bargaining and the agreement sought",
+        "filter": null,
+        "results": [
+          {
+            "id": "b182e178b9977158c53ff7fe",
+            "text": "Unions act as the agent/lawyer/negotiator for employees during collective bargaining, a negotiation process aimed at getting management’s agreement to a fair employment contract for members of the union. Everyone wants to be successful in any important negotiation, and people often turn to professionals to help them in such a situation. However, in the United States, as elsewhere around the globe, the concept of worker organization has been about more than simply good representation.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 172,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 162,
+              "chunking": "blocks",
+              "chunk_index": 4,
+              "character_count": 488,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.2813296298670105,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "e77dacd5ba6c4cadb55c2ca6",
+            "text": "Collective bargaining contracts can drive up costs for employers and lead to an adversarial relationship between management and workers.\n\nTable 6.1",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 172,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 162,
+              "chunking": "blocks",
+              "chunk_index": 7,
+              "character_count": 147,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.2709840794803986,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "1030d4fbc54019edb4496c78",
+            "text": "Unions create a formal dispute resolution process for workers. Workers are required to pay union dues/fees that some might rather not pay. Unions act as an organized lobbying group for worker rights. Unions sometimes lead to a closed culture that makes it harder to diversify the workforce. Collective bargaining agreements often set norms for employment for an entire industry—benefiting all workers, including those who are not at a union company.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 172,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 162,
+              "chunking": "blocks",
+              "chunk_index": 6,
+              "character_count": 449,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.2624807569340119,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[b182e178b9977158c53ff7fe | data/business-ethics_-_WEB.pdf | page 172]\nUnions act as the agent/lawyer/negotiator for employees during collective bargaining, a negotiation process aimed at getting management’s agreement to a fair employment contract for members of the union. Everyone wants to be successful in any important negotiation, and people often turn to professionals to help them in such a situation. However, in the United States, as elsewhere around the globe, the concept of worker organization has been about more than simply good representation.\n\n[e77dacd5ba6c4cadb55c2ca6 | data/business-ethics_-_WEB.pdf | page 172]\nCollective bargaining contracts can drive up costs for employers and lead to an adversarial relationship between management and workers.\n\nTable 6.1",
+        "context_ids": [
+          "b182e178b9977158c53ff7fe",
+          "e77dacd5ba6c4cadb55c2ca6"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "dev-009",
+    "split": "dev",
+    "question": "What role do unions play in collective bargaining, and what agreement does the process seek?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 16.021430500026327,
+    "context": "[b182e178b9977158c53ff7fe | data/business-ethics_-_WEB.pdf | page 172]\nUnions act as the agent/lawyer/negotiator for employees during collective bargaining, a negotiation process aimed at getting management’s agreement to a fair employment contract for members of the union. Everyone wants to be successful in any important negotiation, and people often turn to professionals to help them in such a situation. However, in the United States, as elsewhere around the globe, the concept of worker organization has been about more than simply good representation.\n\n[e77dacd5ba6c4cadb55c2ca6 | data/business-ethics_-_WEB.pdf | page 172]\nCollective bargaining contracts can drive up costs for employers and lead to an adversarial relationship between management and workers.\n\nTable 6.1",
+    "context_ids": [
+      "b182e178b9977158c53ff7fe",
+      "e77dacd5ba6c4cadb55c2ca6"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_03f3fee6fcc465d3016afa958efc3c87d2897b264799ed5d7d",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 355,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 15,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 370
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"role of unions in collective bargaining and the agreement sought\"}",
+            "call_id": "call_Zd3ORuobvK4FdhDMq6SnC10i",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_03f3fee6fcc465d3016afa958f603487d2a6c90e4609e30b10",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0761fbdabe86d8b6016afa95927c2c87d29a4c2f8dca671b38",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 595,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 105,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 700
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"Unions play the role of acting as the agent, lawyer, or negotiator for employees during collective bargaining. The process seeks management's agreement to a fair employment contract for the union members. This negotiation is aimed at securing a fair employment contract through collective bargaining between the union representing employees and the management [b182e178b9977158c53ff7fe].\",\"citations\":[\"b182e178b9977158c53ff7fe\"]}",
+            "call_id": "call_gzdVGSVUCplt0x6zaD0Hmys9",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_0761fbdabe86d8b6016afa95933a7487d29ccf330586477f96",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "answered",
+    "answer": "The manager oversees a workforce of 150 employees in the Security versus Privacy jewelry-store scenario [2d323a612ff81da7ad8910ba].",
+    "citations": [
+      "2d323a612ff81da7ad8910ba"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Security versus Privacy jewelry store manager employees",
+        "filter": null,
+        "results": [
+          {
+            "id": "2d323a612ff81da7ad8910ba",
+            "text": "Security versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 181,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 171,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 499,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.3565941718322634,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f4232e044479f38d724fbb6b",
+            "text": "To prevail on a common law claim of invasion of privacy, which is a tort, the employee must demonstrate a right to privacy with respect to the information being monitored. Several state constitutions, such as those in Louisiana, Florida, South Carolina, and California, expressly provide citizens a right to privacy, which may protect employees with respect to monitoring of their personal electronic information and personal communication in the workplace.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 180,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 170,
+              "chunking": "blocks",
+              "chunk_index": 2,
+              "character_count": 457,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.11146243336009713,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f57c6794c985b2af0c44b503",
+            "text": "Employers might also be concerned about the productivity loss resulting from employees using office technology for personal matters while on the job. At the same time, however, organizations must balance the valid business interests of the company with employees’ reasonable expectations of privacy. Magnifying ethical and legal questions in the area of privacy is the availability of new technology that lets employers track all employee Internet, e-mail, social media, and telephone use.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 178,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 168,
+              "chunking": "blocks",
+              "chunk_index": 3,
+              "character_count": 489,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.0836036503516535,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[2d323a612ff81da7ad8910ba | data/business-ethics_-_WEB.pdf | page 181]\nSecurity versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer.",
+        "context_ids": [
+          "2d323a612ff81da7ad8910ba"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "dev-010",
+    "split": "dev",
+    "question": "In the Security versus Privacy jewelry-store scenario, how many employees does the manager oversee?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 3.002945100015495,
+    "context": "[2d323a612ff81da7ad8910ba | data/business-ethics_-_WEB.pdf | page 181]\nSecurity versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer.",
+    "context_ids": [
+      "2d323a612ff81da7ad8910ba"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_06744b9674dad80a016afa959f046887d2874e67ef0c994fbf",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 355,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 12,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 367
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"Security versus Privacy jewelry store manager employees\"}",
+            "call_id": "call_zXDXxnQwM1sjD9dXcLqzadlQ",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_06744b9674dad80a016afa959f54f487d29aa4afeb5bd9fff3",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_01585744f34fa3a9016afa95a012b487d2a999383f8235fb0c",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 509,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 63,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 572
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"The manager oversees a workforce of 150 employees in the Security versus Privacy jewelry-store scenario [2d323a612ff81da7ad8910ba].\",\"citations\":[\"2d323a612ff81da7ad8910ba\"]}",
+            "call_id": "call_8owablJdQ2KXz6PriBW0677F",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_01585744f34fa3a9016afa95a0a65887d289994a327af7c157",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "answered",
+    "answer": "According to the PayScale report cited in the textbook, the two leading reasons people give for leaving their jobs are, in order, first, higher pay, and second, personal reasons such as family, health, marriage, or spousal relocation [fe8603ec2acc090ae377569d].",
+    "citations": [
+      "fe8603ec2acc090ae377569d"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "PayScale report reasons people leave jobs",
+        "filter": null,
+        "results": [
+          {
+            "id": "fe8603ec2acc090ae377569d",
+            "text": "According to PayScale’s Compensation Best Practices Report, the two leading motivators people give for leaving their job are first, higher pay, and second, personal reasons (e.g., family, health, marriage, spousal relocation).7 Of course, beyond money, workers seek meaning in their work, and it is largely true that money alone does not motivate employees to higher performance. However, it is a mistake for managers to think money is not a central factor influencing employees’ job satisfaction.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 192,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 182,
+              "chunking": "blocks",
+              "chunk_index": 6,
+              "character_count": 497,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.22540344071730323,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "2dded05259698981becfce29",
+            "text": "Under many federal laws, an employer cannot retaliate by firing, demoting, or taking any other adverse action against workers who report injuries, concerns, or other protected activity. One of the first laws with a specific whistleblower protection provision was the Occupational Safety and Health Act of 1970. Since passage of that law, Congress has expanded whistleblower authority to protect workers who report violations of more than",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 211,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 201,
+              "chunking": "blocks",
+              "chunk_index": 9,
+              "character_count": 437,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.101346736315705,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "b321218a7500096e3ef246ff",
+            "text": "OSHA about workplace conditions or hazards.6 A worker who believes his or her OSHA rights are being violated can make an anonymous report. OSHA will then establish whether there are reasonable grounds for believing a violation exists. If so, OSHA will conduct an inspection of the workplace and report any findings to the employer and employee, or their representatives, including any steps needed to correct safety and health issues.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 158,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 148,
+              "chunking": "blocks",
+              "chunk_index": 3,
+              "character_count": 434,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.09197116290986057,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[fe8603ec2acc090ae377569d | data/business-ethics_-_WEB.pdf | page 192]\nAccording to PayScale’s Compensation Best Practices Report, the two leading motivators people give for leaving their job are first, higher pay, and second, personal reasons (e.g., family, health, marriage, spousal relocation).7 Of course, beyond money, workers seek meaning in their work, and it is largely true that money alone does not motivate employees to higher performance. However, it is a mistake for managers to think money is not a central factor influencing employees’ job satisfaction.",
+        "context_ids": [
+          "fe8603ec2acc090ae377569d"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "dev-011",
+    "split": "dev",
+    "question": "According to the PayScale report cited in the textbook, what are the two leading reasons people give for leaving their jobs, in order?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 2.0686575999716297,
+    "context": "[fe8603ec2acc090ae377569d | data/business-ethics_-_WEB.pdf | page 192]\nAccording to PayScale’s Compensation Best Practices Report, the two leading motivators people give for leaving their job are first, higher pay, and second, personal reasons (e.g., family, health, marriage, spousal relocation).7 Of course, beyond money, workers seek meaning in their work, and it is largely true that money alone does not motivate employees to higher performance. However, it is a mistake for managers to think money is not a central factor influencing employees’ job satisfaction.",
+    "context_ids": [
+      "fe8603ec2acc090ae377569d"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_0499cd1f093bce82016afa95a1fe6487d2b492cd92e4c555fb",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 365,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 12,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 377
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"PayScale report reasons people leave jobs\"}",
+            "call_id": "call_SbQu373K02NSpCkyBiyf8pnv",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0499cd1f093bce82016afa95a25fd887d2849710329fa4d7a2",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0fc661d88fd2860e016afa95a2de9887d290e18bc02b4824e4",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 526,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 90,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 616
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"According to the PayScale report cited in the textbook, the two leading reasons people give for leaving their jobs are, in order, first, higher pay, and second, personal reasons such as family, health, marriage, or spousal relocation [fe8603ec2acc090ae377569d].\",\"citations\":[\"fe8603ec2acc090ae377569d\"]}",
+            "call_id": "call_FRz8G7YsOXbkrzLBtDqylW6u",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_0fc661d88fd2860e016afa95a330d487d2a24e379c8567aaf1",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "dimensions of enforceable non-compete agreements",
+        "filter": null,
+        "results": [
+          {
+            "id": "f35c0d9234560bee15691aa8",
+            "text": "Non-Compete Agreements\n\nAfter an investigation by then–New York attorney general Eric Schneiderman, fast-food franchisor Jimmy John’s announced in 2016 that it would not enforce non-compete agreements signed by low-wage employees that prohibited them from working at other sandwich shops, and it agreed to stop using the agreements in the future.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 195,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 185,
+              "chunking": "blocks",
+              "chunk_index": 1,
+              "character_count": 346,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.4029317021886964,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c9ba661a7c9d847e6496b1a9",
+            "text": "private-sector workforce, and about one in six people in jobs earning less than $40,000 a year, are now covered by non-compete agreements.11 The increased use of such agreements has left many employees feeling trapped by their limited mobility. Recently non- competes have been challenged by the Federal Trade Commission. While enforcement of the FTCs rule was struck down by a court, non-compete agreement could continue be challenged in the future.\n\nLINK TO LEARNING",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 194,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 184,
+              "chunking": "blocks",
+              "chunk_index": 6,
+              "character_count": 468,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.3493634901217803,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d4f8f39cc02b824a904bc4eb",
+            "text": "A template for a typical non-compete agreement (https://openstax.org/l/53noncompete) can be found at PandaDoc. An ethical question arises regarding whether this practice is in the best interests of society and its workers, and some states are responding. California enacted a law in 2017 saying that most non-compete agreements are void, holding that although an employee may owe the employer a responsibility not to compete while",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 194,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 184,
+              "chunking": "blocks",
+              "chunk_index": 7,
+              "character_count": 430,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.3429840939241361,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[f35c0d9234560bee15691aa8 | data/business-ethics_-_WEB.pdf | page 195]\nNon-Compete Agreements\n\nAfter an investigation by then–New York attorney general Eric Schneiderman, fast-food franchisor Jimmy John’s announced in 2016 that it would not enforce non-compete agreements signed by low-wage employees that prohibited them from working at other sandwich shops, and it agreed to stop using the agreements in the future.",
+        "context_ids": [
+          "f35c0d9234560bee15691aa8"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "two dimensions of enforceable non-compete agreements",
+        "filter": null,
+        "results": [
+          {
+            "id": "f35c0d9234560bee15691aa8",
+            "text": "Non-Compete Agreements\n\nAfter an investigation by then–New York attorney general Eric Schneiderman, fast-food franchisor Jimmy John’s announced in 2016 that it would not enforce non-compete agreements signed by low-wage employees that prohibited them from working at other sandwich shops, and it agreed to stop using the agreements in the future.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 195,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 185,
+              "chunking": "blocks",
+              "chunk_index": 1,
+              "character_count": 346,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.37820588261632127,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c9ba661a7c9d847e6496b1a9",
+            "text": "private-sector workforce, and about one in six people in jobs earning less than $40,000 a year, are now covered by non-compete agreements.11 The increased use of such agreements has left many employees feeling trapped by their limited mobility. Recently non- competes have been challenged by the Federal Trade Commission. While enforcement of the FTCs rule was struck down by a court, non-compete agreement could continue be challenged in the future.\n\nLINK TO LEARNING",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 194,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 184,
+              "chunking": "blocks",
+              "chunk_index": 6,
+              "character_count": 468,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.32792487267122045,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d4f8f39cc02b824a904bc4eb",
+            "text": "A template for a typical non-compete agreement (https://openstax.org/l/53noncompete) can be found at PandaDoc. An ethical question arises regarding whether this practice is in the best interests of society and its workers, and some states are responding. California enacted a law in 2017 saying that most non-compete agreements are void, holding that although an employee may owe the employer a responsibility not to compete while",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 194,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 184,
+              "chunking": "blocks",
+              "chunk_index": 7,
+              "character_count": 430,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.32193694678605556,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[f35c0d9234560bee15691aa8 | data/business-ethics_-_WEB.pdf | page 195]\nNon-Compete Agreements\n\nAfter an investigation by then–New York attorney general Eric Schneiderman, fast-food franchisor Jimmy John’s announced in 2016 that it would not enforce non-compete agreements signed by low-wage employees that prohibited them from working at other sandwich shops, and it agreed to stop using the agreements in the future.",
+        "context_ids": [
+          "f35c0d9234560bee15691aa8"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "limitations on enforceable non-compete agreements",
+        "filter": null,
+        "results": [
+          {
+            "id": "f35c0d9234560bee15691aa8",
+            "text": "Non-Compete Agreements\n\nAfter an investigation by then–New York attorney general Eric Schneiderman, fast-food franchisor Jimmy John’s announced in 2016 that it would not enforce non-compete agreements signed by low-wage employees that prohibited them from working at other sandwich shops, and it agreed to stop using the agreements in the future.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 195,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 185,
+              "chunking": "blocks",
+              "chunk_index": 1,
+              "character_count": 346,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.3409096128308469,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c9ba661a7c9d847e6496b1a9",
+            "text": "private-sector workforce, and about one in six people in jobs earning less than $40,000 a year, are now covered by non-compete agreements.11 The increased use of such agreements has left many employees feeling trapped by their limited mobility. Recently non- competes have been challenged by the Federal Trade Commission. While enforcement of the FTCs rule was struck down by a court, non-compete agreement could continue be challenged in the future.\n\nLINK TO LEARNING",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 194,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 184,
+              "chunking": "blocks",
+              "chunk_index": 6,
+              "character_count": 468,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.28962633638628654,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d4f8f39cc02b824a904bc4eb",
+            "text": "A template for a typical non-compete agreement (https://openstax.org/l/53noncompete) can be found at PandaDoc. An ethical question arises regarding whether this practice is in the best interests of society and its workers, and some states are responding. California enacted a law in 2017 saying that most non-compete agreements are void, holding that although an employee may owe the employer a responsibility not to compete while",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 194,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 184,
+              "chunking": "blocks",
+              "chunk_index": 7,
+              "character_count": 430,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.286728617895277,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[f35c0d9234560bee15691aa8 | data/business-ethics_-_WEB.pdf | page 195]\nNon-Compete Agreements\n\nAfter an investigation by then–New York attorney general Eric Schneiderman, fast-food franchisor Jimmy John’s announced in 2016 that it would not enforce non-compete agreements signed by low-wage employees that prohibited them from working at other sandwich shops, and it agreed to stop using the agreements in the future.",
+        "context_ids": [
+          "f35c0d9234560bee15691aa8"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "query_id": "dev-012",
+    "split": "dev",
+    "question": "According to the textbook discussion, by which two dimensions are enforceable non-compete agreements usually limited?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 10.530034099996556,
+    "context": "[f35c0d9234560bee15691aa8 | data/business-ethics_-_WEB.pdf | page 195]\nNon-Compete Agreements\n\nAfter an investigation by then–New York attorney general Eric Schneiderman, fast-food franchisor Jimmy John’s announced in 2016 that it would not enforce non-compete agreements signed by low-wage employees that prohibited them from working at other sandwich shops, and it agreed to stop using the agreements in the future.",
+    "context_ids": [
+      "f35c0d9234560bee15691aa8"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_0b19d090a48735ec016afa95a40ea487d2802d325bce254e90",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 358,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 13,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 371
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"dimensions of enforceable non-compete agreements\"}",
+            "call_id": "call_0rDJZb8ADj0BU2bLgMmQTIce",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0b19d090a48735ec016afa95a4992087d2b5e50671bcbb4e78",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0a44e0279a7fad19016afa95abc4cc87d2a1a955bca3062e36",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 496,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 22,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 518
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"two dimensions of enforceable non-compete agreements\"}",
+            "call_id": "call_N08FvCsRyxzbuVxn1hmcRIZ6",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0a44e0279a7fad19016afa95ac32c887d2b9bbb507525a840a",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_066edbc9a3bd8f4c016afa95acaa5087d2be7514fce7046bbd",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 507,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 21,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 528
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"limitations on enforceable non-compete agreements\"}",
+            "call_id": "call_oTkqY9qN9BI9qeCuwxmWBW8g",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_066edbc9a3bd8f4c016afa95acfb8087d2be2a07ba1ce0b406",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0d0c9118b263b694016afa95ad704487d29cae7e274a80d543",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 517,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 26,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 543
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"limitations on enforceable non-compete agreements in terms of two dimensions\"}",
+            "call_id": "call_Gf7j8igPVZ6nLAHR5vAqF18p",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0d0c9118b263b694016afa95ae054887d29b232decf65915d7",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "answered",
+    "answer": "The jury awarded Lockard $360,000, and an appeals court upheld the judgment in her favor [827d733a264d7ba02eb75eec].",
+    "citations": [
+      "827d733a264d7ba02eb75eec"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Lockard jury award and appeals court decision",
+        "filter": null,
+        "results": [
+          {
+            "id": "827d733a264d7ba02eb75eec",
+            "text": "Although it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 199,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 189,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 404,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.26232009312704485,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "719975a375305c17b9f39127",
+            "text": "Is the Customer Always Right? At an independently owned Pizza Hut franchise in Oklahoma,20 two regular customers made sexually offensive remarks to a female employee named Lockard, who then told her boss she did not like waiting on them. One evening, these customers again entered the restaurant, and her boss instructed Lockard to wait on them. She did, but this time the customers became physically abusive.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 199,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 189,
+              "chunking": "blocks",
+              "chunk_index": 4,
+              "character_count": 409,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.1299511688089471,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "89b890d787fe0f497115c268",
+            "text": "She had been head of CitiGroup’s wealth management division (Smith Barney); in that capacity, she had made a decision to reimburse clients for some of their losses she felt were due to company mistakes. Rather than supporting her decision, however, CitiGroup terminated her, in large part for making the ethical decision rather than the profitable one. Now she was in the same predicament with a new company.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 214,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 204,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 408,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.08526707805751985,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[827d733a264d7ba02eb75eec | data/business-ethics_-_WEB.pdf | page 199]\nAlthough it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking",
+        "context_ids": [
+          "827d733a264d7ba02eb75eec"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "dev-013",
+    "split": "dev",
+    "question": "How much did the jury award Lockard, and what did the appeals court do?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 2.6712628999957815,
+    "context": "[827d733a264d7ba02eb75eec | data/business-ethics_-_WEB.pdf | page 199]\nAlthough it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking",
+    "context_ids": [
+      "827d733a264d7ba02eb75eec"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_000fb1e99d646afd016afa95ae9b6c87d2ba327909787e9ddb",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 355,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 13,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 368
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"Lockard jury award and appeals court decision\"}",
+            "call_id": "call_9eNeTzjAtCyzBnzcBxN2Ylje",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_000fb1e99d646afd016afa95afb7cc87d2911d7b4f94a280ac",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_00f554e8f6361185016afa95b020d487d29a685490be641541",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 501,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 66,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 567
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"The jury awarded Lockard $360,000, and an appeals court upheld the judgment in her favor [827d733a264d7ba02eb75eec].\",\"citations\":[\"827d733a264d7ba02eb75eec\"]}",
+            "call_id": "call_E4CLj1s39lz3mqZ1vSLoGr8x",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_00f554e8f6361185016afa95b095e087d2a056ad27ce4a32ff",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "answered",
+    "answer": "Insider trading and bribery are serious violations of the law that can result in incarceration and large fines according to the textbook [870a128afa72dc04ca4aa35f].",
+    "citations": [
+      "870a128afa72dc04ca4aa35f"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "legal penalties for insider trading and bribery",
+        "filter": null,
+        "results": [
+          {
+            "id": "870a128afa72dc04ca4aa35f",
+            "text": "• Discuss bribery and its legal and ethical consequences Employees may face ethical dilemmas in the area of finance, especially in situations such as bribery and insider trading in securities. Such dubious “profit opportunities” can offer the chance of realizing thousands or millions of dollars, creating serious temptation for an employee. However, insider trading and bribery are serious violations of the law that can result in incarceration and large fines.\n\nInsider Trading",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 204,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 194,
+              "chunking": "blocks",
+              "chunk_index": 3,
+              "character_count": 479,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.488958756532486,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "b58ae64f6d970dacca148335",
+            "text": "The SEC and the Department of Justice prosecuted the employees for insider trading and won a conviction; the employees had to give back all the money they had made on their trades. Insider trading cases are often highly publicized, especially when charges are brought against high-profile figures.\n\nETHICS ACROSS TIME AND CULTURES",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 205,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 195,
+              "chunking": "blocks",
+              "chunk_index": 2,
+              "character_count": 330,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.26838236023098383,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "c2f03f62c600bbf0223605fa",
+            "text": "These include trading by an insider (generally someone who performs work for the company) who possesses significant confidential information relevant to the valuation of the company’s stock, and trading by someone outside of the company who is given this sort of information by an insider or who obtains it inappropriately. Even being the messenger (the one communicating material nonpublic information to others on behalf of someone else) can be a legal violation.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 204,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 194,
+              "chunking": "blocks",
+              "chunk_index": 7,
+              "character_count": 465,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.24601907304881118,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[870a128afa72dc04ca4aa35f | data/business-ethics_-_WEB.pdf | page 204]\n• Discuss bribery and its legal and ethical consequences Employees may face ethical dilemmas in the area of finance, especially in situations such as bribery and insider trading in securities. Such dubious “profit opportunities” can offer the chance of realizing thousands or millions of dollars, creating serious temptation for an employee. However, insider trading and bribery are serious violations of the law that can result in incarceration and large fines.\n\nInsider Trading",
+        "context_ids": [
+          "870a128afa72dc04ca4aa35f"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "dev-014",
+    "split": "dev",
+    "question": "What legal penalties can insider trading and bribery result in, according to the textbook?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 2.651417199987918,
+    "context": "[870a128afa72dc04ca4aa35f | data/business-ethics_-_WEB.pdf | page 204]\n• Discuss bribery and its legal and ethical consequences Employees may face ethical dilemmas in the area of finance, especially in situations such as bribery and insider trading in securities. Such dubious “profit opportunities” can offer the chance of realizing thousands or millions of dollars, creating serious temptation for an employee. However, insider trading and bribery are serious violations of the law that can result in incarceration and large fines.\n\nInsider Trading",
+    "context_ids": [
+      "870a128afa72dc04ca4aa35f"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_077e4879e919cfb7016afa95b15b1c87d2a9f8590a8802859b",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 355,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 13,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 368
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"legal penalties for insider trading and bribery\"}",
+            "call_id": "call_3erjgembPxs0WfbQNOzm0dt2",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_077e4879e919cfb7016afa95b1c7dc87d29b9b1caa7a6c8f5b",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0044569e26eba96d016afa95b24e6487d2a20265c2ce5f6439",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 511,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 68,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 579
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"Insider trading and bribery are serious violations of the law that can result in incarceration and large fines according to the textbook [870a128afa72dc04ca4aa35f].\",\"citations\":[\"870a128afa72dc04ca4aa35f\"]}",
+            "call_id": "call_oavI4WWMdTrcD7mv5EjhaZ3B",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_0044569e26eba96d016afa95b309a887d2ad1b65482c65f61a",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "answered",
+    "answer": "The qui tam provision allows private persons, called relators, to file lawsuits for violations of the False Claims Act (FCA) on behalf of the government and to receive part of any penalty imposed. These relators act as whistleblowers who initiate legal action on their own rather than just reporting misconduct to a government agency [3d4ecf10cc3a13f0786f776d].",
+    "citations": [
+      "3d4ecf10cc3a13f0786f776d"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "qui tam provision relators",
+        "filter": null,
+        "results": [
+          {
+            "id": "3d4ecf10cc3a13f0786f776d",
+            "text": "More importantly for our discussion, the qui tam provision of the law allows private persons (called relators) to file lawsuits for violations of the FCA on behalf of the government and to receive part of any penalty imposed. The person bringing the action is a type of a whistleblower, but one who initiates legal action on his or her own rather than simply reporting it to a government agency.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 212,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 202,
+              "chunking": "blocks",
+              "chunk_index": 6,
+              "character_count": 395,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.35321697632085436,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "ff3a66aa81274948ccfcb549",
+            "text": "The agreement will also contain a patent assignment provision, stating that all inventions created within the scope of employment are owned by or assigned to the company.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 193,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 183,
+              "chunking": "blocks",
+              "chunk_index": 9,
+              "character_count": 170,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.113269409786847,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "4831fcea4888ee4a08f5f0b9",
+            "text": "The consent provision in the ECPA is not limited to business communications only; therefore, a company might be able to assert the right to monitor personal electronic communications if it can show employee consent (although this is very likely to worry employees, as discussed in the next section). Another consideration is whose e-mail server is being used.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 179,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 169,
+              "chunking": "blocks",
+              "chunk_index": 9,
+              "character_count": 359,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.07665939024412075,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[3d4ecf10cc3a13f0786f776d | data/business-ethics_-_WEB.pdf | page 212]\nMore importantly for our discussion, the qui tam provision of the law allows private persons (called relators) to file lawsuits for violations of the FCA on behalf of the government and to receive part of any penalty imposed. The person bringing the action is a type of a whistleblower, but one who initiates legal action on his or her own rather than simply reporting it to a government agency.\n\n[ff3a66aa81274948ccfcb549 | data/business-ethics_-_WEB.pdf | page 193]\nThe agreement will also contain a patent assignment provision, stating that all inventions created within the scope of employment are owned by or assigned to the company.",
+        "context_ids": [
+          "3d4ecf10cc3a13f0786f776d",
+          "ff3a66aa81274948ccfcb549"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "query_id": "dev-015",
+    "split": "dev",
+    "question": "What does the qui tam provision allow private persons called relators to do?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 2.2433149000280537,
+    "context": "[3d4ecf10cc3a13f0786f776d | data/business-ethics_-_WEB.pdf | page 212]\nMore importantly for our discussion, the qui tam provision of the law allows private persons (called relators) to file lawsuits for violations of the FCA on behalf of the government and to receive part of any penalty imposed. The person bringing the action is a type of a whistleblower, but one who initiates legal action on his or her own rather than simply reporting it to a government agency.\n\n[ff3a66aa81274948ccfcb549 | data/business-ethics_-_WEB.pdf | page 193]\nThe agreement will also contain a patent assignment provision, stating that all inventions created within the scope of employment are owned by or assigned to the company.",
+    "context_ids": [
+      "3d4ecf10cc3a13f0786f776d",
+      "ff3a66aa81274948ccfcb549"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_0d9bff2b7c1f794f016afa95b3f2b487d289d45c47335ff90d",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 353,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 10,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 363
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"qui tam provision relators\"}",
+            "call_id": "call_lVlwG0vjcYYvBKO1rcjrZbX5",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0d9bff2b7c1f794f016afa95b437b087d28e933dc3e56fd00c",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_09b689e91909e0f5016afa95b4ac1487d2add9343846064148",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 571,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 116,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 687
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"The qui tam provision allows private persons, called relators, to file lawsuits for violations of the False Claims Act (FCA) on behalf of the government and to receive part of any penalty imposed. These relators act as whistleblowers who initiate legal action on their own rather than just reporting misconduct to a government agency [3d4ecf10cc3a13f0786f776d].\",\"citations\":[\"3d4ecf10cc3a13f0786f776d\"]}",
+            "call_id": "call_rZOSP7ryDbL67SzmHoRQs6Yd",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_09b689e91909e0f5016afa95b5347887d2b775ecd71d037c7f",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Security versus Privacy jewelry-store missing inventory employees",
+        "filter": null,
+        "results": [
+          {
+            "id": "2d323a612ff81da7ad8910ba",
+            "text": "Security versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 181,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 171,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 499,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.3729274971762573,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f4232e044479f38d724fbb6b",
+            "text": "To prevail on a common law claim of invasion of privacy, which is a tort, the employee must demonstrate a right to privacy with respect to the information being monitored. Several state constitutions, such as those in Louisiana, Florida, South Carolina, and California, expressly provide citizens a right to privacy, which may protect employees with respect to monitoring of their personal electronic information and personal communication in the workplace.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 180,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 170,
+              "chunking": "blocks",
+              "chunk_index": 2,
+              "character_count": 457,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.09761826782196734,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "6595f73f00130d2a4204371e",
+            "text": "• Is there a way for a manager to find, develop, and encourage the next Fryman, or is the desire to “do something good for somebody” an inherent trait in some employees that is missing in others?\n\n• What is the appropriate means to reward a worker with Fryman’s level of commitment? Her salary was fixed by school district pay schedules. Should she have been given an extra stipend for service above and beyond the expected? Additional time off with pay? Some other reward?",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 199,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 189,
+              "chunking": "blocks",
+              "chunk_index": 1,
+              "character_count": 473,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.07343486743536401,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[2d323a612ff81da7ad8910ba | data/business-ethics_-_WEB.pdf | page 181]\nSecurity versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer.",
+        "context_ids": [
+          "2d323a612ff81da7ad8910ba"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Security versus Privacy jewelry-store missing inventory employees names",
+        "filter": null,
+        "results": [
+          {
+            "id": "2d323a612ff81da7ad8910ba",
+            "text": "Security versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 181,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 171,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 499,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.3729274971762573,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f4232e044479f38d724fbb6b",
+            "text": "To prevail on a common law claim of invasion of privacy, which is a tort, the employee must demonstrate a right to privacy with respect to the information being monitored. Several state constitutions, such as those in Louisiana, Florida, South Carolina, and California, expressly provide citizens a right to privacy, which may protect employees with respect to monitoring of their personal electronic information and personal communication in the workplace.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 180,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 170,
+              "chunking": "blocks",
+              "chunk_index": 2,
+              "character_count": 457,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.09761826782196734,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "6595f73f00130d2a4204371e",
+            "text": "• Is there a way for a manager to find, develop, and encourage the next Fryman, or is the desire to “do something good for somebody” an inherent trait in some employees that is missing in others?\n\n• What is the appropriate means to reward a worker with Fryman’s level of commitment? Her salary was fixed by school district pay schedules. Should she have been given an extra stipend for service above and beyond the expected? Additional time off with pay? Some other reward?",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 199,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 189,
+              "chunking": "blocks",
+              "chunk_index": 1,
+              "character_count": 473,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.07343486743536401,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[2d323a612ff81da7ad8910ba | data/business-ethics_-_WEB.pdf | page 181]\nSecurity versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer.",
+        "context_ids": [
+          "2d323a612ff81da7ad8910ba"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "names of employees responsible for missing inventory in Security versus Privacy jewelry-store scenario",
+        "filter": null,
+        "results": [
+          {
+            "id": "2d323a612ff81da7ad8910ba",
+            "text": "Security versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 181,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 171,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 499,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.33566226426199264,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "d003f87db48408539c7e0ee8",
+            "text": "Ethical Decision-Making and Leadership in the Workplace A contemporary corporation always owes an ethical, and in some cases legal, duty to employees to be a responsible employer. In a business context, the definition of this responsibility includes providing a safe workplace, compensating workers fairly, and treating them with a sense of dignity and equality while respecting at least a minimum of their privacy.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 156,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 146,
+              "chunking": "blocks",
+              "chunk_index": 2,
+              "character_count": 415,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.10043072335815832,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f4232e044479f38d724fbb6b",
+            "text": "To prevail on a common law claim of invasion of privacy, which is a tort, the employee must demonstrate a right to privacy with respect to the information being monitored. Several state constitutions, such as those in Louisiana, Florida, South Carolina, and California, expressly provide citizens a right to privacy, which may protect employees with respect to monitoring of their personal electronic information and personal communication in the workplace.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 180,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 170,
+              "chunking": "blocks",
+              "chunk_index": 2,
+              "character_count": 457,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.09876125224138875,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[2d323a612ff81da7ad8910ba | data/business-ethics_-_WEB.pdf | page 181]\nSecurity versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer.",
+        "context_ids": [
+          "2d323a612ff81da7ad8910ba"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "query_id": "dev-016",
+    "split": "dev",
+    "question": "In the Security versus Privacy jewelry-store scenario, what are the names of the two employees responsible for the missing inventory?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 3.7619638000032865,
+    "context": "[2d323a612ff81da7ad8910ba | data/business-ethics_-_WEB.pdf | page 181]\nSecurity versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer.",
+    "context_ids": [
+      "2d323a612ff81da7ad8910ba"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_02d4dd9d2ee2b509016afa95b6309887d2babefb2409594ea0",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 361,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 13,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 374
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"Security versus Privacy jewelry-store missing inventory employees\"}",
+            "call_id": "call_5bWq0Fxs93r9HgQa7IYs3yR2",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_02d4dd9d2ee2b509016afa95b6b55887d292808951a86d7387",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_06cd69d3dac6b49a016afa95b733cc87d2ad0b39ebe2c3a8a7",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 516,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 22,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 538
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"Security versus Privacy jewelry-store missing inventory employees names\"}",
+            "call_id": "call_OlKu5hFyym4cxe0z0uBRAPu1",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_06cd69d3dac6b49a016afa95b78a3c87d2bf9ae78765e9d902",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0d20444d8b466b2d016afa95b802d087d29b46dce6cd4e5b33",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 527,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 27,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 554
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"names of employees responsible for missing inventory in Security versus Privacy jewelry-store scenario\"}",
+            "call_id": "call_NzQeZsZYWqd5hWZTY0M1BJ48",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0d20444d8b466b2d016afa95b8620087d2840af61fe4033789",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0386467f6f8cf48c016afa95b8f25887d2bec42ed13ad10191",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 543,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 28,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 571
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"names of two employees responsible for missing inventory in Security versus Privacy jewelry-store scenario\"}",
+            "call_id": "call_QlSnYplSO1lmnF2UGfvBS95S",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0386467f6f8cf48c016afa95b96c3887d2b88ac6cd2d022524",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  },
+  {
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Lockard workplace harassment jury verdict date",
+        "filter": null,
+        "results": [
+          {
+            "id": "827d733a264d7ba02eb75eec",
+            "text": "Although it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 199,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 189,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 404,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.21363751079105464,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f573141815ea723572eca11e",
+            "text": "Read this OSHA Fact Sheet about fines and penalties (https://openstax.org/l/53OSHA) to learn more. A Workplace Free of Harassment Employers have an ethical and a legal duty to provide a workplace free of harassment of all types. This includes harassment based on sex, race, religion, national origin, and any other protected status, including disability. Employees should not be expected to work in an atmosphere where they feel harassed, prejudiced against, or disadvantaged.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 159,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 149,
+              "chunking": "blocks",
+              "chunk_index": 3,
+              "character_count": 476,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.13841863098879112,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "719975a375305c17b9f39127",
+            "text": "Is the Customer Always Right? At an independently owned Pizza Hut franchise in Oklahoma,20 two regular customers made sexually offensive remarks to a female employee named Lockard, who then told her boss she did not like waiting on them. One evening, these customers again entered the restaurant, and her boss instructed Lockard to wait on them. She did, but this time the customers became physically abusive.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 199,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 189,
+              "chunking": "blocks",
+              "chunk_index": 4,
+              "character_count": 409,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.12985659127012808,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[827d733a264d7ba02eb75eec | data/business-ethics_-_WEB.pdf | page 199]\nAlthough it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking",
+        "context_ids": [
+          "827d733a264d7ba02eb75eec"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "exact calendar date of Lockard jury verdict awarding 360000",
+        "filter": null,
+        "results": [
+          {
+            "id": "827d733a264d7ba02eb75eec",
+            "text": "Although it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 199,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 189,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 404,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.20370673714373994,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "335dcab36022205031fb8c16",
+            "text": "Finally, gifts must be reported when their total value from one source exceeds $390 in a calendar year. Some",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 206,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 196,
+              "chunking": "blocks",
+              "chunk_index": 10,
+              "character_count": 108,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.1267653419327841,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "719975a375305c17b9f39127",
+            "text": "Is the Customer Always Right? At an independently owned Pizza Hut franchise in Oklahoma,20 two regular customers made sexually offensive remarks to a female employee named Lockard, who then told her boss she did not like waiting on them. One evening, these customers again entered the restaurant, and her boss instructed Lockard to wait on them. She did, but this time the customers became physically abusive.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 199,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 189,
+              "chunking": "blocks",
+              "chunk_index": 4,
+              "character_count": 409,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.11476050953447658,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[827d733a264d7ba02eb75eec | data/business-ethics_-_WEB.pdf | page 199]\nAlthough it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking\n\n[335dcab36022205031fb8c16 | data/business-ethics_-_WEB.pdf | page 206]\nFinally, gifts must be reported when their total value from one source exceeds $390 in a calendar year. Some",
+        "context_ids": [
+          "827d733a264d7ba02eb75eec",
+          "335dcab36022205031fb8c16"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "exact calendar date of Lockard workplace harassment jury verdict awarding $360,000",
+        "filter": null,
+        "results": [
+          {
+            "id": "827d733a264d7ba02eb75eec",
+            "text": "Although it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 199,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 7,
+              "chapter_title": "What Employees Owe Employers",
+              "printed_page": 189,
+              "chunking": "blocks",
+              "chunk_index": 5,
+              "character_count": 404,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.3135139832244699,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "f573141815ea723572eca11e",
+            "text": "Read this OSHA Fact Sheet about fines and penalties (https://openstax.org/l/53OSHA) to learn more. A Workplace Free of Harassment Employers have an ethical and a legal duty to provide a workplace free of harassment of all types. This includes harassment based on sex, race, religion, national origin, and any other protected status, including disability. Employees should not be expected to work in an atmosphere where they feel harassed, prejudiced against, or disadvantaged.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 159,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 149,
+              "chunking": "blocks",
+              "chunk_index": 3,
+              "character_count": 476,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.11085012114404708,
+            "strategy": "tfidf"
+          },
+          {
+            "id": "6de63dd981716f4871815238",
+            "text": "about $600,000 per year, compared with their male counterparts, who earned more than $800,000 per year.25 That $200,000 difference amounts to a wage gap of about 35 percent each year. The same is true in mid-level jobs as well.",
+            "source_id": "openstax-business-ethics-web",
+            "source": "data/business-ethics_-_WEB.pdf",
+            "page": 168,
+            "metadata": {
+              "extraction_status": "ok",
+              "chapter": 6,
+              "chapter_title": "What Employers Owe Employees",
+              "printed_page": 158,
+              "chunking": "blocks",
+              "chunk_index": 3,
+              "character_count": 227,
+              "chunk_parameters": "500",
+              "strategy": "B",
+              "license": "CC BY-NC-SA 4.0",
+              "attribution": "Business Ethics, OpenStax, Rice University. Access for free at openstax.org."
+            },
+            "score": 0.11079091079315909,
+            "strategy": "tfidf"
+          }
+        ],
+        "context": "[827d733a264d7ba02eb75eec | data/business-ethics_-_WEB.pdf | page 199]\nAlthough it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking\n\n[335dcab36022205031fb8c16 | data/business-ethics_-_WEB.pdf | page 206]\nFinally, gifts must be reported when their total value from one source exceeds $390 in a calendar year. Some",
+        "context_ids": [
+          "827d733a264d7ba02eb75eec",
+          "335dcab36022205031fb8c16"
+        ]
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "query_id": "dev-017",
+    "split": "dev",
+    "question": "In the Lockard workplace harassment case, what was the exact calendar date (day, month, and year) of the jury verdict awarding $360,000?",
+    "strategy": "tfidf",
+    "provider": "openai",
+    "model": "gpt-4.1-mini",
+    "budget_chars": 800,
+    "top_k": 3,
+    "max_searches": 3,
+    "citation_format": "append",
+    "request_delay_seconds": 0,
+    "elapsed_seconds": 4.239001299953088,
+    "context": "[827d733a264d7ba02eb75eec | data/business-ethics_-_WEB.pdf | page 199]\nAlthough it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking\n\n[335dcab36022205031fb8c16 | data/business-ethics_-_WEB.pdf | page 206]\nFinally, gifts must be reported when their total value from one source exceeds $390 in a calendar year. Some",
+    "context_ids": [
+      "827d733a264d7ba02eb75eec",
+      "335dcab36022205031fb8c16"
+    ],
+    "api_calls": [
+      {
+        "response_id": "resp_0f5977b5e717844f016afa95b9fa1487d2a13d39bd02fd477f",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 370,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 12,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 382
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"Lockard workplace harassment jury verdict date\"}",
+            "call_id": "call_Aqxhceob5fFbc2oCuuL1LxEH",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0f5977b5e717844f016afa95ba616c87d2b4e35f2b33298cc5",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0f7b403168559945016afa95badff887d2899530ddb88cb77a",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 515,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 25,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 540
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"exact calendar date of Lockard jury verdict awarding 360000\"}",
+            "call_id": "call_Y0SHTA6oOxdM5JLVLYfVk4oj",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0f7b403168559945016afa95bb639487d28f75a8da418cc0a3",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0c87b60b91f75b81016afa95bbeb1c87d2855b45bed7db1552",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 594,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 28,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 622
+        },
+        "output": [
+          {
+            "arguments": "{\"query\":\"exact calendar date of Lockard workplace harassment jury verdict awarding $360,000\"}",
+            "call_id": "call_GDc4llDYqvwtWC2lhKrD8par",
+            "name": "search",
+            "type": "function_call",
+            "id": "fc_0c87b60b91f75b81016afa95bc444487d294d8e2a392f7c184",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      },
+      {
+        "response_id": "resp_0836577f0dab3b10016afa95bd0f2087d2b49dbf07234bbea1",
+        "model": "gpt-4.1-mini-2025-04-14",
+        "usage": {
+          "input_tokens": 611,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cached_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            }
+          },
+          "output_tokens": 49,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 660
+        },
+        "output": [
+          {
+            "arguments": "{\"answer\":\"The exact calendar date (day, month, and year) of the Lockard workplace harassment jury verdict awarding $360,000 is not provided in the available evidence.\",\"citations\":[]}",
+            "call_id": "call_bwp5o0lcT7UtUTQBUXMhrD7Z",
+            "name": "finish",
+            "type": "function_call",
+            "id": "fc_0836577f0dab3b10016afa95bd8f4c87d29a2c9cd4a141c856",
+            "async_": null,
+            "caller": null,
+            "namespace": null,
+            "status": "completed"
+          }
+        ]
+      }
+    ],
+    "cost_usd": null
+  }
+]

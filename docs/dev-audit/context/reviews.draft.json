@@ -1,0 +1,187 @@
+[
+  {
+    "query_id": "dev-001",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-002",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-003",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-004",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      false
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Grounded answer 2/2 vì đoạn liệt kê hành vi có trong context (dc145...). Tuy nhiên chỉ cite 76521..., vốn không liệt kê các hành vi; citation có hỗ trợ phần chính nhưng chưa hỗ trợ toàn bộ phạm vi đoạn trả lời."
+  },
+  {
+    "query_id": "dev-005",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-006",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-007",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-008",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      false
+    ],
+    "answer_grade": 1,
+    "context_grade": 2,
+    "reason": "Đáp án chính đúng; bổ sung gender/race không có evidence trong context. Chấm 1/2, citation không hỗ trợ đầy đủ phần mở rộng."
+  },
+  {
+    "query_id": "dev-009",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Grounded answer 2/2: phần increased pay/benefits nằm trong context da7e1.... Hai citation đã chọn hỗ trợ vai trò union và dispute/lobby/industry norms, nhưng phần pay/benefits chưa gắn đúng citation. Giữ nhãn true cho đóng góp của từng citation và ghi riêng lỗ hổng coverage."
+  },
+  {
+    "query_id": "dev-010",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-011",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-012",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-013",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-014",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true,
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-015",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [
+      true
+    ],
+    "answer_grade": 2,
+    "context_grade": 2,
+    "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+  },
+  {
+    "query_id": "dev-016",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Kết quả cuối nêu thiếu bằng chứng, không thêm khẳng định vô căn cứ. Lý do dừng: invalid_or_missing_citations; cần phân biệt guard dừng với model chủ động từ chối. The scenario describes suspicions, not an identified culprit. Reviewed the jewelry-store scenario and surrounding chunks on PDF pages 181-182 and searched the corpus for jewelry, inventory, and stealing; the corpus does not identify two responsible employees. Do not infer names or guilt from suspicion."
+  },
+  {
+    "query_id": "dev-017",
+    "reviewer": "AI-assisted draft",
+    "human_confirmed": false,
+    "citation_support": [],
+    "abstention_correct": true,
+    "reason": "Kết quả cuối nêu thiếu bằng chứng, không thêm khẳng định vô căn cứ. Lý do dừng: invalid_or_missing_citations; cần phân biệt guard dừng với model chủ động từ chối. Reviewed the Lockard case and surrounding chunks on PDF pages 198-199, and searched all chunks mentioning Lockard, jury, verdict, and 360,000. The award and appeal outcome are given, but the exact day, month, and year of the jury verdict are not provided."
+  }
+]

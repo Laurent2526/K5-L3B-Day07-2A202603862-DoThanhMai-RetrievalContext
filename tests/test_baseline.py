@@ -64,13 +64,16 @@ class BaselineTests(unittest.TestCase):
             (root/'chunks.json').write_text(json.dumps(self.chunks), encoding='utf-8')
             # A test gold which fails validation must not be inspected by a dev run.
             test = {**self.q, 'id': 't', 'split': 'test', 'gold': [{'source_id': 'x', 'page': 9, 'evidence': 'missing'}]}
-            (root/'q.json').write_text(json.dumps([self.q, test]), encoding='utf-8')
+            unanswerable = {'id': 'u', 'split': 'dev', 'question': 'Missing information?',
+                            'answerable': False, 'expected_behavior': 'search_and_abstain'}
+            (root/'q.json').write_text(json.dumps([self.q, test, unanswerable]), encoding='utf-8')
             subprocess.run([sys.executable, str(ROOT/'starter/baseline.py'), '--chunks', str(root/'chunks.json'),
                             '--questions', str(root/'q.json'), '--split', 'dev', '--output', str(root/'out')],
                            check=True, capture_output=True, text=True)
-            summary = json.loads((root/'out/summary.json').read_text())
+            summary = json.loads((root/'out/summary.json').read_text(encoding='utf-8'))
             self.assertEqual((summary['split'], summary['n'], summary['hit1']), ('dev', 1, 1))
-            self.assertEqual(len(json.loads((root/'out/traces.json').read_text())), 1)
+            self.assertEqual(summary['unanswerable_excluded'], 1)
+            self.assertEqual(len(json.loads((root/'out/traces.json').read_text(encoding='utf-8'))), 1)
 
 
 if __name__ == '__main__': unittest.main()

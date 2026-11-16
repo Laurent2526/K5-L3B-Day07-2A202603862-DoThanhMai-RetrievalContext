@@ -1,0 +1,11 @@
+{
+  "test_prepared_at": "2026-11-16T22:25:19.628878+07:00",
+  "selection_file": "docs/selected-config.json",
+  "selection_sha256": "0b1f212325c7b1ce765168d0288e42b9a8720b8af6359d6e0d187bf787f42849",
+  "test_file": "data\\questions_test.json",
+  "test_sha256": "b5156f6357fe45e163ecb614d8b951b18df95b2d4b45dc3eb14d02e5f7509c1b",
+  "count": 7,
+  "answerable": 5,
+  "unanswerable": 2,
+  "independence_note": "New questions compared with Day 7 dev and the reviewed Day 6 benchmark. Prepared after freezing selected configuration. No test API evaluation has been run. Test evidence must not be used to retune configuration."
+}

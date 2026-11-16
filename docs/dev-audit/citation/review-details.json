@@ -1,0 +1,536 @@
+[
+  {
+    "query_id": "dev-001",
+    "question": "According to the textbook, in what year was the Occupational Safety and Health Act passed?",
+    "expected_answer": "1970.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 157,
+        "evidence": "Workplace Safety under the Occupational Safety and Health Act The primary federal law ensuring physical safety on the job is the Occupational Safety and Health Act (OSHA), which was passed in 1970.5 The goal of the law is to ensure that employers provide a workplace environment free of risk to employees’ safety and health, such as mechanical or electrical dangers, toxic chemicals, severe heat or cold, unsanitary conditions, and dangerous equipment."
+      }
+    ],
+    "answer": "The Occupational Safety and Health Act was passed in 1970 according to the textbook [d23f97c287e49bde6711a1f5].",
+    "context": "[d23f97c287e49bde6711a1f5 | data/business-ethics_-_WEB.pdf | page 157]\nWorkplace Safety under the Occupational Safety and Health Act The primary federal law ensuring physical safety on the job is the Occupational Safety and Health Act (OSHA), which was passed in 1970.5 The goal of the law is to ensure that employers provide a workplace environment free of risk to employees’ safety and health, such as mechanical or electrical dangers, toxic chemicals, severe heat or cold, unsanitary conditions, and dangerous equipment.",
+    "citation_sources": [
+      {
+        "id": "d23f97c287e49bde6711a1f5",
+        "page": 157,
+        "source": "data/business-ethics_-_WEB.pdf",
+        "text": "Workplace Safety under the Occupational Safety and Health Act The primary federal law ensuring physical safety on the job is the Occupational Safety and Health Act (OSHA), which was passed in 1970.5 The goal of the law is to ensure that employers provide a workplace environment free of risk to employees’ safety and health, such as mechanical or electrical dangers, toxic chemicals, severe heat or cold, unsanitary conditions, and dangerous equipment.",
+        "support_draft": true
+      }
+    ],
+    "review": {
+      "query_id": "dev-001",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [
+        true
+      ],
+      "answer_grade": 2,
+      "context_grade": 2,
+      "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+    }
+  },
+  {
+    "query_id": "dev-002",
+    "question": "Which federal department contains the Occupational Safety and Health Administration?",
+    "expected_answer": "The Department of Labor.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 157,
+        "evidence": "OSHA also refers to the Occupational Safety and Health Administration, which operates as a division of the Department of Labor and oversees enforcement of the law. This act created the National Institute for Occupational Safety and Health (NIOSH), which serves as the research institute for OSHA and enunciates appropriate standards for safety and health on the job."
+      }
+    ],
+    "answer": "The Occupational Safety and Health Administration (OSHA) is a division of the Department of Labor [a82f4adc389d72d25b3374a7].",
+    "context": "[a82f4adc389d72d25b3374a7 | data/business-ethics_-_WEB.pdf | page 157]\nOSHA also refers to the Occupational Safety and Health Administration, which operates as a division of the Department of Labor and oversees enforcement of the law. This act created the National Institute for Occupational Safety and Health (NIOSH), which serves as the research institute for OSHA and enunciates appropriate standards for safety and health on the job.",
+    "citation_sources": [
+      {
+        "id": "a82f4adc389d72d25b3374a7",
+        "page": 157,
+        "source": "data/business-ethics_-_WEB.pdf",
+        "text": "OSHA also refers to the Occupational Safety and Health Administration, which operates as a division of the Department of Labor and oversees enforcement of the law. This act created the National Institute for Occupational Safety and Health (NIOSH), which serves as the research institute for OSHA and enunciates appropriate standards for safety and health on the job.",
+        "support_draft": true
+      }
+    ],
+    "review": {
+      "query_id": "dev-002",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [
+        true
+      ],
+      "answer_grade": 2,
+      "context_grade": 2,
+      "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+    }
+  },
+  {
+    "query_id": "dev-003",
+    "question": "What does OSHA do after an anonymous worker report if it finds reasonable grounds to believe a violation exists?",
+    "expected_answer": "It inspects the workplace and reports findings, including needed corrective steps, to the employer and employee or their representatives.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 158,
+        "evidence": "OSHA about workplace conditions or hazards.6 A worker who believes his or her OSHA rights are being violated can make an anonymous report. OSHA will then establish whether there are reasonable grounds for believing a violation exists. If so, OSHA will conduct an inspection of the workplace and report any findings to the employer and employee, or their representatives, including any steps needed to correct safety and health issues."
+      }
+    ],
+    "answer": "After an anonymous worker report, if OSHA finds reasonable grounds to believe a violation exists, it will conduct an inspection of the workplace and report any findings to the employer and employee, or their representatives. This report includes any steps needed to correct the safety and health issues [b321218a7500096e3ef246ff].",
+    "context": "[b321218a7500096e3ef246ff | data/business-ethics_-_WEB.pdf | page 158]\nOSHA about workplace conditions or hazards.6 A worker who believes his or her OSHA rights are being violated can make an anonymous report. OSHA will then establish whether there are reasonable grounds for believing a violation exists. If so, OSHA will conduct an inspection of the workplace and report any findings to the employer and employee, or their representatives, including any steps needed to correct safety and health issues.",
+    "citation_sources": [
+      {
+        "id": "b321218a7500096e3ef246ff",
+        "page": 158,
+        "source": "data/business-ethics_-_WEB.pdf",
+        "text": "OSHA about workplace conditions or hazards.6 A worker who believes his or her OSHA rights are being violated can make an anonymous report. OSHA will then establish whether there are reasonable grounds for believing a violation exists. If so, OSHA will conduct an inspection of the workplace and report any findings to the employer and employee, or their representatives, including any steps needed to correct safety and health issues.",
+        "support_draft": true
+      }
+    ],
+    "review": {
+      "query_id": "dev-003",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [
+        true
+      ],
+      "answer_grade": 2,
+      "context_grade": 2,
+      "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+    }
+  },
+  {
+    "query_id": "dev-004",
+    "question": "Which part of the Civil Rights Act does the EEOC enforce to prohibit workplace discrimination including sexual harassment?",
+    "expected_answer": "Title VII of the Civil Rights Act of 1964.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 159,
+        "evidence": "More than thirty thousand complaints of sexual, gender, racial, or creedal harassment are filed each year, illustrating the frequency of the problem.10 The EEOC enforces Title VII of the Civil Rights Act (CRA) of 1964, which prohibits workplace discrimination including sexual harassment.11 (As discussed elsewhere in the text, the CRA also protects employees from discrimination based on race, gender, religion, and national origin.)"
+      }
+    ],
+    "answer": "The EEOC enforces Title VII of the Civil Rights Act (CRA) of 1964 to prohibit workplace discrimination including sexual harassment. This part of the CRA also protects employees from discrimination based on race, gender, religion, and national origin [76521a581244432f6a0e86fc].",
+    "context": "[76521a581244432f6a0e86fc | data/business-ethics_-_WEB.pdf | page 159]\nMore than thirty thousand complaints of sexual, gender, racial, or creedal harassment are filed each year, illustrating the frequency of the problem.10 The EEOC enforces Title VII of the Civil Rights Act (CRA) of 1964, which prohibits workplace discrimination including sexual harassment.11 (As discussed elsewhere in the text, the CRA also protects employees from discrimination based on race, gender, religion, and national origin.)",
+    "citation_sources": [
+      {
+        "id": "76521a581244432f6a0e86fc",
+        "page": 159,
+        "source": "data/business-ethics_-_WEB.pdf",
+        "text": "More than thirty thousand complaints of sexual, gender, racial, or creedal harassment are filed each year, illustrating the frequency of the problem.10 The EEOC enforces Title VII of the Civil Rights Act (CRA) of 1964, which prohibits workplace discrimination including sexual harassment.11 (As discussed elsewhere in the text, the CRA also protects employees from discrimination based on race, gender, religion, and national origin.)",
+        "support_draft": true
+      }
+    ],
+    "review": {
+      "query_id": "dev-004",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [
+        true
+      ],
+      "answer_grade": 2,
+      "context_grade": 2,
+      "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+    }
+  },
+  {
+    "query_id": "dev-005",
+    "question": "What does quid pro quo mean in the discussion of sexual harassment?",
+    "expected_answer": "Explicit offers in exchange for sexual favors.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 159,
+        "evidence": "According to EEOC guidelines, it is unlawful to sexually harass a person because of that person’s sex, either through explicit offers in exchange for sexual favors (known as quid pro quo) or through actions at a broader more systemic level that create a “hostile working environment.” Sexual harassment includes unwelcome touching, requests for sexual favors, any other verbal or physical harassment of a sexual nature, offensive remarks based on a person’s sex, and off-color jokes."
+      }
+    ],
+    "answer": "Quid pro quo in the discussion of sexual harassment refers to explicit offers made in exchange for sexual favors, which is unlawful according to EEOC guidelines. It is a form of sexual harassment where such offers are made based on a person's sex [dc1454746b62e39b5d4cd3f8].",
+    "context": "[dc1454746b62e39b5d4cd3f8 | data/business-ethics_-_WEB.pdf | page 159]\nAccording to EEOC guidelines, it is unlawful to sexually harass a person because of that person’s sex, either through explicit offers in exchange for sexual favors (known as quid pro quo) or through actions at a broader more systemic level that create a “hostile working environment.” Sexual harassment includes unwelcome touching, requests for sexual favors, any other verbal or physical harassment of a sexual nature, offensive remarks based on a person’s sex, and off-color jokes.",
+    "citation_sources": [
+      {
+        "id": "dc1454746b62e39b5d4cd3f8",
+        "page": 159,
+        "source": "data/business-ethics_-_WEB.pdf",
+        "text": "According to EEOC guidelines, it is unlawful to sexually harass a person because of that person’s sex, either through explicit offers in exchange for sexual favors (known as quid pro quo) or through actions at a broader more systemic level that create a “hostile working environment.” Sexual harassment includes unwelcome touching, requests for sexual favors, any other verbal or physical harassment of a sexual nature, offensive remarks based on a person’s sex, and off-color jokes.",
+        "support_draft": true
+      }
+    ],
+    "review": {
+      "query_id": "dev-005",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [
+        true
+      ],
+      "answer_grade": 2,
+      "context_grade": 2,
+      "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+    }
+  },
+  {
+    "query_id": "dev-006",
+    "question": "What percentages of workers aged eighteen to thirty-five rank career advancement and work-life balance as most important at work?",
+    "expected_answer": "Career advancement: 32%; work-life balance: 33%.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 163,
+        "evidence": "Workers aged eighteen to thirty-five rank career advancement opportunities (32%) and work-life balance (33%) as most important to them at work. However, 42 percent of workers older than thirty-five say work-life balance is the most important feature. This is likely because Generation X (born in the years 1965–1980) place a high value on opportunities for work-life balance, although, like Baby Boomers (born in the years 1946–1964), they also value salary and a solid retirement plan."
+      }
+    ],
+    "answer": "Workers aged eighteen to thirty-five rank career advancement opportunities as most important at 32%, and work-life balance as most important at 33% [cdbb38161e47852274a8b8c9].",
+    "context": "[cdbb38161e47852274a8b8c9 | data/business-ethics_-_WEB.pdf | page 163]\nWorkers aged eighteen to thirty-five rank career advancement opportunities (32%) and work-life balance (33%) as most important to them at work. However, 42 percent of workers older than thirty-five say work-life balance is the most important feature. This is likely because Generation X (born in the years 1965–1980) place a high value on opportunities for work-life balance, although, like Baby Boomers (born in the years 1946–1964), they also value salary and a solid retirement plan.",
+    "citation_sources": [
+      {
+        "id": "cdbb38161e47852274a8b8c9",
+        "page": 163,
+        "source": "data/business-ethics_-_WEB.pdf",
+        "text": "Workers aged eighteen to thirty-five rank career advancement opportunities (32%) and work-life balance (33%) as most important to them at work. However, 42 percent of workers older than thirty-five say work-life balance is the most important feature. This is likely because Generation X (born in the years 1965–1980) place a high value on opportunities for work-life balance, although, like Baby Boomers (born in the years 1946–1964), they also value salary and a solid retirement plan.",
+        "support_draft": true
+      }
+    ],
+    "review": {
+      "query_id": "dev-006",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [
+        true
+      ],
+      "answer_grade": 2,
+      "context_grade": 2,
+      "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+    }
+  },
+  {
+    "query_id": "dev-007",
+    "question": "In the comparison of land professionals with one to five years of experience and a bachelor degree, how much more did men earn per year than women?",
+    "expected_answer": "Men earned $7,000 more per year.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 168,
+        "evidence": "Median salaries were compared for male and female land professionals with similar experience (one to five years) and educational background (bachelor’s degree), and men earned $7000 more per year than their female counterparts.26 Doesn’t the law require men and women to be paid the same? The answer is yes and no. Compensation discrimination has been illegal for more than fifty years under a U.S. law called the Equal Pay Act, passed in 1963. But the problem persists."
+      }
+    ],
+    "answer": "Men with one to five years of experience and a bachelor degree earned $7000 more per year than women with similar qualifications and experience [fe84c38d572af977e6a27cc8].",
+    "context": "[fe84c38d572af977e6a27cc8 | data/business-ethics_-_WEB.pdf | page 168]\nMedian salaries were compared for male and female land professionals with similar experience (one to five years) and educational background (bachelor’s degree), and men earned $7000 more per year than their female counterparts.26 Doesn’t the law require men and women to be paid the same? The answer is yes and no. Compensation discrimination has been illegal for more than fifty years under a U.S. law called the Equal Pay Act, passed in 1963. But the problem persists.",
+    "citation_sources": [
+      {
+        "id": "fe84c38d572af977e6a27cc8",
+        "page": 168,
+        "source": "data/business-ethics_-_WEB.pdf",
+        "text": "Median salaries were compared for male and female land professionals with similar experience (one to five years) and educational background (bachelor’s degree), and men earned $7000 more per year than their female counterparts.26 Doesn’t the law require men and women to be paid the same? The answer is yes and no. Compensation discrimination has been illegal for more than fifty years under a U.S. law called the Equal Pay Act, passed in 1963. But the problem persists.",
+        "support_draft": true
+      }
+    ],
+    "review": {
+      "query_id": "dev-007",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [
+        true
+      ],
+      "answer_grade": 2,
+      "context_grade": 2,
+      "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+    }
+  },
+  {
+    "query_id": "dev-008",
+    "question": "Under the comparable worth concept, what should determine worker pay?",
+    "expected_answer": "The worth of the job to the organization.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 169,
+        "evidence": "The idea of pay equivalency is closely related to comparable worth, a concept that has been put into action on a limited basis over the years, but never on a large scale. Comparable worth holds that workers should be paid on the basis of the worth of their job to the organization. Equivalent work and comparable worth can be important next steps in the path to equal pay, but they are challenging to implement because they require rethinking the entire basis for pay decisions.\n\nLINK TO LEARNING"
+      }
+    ],
+    "answer": "Under the comparable worth concept, worker pay should be determined based on the worth of their job to the organization rather than merely on job titles or traditional pay scales. This concept emphasizes pay equivalency by assessing the value and contribution of the job itself. However, implementing this is challenging because it requires rethinking the entire basis for pay decisions [81ed4aa046ae1f8ccaf56408].",
+    "context": "[81ed4aa046ae1f8ccaf56408 | data/business-ethics_-_WEB.pdf | page 169]\nThe idea of pay equivalency is closely related to comparable worth, a concept that has been put into action on a limited basis over the years, but never on a large scale. Comparable worth holds that workers should be paid on the basis of the worth of their job to the organization. Equivalent work and comparable worth can be important next steps in the path to equal pay, but they are challenging to implement because they require rethinking the entire basis for pay decisions.\n\nLINK TO LEARNING",
+    "citation_sources": [
+      {
+        "id": "81ed4aa046ae1f8ccaf56408",
+        "page": 169,
+        "source": "data/business-ethics_-_WEB.pdf",
+        "text": "The idea of pay equivalency is closely related to comparable worth, a concept that has been put into action on a limited basis over the years, but never on a large scale. Comparable worth holds that workers should be paid on the basis of the worth of their job to the organization. Equivalent work and comparable worth can be important next steps in the path to equal pay, but they are challenging to implement because they require rethinking the entire basis for pay decisions.\n\nLINK TO LEARNING",
+        "support_draft": false
+      }
+    ],
+    "review": {
+      "query_id": "dev-008",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [
+        false
+      ],
+      "answer_grade": 1,
+      "context_grade": 2,
+      "reason": "Đáp án chính đúng; bổ sung đối chiếu job titles/traditional pay scales không được nêu rõ trong context. Chấm bảo thủ 1/2."
+    }
+  },
+  {
+    "query_id": "dev-009",
+    "question": "What role do unions play in collective bargaining, and what agreement does the process seek?",
+    "expected_answer": "Unions represent employees as agents, lawyers, or negotiators to obtain management agreement to a fair employment contract for union members.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 172,
+        "evidence": "Unions act as the agent/lawyer/negotiator for employees during collective bargaining, a negotiation process aimed at getting management’s agreement to a fair employment contract for members of the union. Everyone wants to be successful in any important negotiation, and people often turn to professionals to help them in such a situation. However, in the United States, as elsewhere around the globe, the concept of worker organization has been about more than simply good representation."
+      }
+    ],
+    "answer": "Unions play the role of acting as the agent, lawyer, or negotiator for employees during collective bargaining. The process seeks management's agreement to a fair employment contract for the union members. This negotiation is aimed at securing a fair employment contract through collective bargaining between the union representing employees and the management [b182e178b9977158c53ff7fe].",
+    "context": "[b182e178b9977158c53ff7fe | data/business-ethics_-_WEB.pdf | page 172]\nUnions act as the agent/lawyer/negotiator for employees during collective bargaining, a negotiation process aimed at getting management’s agreement to a fair employment contract for members of the union. Everyone wants to be successful in any important negotiation, and people often turn to professionals to help them in such a situation. However, in the United States, as elsewhere around the globe, the concept of worker organization has been about more than simply good representation.\n\n[e77dacd5ba6c4cadb55c2ca6 | data/business-ethics_-_WEB.pdf | page 172]\nCollective bargaining contracts can drive up costs for employers and lead to an adversarial relationship between management and workers.\n\nTable 6.1",
+    "citation_sources": [
+      {
+        "id": "b182e178b9977158c53ff7fe",
+        "page": 172,
+        "source": "data/business-ethics_-_WEB.pdf",
+        "text": "Unions act as the agent/lawyer/negotiator for employees during collective bargaining, a negotiation process aimed at getting management’s agreement to a fair employment contract for members of the union. Everyone wants to be successful in any important negotiation, and people often turn to professionals to help them in such a situation. However, in the United States, as elsewhere around the globe, the concept of worker organization has been about more than simply good representation.",
+        "support_draft": true
+      }
+    ],
+    "review": {
+      "query_id": "dev-009",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [
+        true
+      ],
+      "answer_grade": 2,
+      "context_grade": 2,
+      "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+    }
+  },
+  {
+    "query_id": "dev-010",
+    "question": "In the Security versus Privacy jewelry-store scenario, how many employees does the manager oversee?",
+    "expected_answer": "150 employees.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 181,
+        "evidence": "Security versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer."
+      }
+    ],
+    "answer": "The manager oversees a workforce of 150 employees in the Security versus Privacy jewelry-store scenario [2d323a612ff81da7ad8910ba].",
+    "context": "[2d323a612ff81da7ad8910ba | data/business-ethics_-_WEB.pdf | page 181]\nSecurity versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer.",
+    "citation_sources": [
+      {
+        "id": "2d323a612ff81da7ad8910ba",
+        "page": 181,
+        "source": "data/business-ethics_-_WEB.pdf",
+        "text": "Security versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer.",
+        "support_draft": true
+      }
+    ],
+    "review": {
+      "query_id": "dev-010",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [
+        true
+      ],
+      "answer_grade": 2,
+      "context_grade": 2,
+      "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+    }
+  },
+  {
+    "query_id": "dev-011",
+    "question": "According to the PayScale report cited in the textbook, what are the two leading reasons people give for leaving their jobs, in order?",
+    "expected_answer": "First, higher pay; second, personal reasons such as family, health, marriage, or spousal relocation.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 192,
+        "evidence": "According to PayScale’s Compensation Best Practices Report, the two leading motivators people give for leaving their job are first, higher pay, and second, personal reasons (e.g., family, health, marriage, spousal relocation).7 Of course, beyond money, workers seek meaning in their work, and it is largely true that money alone does not motivate employees to higher performance. However, it is a mistake for managers to think money is not a central factor influencing employees’ job satisfaction."
+      }
+    ],
+    "answer": "According to the PayScale report cited in the textbook, the two leading reasons people give for leaving their jobs are, in order, first, higher pay, and second, personal reasons such as family, health, marriage, or spousal relocation [fe8603ec2acc090ae377569d].",
+    "context": "[fe8603ec2acc090ae377569d | data/business-ethics_-_WEB.pdf | page 192]\nAccording to PayScale’s Compensation Best Practices Report, the two leading motivators people give for leaving their job are first, higher pay, and second, personal reasons (e.g., family, health, marriage, spousal relocation).7 Of course, beyond money, workers seek meaning in their work, and it is largely true that money alone does not motivate employees to higher performance. However, it is a mistake for managers to think money is not a central factor influencing employees’ job satisfaction.",
+    "citation_sources": [
+      {
+        "id": "fe8603ec2acc090ae377569d",
+        "page": 192,
+        "source": "data/business-ethics_-_WEB.pdf",
+        "text": "According to PayScale’s Compensation Best Practices Report, the two leading motivators people give for leaving their job are first, higher pay, and second, personal reasons (e.g., family, health, marriage, spousal relocation).7 Of course, beyond money, workers seek meaning in their work, and it is largely true that money alone does not motivate employees to higher performance. However, it is a mistake for managers to think money is not a central factor influencing employees’ job satisfaction.",
+        "support_draft": true
+      }
+    ],
+    "review": {
+      "query_id": "dev-011",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [
+        true
+      ],
+      "answer_grade": 2,
+      "context_grade": 2,
+      "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+    }
+  },
+  {
+    "query_id": "dev-012",
+    "question": "According to the textbook discussion, by which two dimensions are enforceable non-compete agreements usually limited?",
+    "expected_answer": "Time and distance: a defined duration and a defined radius of the employer operations.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 194,
+        "evidence": "To be enforceable, non-compete agreements are usually limited by time and distance (i.e., they are in effect for a certain number of months or years and within a certain radius of the employer’s operations). However, some companies have begun requiring these agreements even from mid- and lower- level workers in an attempt to prevent them from changing jobs, including those who have no access to any confidential intellectual property. About 20 percent of the U.S."
+      }
+    ],
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "[f35c0d9234560bee15691aa8 | data/business-ethics_-_WEB.pdf | page 195]\nNon-Compete Agreements\n\nAfter an investigation by then–New York attorney general Eric Schneiderman, fast-food franchisor Jimmy John’s announced in 2016 that it would not enforce non-compete agreements signed by low-wage employees that prohibited them from working at other sandwich shops, and it agreed to stop using the agreements in the future.",
+    "citation_sources": [],
+    "review": {
+      "query_id": "dev-012",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [],
+      "answer_grade": 0,
+      "context_grade": 0,
+      "reason": "Context cuối thiếu evidence time/distance; tìm lặp rồi chạm search limit. Từ chối câu có đáp án chấm 0."
+    }
+  },
+  {
+    "query_id": "dev-013",
+    "question": "How much did the jury award Lockard, and what did the appeals court do?",
+    "expected_answer": "The jury awarded her $360,000, and the appeals court upheld the judgment.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 199,
+        "evidence": "Although it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking"
+      }
+    ],
+    "answer": "The jury awarded Lockard $360,000, and an appeals court upheld the judgment in her favor [827d733a264d7ba02eb75eec].",
+    "context": "[827d733a264d7ba02eb75eec | data/business-ethics_-_WEB.pdf | page 199]\nAlthough it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking",
+    "citation_sources": [
+      {
+        "id": "827d733a264d7ba02eb75eec",
+        "page": 199,
+        "source": "data/business-ethics_-_WEB.pdf",
+        "text": "Although it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking",
+        "support_draft": true
+      }
+    ],
+    "review": {
+      "query_id": "dev-013",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [
+        true
+      ],
+      "answer_grade": 2,
+      "context_grade": 2,
+      "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+    }
+  },
+  {
+    "query_id": "dev-014",
+    "question": "What legal penalties can insider trading and bribery result in, according to the textbook?",
+    "expected_answer": "Incarceration and large fines.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 204,
+        "evidence": "• Discuss bribery and its legal and ethical consequences Employees may face ethical dilemmas in the area of finance, especially in situations such as bribery and insider trading in securities. Such dubious “profit opportunities” can offer the chance of realizing thousands or millions of dollars, creating serious temptation for an employee. However, insider trading and bribery are serious violations of the law that can result in incarceration and large fines.\n\nInsider Trading"
+      }
+    ],
+    "answer": "Insider trading and bribery are serious violations of the law that can result in incarceration and large fines according to the textbook [870a128afa72dc04ca4aa35f].",
+    "context": "[870a128afa72dc04ca4aa35f | data/business-ethics_-_WEB.pdf | page 204]\n• Discuss bribery and its legal and ethical consequences Employees may face ethical dilemmas in the area of finance, especially in situations such as bribery and insider trading in securities. Such dubious “profit opportunities” can offer the chance of realizing thousands or millions of dollars, creating serious temptation for an employee. However, insider trading and bribery are serious violations of the law that can result in incarceration and large fines.\n\nInsider Trading",
+    "citation_sources": [
+      {
+        "id": "870a128afa72dc04ca4aa35f",
+        "page": 204,
+        "source": "data/business-ethics_-_WEB.pdf",
+        "text": "• Discuss bribery and its legal and ethical consequences Employees may face ethical dilemmas in the area of finance, especially in situations such as bribery and insider trading in securities. Such dubious “profit opportunities” can offer the chance of realizing thousands or millions of dollars, creating serious temptation for an employee. However, insider trading and bribery are serious violations of the law that can result in incarceration and large fines.\n\nInsider Trading",
+        "support_draft": true
+      }
+    ],
+    "review": {
+      "query_id": "dev-014",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [
+        true
+      ],
+      "answer_grade": 2,
+      "context_grade": 2,
+      "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+    }
+  },
+  {
+    "query_id": "dev-015",
+    "question": "What does the qui tam provision allow private persons called relators to do?",
+    "expected_answer": "File lawsuits for violations of the False Claims Act on behalf of the government and receive part of any penalty imposed.",
+    "gold": [
+      {
+        "source_id": "openstax-business-ethics-web",
+        "page": 212,
+        "evidence": "More importantly for our discussion, the qui tam provision of the law allows private persons (called relators) to file lawsuits for violations of the FCA on behalf of the government and to receive part of any penalty imposed. The person bringing the action is a type of a whistleblower, but one who initiates legal action on his or her own rather than simply reporting it to a government agency."
+      }
+    ],
+    "answer": "The qui tam provision allows private persons, called relators, to file lawsuits for violations of the False Claims Act (FCA) on behalf of the government and to receive part of any penalty imposed. These relators act as whistleblowers who initiate legal action on their own rather than just reporting misconduct to a government agency [3d4ecf10cc3a13f0786f776d].",
+    "context": "[3d4ecf10cc3a13f0786f776d | data/business-ethics_-_WEB.pdf | page 212]\nMore importantly for our discussion, the qui tam provision of the law allows private persons (called relators) to file lawsuits for violations of the FCA on behalf of the government and to receive part of any penalty imposed. The person bringing the action is a type of a whistleblower, but one who initiates legal action on his or her own rather than simply reporting it to a government agency.\n\n[ff3a66aa81274948ccfcb549 | data/business-ethics_-_WEB.pdf | page 193]\nThe agreement will also contain a patent assignment provision, stating that all inventions created within the scope of employment are owned by or assigned to the company.",
+    "citation_sources": [
+      {
+        "id": "3d4ecf10cc3a13f0786f776d",
+        "page": 212,
+        "source": "data/business-ethics_-_WEB.pdf",
+        "text": "More importantly for our discussion, the qui tam provision of the law allows private persons (called relators) to file lawsuits for violations of the FCA on behalf of the government and to receive part of any penalty imposed. The person bringing the action is a type of a whistleblower, but one who initiates legal action on his or her own rather than simply reporting it to a government agency.",
+        "support_draft": true
+      }
+    ],
+    "review": {
+      "query_id": "dev-015",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [
+        true
+      ],
+      "answer_grade": 2,
+      "context_grade": 2,
+      "reason": "Nội dung đáp án đáp ứng gold; evidence và citation tương ứng có trong context."
+    }
+  },
+  {
+    "query_id": "dev-016",
+    "question": "In the Security versus Privacy jewelry-store scenario, what are the names of the two employees responsible for the missing inventory?",
+    "expected_answer": null,
+    "gold": null,
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "[2d323a612ff81da7ad8910ba | data/business-ethics_-_WEB.pdf | page 181]\nSecurity versus Privacy You manage a large, high-end jewelry store with an international clientele. Your workforce of 150 is demographically diverse, and your employees are trustworthy as a rule. However, you have experienced some unexplained loss of inventory and suspect a couple of employees are stealing valuable pieces, removing them from backroom storage safes and handing them off to another person somewhere in the store who leaves with them or to a third person pretending to be a customer.",
+    "citation_sources": [],
+    "review": {
+      "query_id": "dev-016",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [],
+      "abstention_correct": true,
+      "reason": "Kết quả cuối nêu thiếu bằng chứng, không thêm khẳng định vô căn cứ. Lý do dừng: search_limit; cần phân biệt guard dừng với model chủ động từ chối. The scenario describes suspicions, not an identified culprit. Reviewed the jewelry-store scenario and surrounding chunks on PDF pages 181-182 and searched the corpus for jewelry, inventory, and stealing; the corpus does not identify two responsible employees. Do not infer names or guilt from suspicion."
+    }
+  },
+  {
+    "query_id": "dev-017",
+    "question": "In the Lockard workplace harassment case, what was the exact calendar date (day, month, and year) of the jury verdict awarding $360,000?",
+    "expected_answer": null,
+    "gold": null,
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "context": "[827d733a264d7ba02eb75eec | data/business-ethics_-_WEB.pdf | page 199]\nAlthough it is the employee’s duty to provide good customer service, that does not mean accepting harassment. Lockard sued her employer, the owner of the franchise, for failing to take her complaints seriously and for making her continue to suffer sexual harassment and assault by customers. The jury ruled in her favor, awarding her $360,000, and an appeals court upheld the judgment.\n\nCritical Thinking\n\n[335dcab36022205031fb8c16 | data/business-ethics_-_WEB.pdf | page 206]\nFinally, gifts must be reported when their total value from one source exceeds $390 in a calendar year. Some",
+    "citation_sources": [],
+    "review": {
+      "query_id": "dev-017",
+      "reviewer": "AI-assisted draft",
+      "human_confirmed": false,
+      "citation_support": [],
+      "abstention_correct": true,
+      "reason": "Kết quả cuối nêu thiếu bằng chứng, không thêm khẳng định vô căn cứ. Lý do dừng: invalid_or_missing_citations; cần phân biệt guard dừng với model chủ động từ chối. Reviewed the Lockard case and surrounding chunks on PDF pages 198-199, and searched all chunks mentioning Lockard, jury, verdict, and 360,000. The award and appeal outcome are given, but the exact day, month, and year of the jury verdict are not provided."
+    }
+  }
+]

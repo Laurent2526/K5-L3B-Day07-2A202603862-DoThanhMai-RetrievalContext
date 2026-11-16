@@ -1,0 +1,5 @@
+openai==3.51.0
+httpx==0.28.1
+python-dotenv==1.2.4
+psycopg[binary]==3.3.9
+fastembed==0.9.1
